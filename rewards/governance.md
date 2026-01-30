@@ -1,63 +1,147 @@
 ---
-description: Future protocol governance and value capture
+description: Protocol governance and value capture
 ---
 
-# Governance (Coming Soon)
+# Governance Token
 
-Buck Protocol will launch a governance token that gives holders direct participation in protocol success through **revenue-funded buybacks and burns**.
+## Overview
 
-{% hint style="info" %}
-**Points → Governance Tokens**
+Buck Protocol's governance token enables community ownership and aligns long-term holders with protocol success through **direct revenue sharing** and governance rights.
 
-Your accumulated points from the [Points Program](points-program.md) will convert to governance tokens at TGE. Start earning now to maximize your allocation.
+{% hint style="success" %}
+**25% of Protocol Revenue**
+
+Every fee collected by Buck Protocol—from minting, redemption, and transaction fees—25% is used to buy back governance tokens and distribute to stakers.
 {% endhint %}
 
-## Revenue Commitment
+## Token Specifications
 
-We're committing now to the tokenomics of our future governance token:
+| Property | Value |
+|----------|-------|
+| **Total Supply** | 1,000,000,000 (1 billion) |
+| **Standard** | ERC-20 |
+| **Chain** | Ethereum |
+| **TGE** | Following Season 1 completion |
+
+## Token Allocation
+
+| Category | Allocation | Tokens | Vesting |
+|----------|-----------|--------|---------|
+| **Community Rewards** | 25-30% | 250-300M | Via seasonal points programs |
+| **Ecosystem Growth** | 20% | 200M | 24-month linear |
+| **Team & Contributors** | 15% | 150M | 1-year cliff, 3-year linear |
+| **Treasury** | 10% | 100M | Protocol-controlled |
+| **Foundation** | 15% | 150M | Operations & development |
+| **Investors** | 5% | 50M | 1-year cliff, 2-year linear |
+
+### Community Allocation Breakdown
+
+The 25-30% community allocation is distributed across seasons:
+
+| Season | Allocation | Timing |
+|--------|------------|--------|
+| **Season 1** | 5% (50M tokens) | 16 weeks, pre-TGE |
+| **Season 2** | 5% (50M tokens) | Post-TGE |
+| **Season 3** | 5% (50M tokens) | Post-Season 2 |
+| **Future Seasons** | 10-15% | Governance-determined |
+
+### Allocation Comparison
+
+| Protocol | Community | Team/Investors | Foundation |
+|----------|-----------|----------------|------------|
+| **Buck** | **25-30%** | 20% | 15% |
+| Ethena (ENA) | 28% | 55% | 15% |
+| Falcon (FF) | 8.3% + 35% ecosystem | 24.5% | 32.2% |
+| Maple (SYRUP) | ~24% | 41.5% | 30% |
+
+Buck prioritizes community ownership with the highest direct community allocation among comparable protocols.
+
+## Value Accrual: Revenue Share
+
+### Revenue Allocation
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │                    PROTOCOL REVENUE                             │
-│                                                                 │
-│    Mint Fees  +  Redeem Fees  +  Time-Weighted Fees  +  Other  │
+│           (mint fees, redeem fees, time-weighted fees)          │
 └─────────────────────────────────────────────────────────────────┘
                               │
-                              │ 100%
-                              ▼
-          ┌───────────────────┼───────────────────┐
-          │                   │                   │
-          ▼                   ▼                   ▼
-   ┌─────────────┐     ┌─────────────┐     ┌─────────────┐
-   │     25%     │     │     50%     │     │     25%     │
-   │             │     │             │     │             │
-   │  Governance │     │  Treasury   │     │  Insurance  │
-   │   Token     │     │   (STRC     │     │    Fund     │
-   │  Buyback &  │     │ Acquisition)│     │             │
-   │    Burn     │     │             │     │             │
-   └─────────────┘     └─────────────┘     └─────────────┘
+            ┌─────────────────┼─────────────────┐
+            │                 │                 │
+            ▼                 ▼                 ▼
+     ┌─────────────┐   ┌─────────────┐   ┌─────────────┐
+     │     25%     │   │     50%     │   │     25%     │
+     │   Token     │   │  Treasury   │   │  Insurance  │
+     │  Buybacks   │   │   (STRC     │   │    Fund     │
+     │             │   │ Acquisition)│   │             │
+     └─────────────┘   └─────────────┘   └─────────────┘
+            │                                   
+            ▼                                   
+     ┌─────────────┐                           
+     │ Distributed │                           
+     │     to      │                           
+     │  stakers    │                           
+     └─────────────┘                           
 ```
 
-### 25% → Buyback & Burn
+### How Buybacks Work
 
-From day one, **25% of all protocol revenue** will be used to:
+1. **Collection** — Fees accumulate in protocol treasury
+2. **Execution** — Weekly automatic buybacks via DEX
+3. **Distribution** — Purchased tokens sent to stakers
+4. **Transparency** — All transactions on-chain and verifiable
 
-1. **Buy** governance tokens from the open market
-2. **Burn** them permanently, reducing total supply
+### Revenue Share Comparison
 
-This creates continuous buy pressure and deflation — the more the protocol earns, the more tokens get burned.
+| Protocol | Token | Revenue to Holders | Status |
+|----------|-------|-------------------|--------|
+| **Buck** | Governance | **25% buybacks** | ✅ From launch |
+| Maple | SYRUP | 25% buybacks | ✅ Active |
+| Ethena | ENA | TBD | ⏳ Pending |
+| Ondo | ONDO | 0% | ❌ None |
 
-## What Token Holders Will Get
+Unlike protocols that promise future "fee switches," Buck implements revenue sharing from day one.
 
-| Benefit | Description |
-|---------|-------------|
-| **Revenue Share** | 25% of protocol fees fund token buybacks and burns |
-| **Governance Rights** | Vote on protocol parameters, fee structures, treasury deployment |
-| **Staking Benefits** | Boosted rewards and fee discounts for stakers |
+## Staking Benefits
 
-## Governance Scope
+### Stake to Receive:
 
-Token holders will be able to vote on:
+| Benefit | Details |
+|---------|---------|
+| **Buyback Distribution** | Pro-rata share of weekly buybacks |
+| **Reduced Fees** | 50% discount on mint/redeem fees |
+| **Governance Weight** | 1.5x voting power vs unstaked |
+| **Points Multiplier** | 2x during future reward campaigns |
+
+### Staking Mechanics
+
+```
+Stake Governance Token → Receive staked version (1:1)
+                    │
+                    ├── Earn buyback distributions
+                    ├── Vote with 1.5x weight
+                    ├── Access reduced fees
+                    └── Boosted points in future seasons
+```
+
+### Unstaking
+
+* **Cooldown Period** — 7 days
+* **Slashing Risk** — None
+* **Principal** — 100% returned
+
+## Governance
+
+### Voting Power
+
+| Token State | Voting Power |
+|-------------|--------------|
+| Unstaked | 1x |
+| Staked | 1.5x |
+
+### Governance Scope
+
+Token holders can vote on:
 
 * **Protocol Parameters** — Collateralization ratios, fee structures
 * **Revenue Allocation** — Adjustments to the 25/50/25 split
@@ -65,45 +149,88 @@ Token holders will be able to vote on:
 * **Integration Approvals** — New DeFi protocol partnerships
 * **Treasury Deployment** — STRC acquisition strategy
 * **Upgrade Proposals** — Smart contract upgrades
+* **Future Season Allocations** — Community reward distributions
 
-## Competitive Comparison
+### Governance Process
 
-| Protocol | Revenue to Token Holders | Mechanism |
-|----------|-------------------------|-----------|
-| **Buck** | **25%** | Buyback & burn |
-| Maple (SYRUP) | 25% | Buybacks + staking |
-| Ethena (ENA) | TBD | Fee switch pending |
-| Ondo (ONDO) | 0% | None |
+```
+1. Forum Discussion (3 days minimum)
+         │
+         ▼
+2. Temperature Check (Snapshot, 2 days)
+         │
+         ▼
+3. Formal Vote (On-chain, 5 days)
+         │
+         ▼
+4. Execution (Timelock: 48 hours)
+```
+
+### Quorum Requirements
+
+| Proposal Type | Quorum |
+|---------------|--------|
+| Standard | 4% of supply |
+| Critical (parameters, upgrades) | 10% of supply |
+
+## Season Loyalty Program
+
+Early participants receive ongoing benefits:
+
+| Participation | Season 2 Boost | Season 3 Boost |
+|---------------|----------------|----------------|
+| Season 1 only | +10% points | +10% points |
+| Season 1 + 2 | — | +15% points |
+| All seasons | Compounding | Compounding |
+
+This rewards long-term alignment over mercenary farming.
 
 ## Revenue Projections
 
-### Projected Annual Buyback & Burn Value
+### Projected Buyback Value
 
-| TVL | Annual Revenue | 25% to Buyback & Burn |
-|-----|----------------|----------------------|
-| $10M | $200K | $50K |
-| $50M | $1M | $250K |
-| $100M | $2M | $500K |
-| $500M | $10M | $2.5M |
-| $1B | $20M | $5M |
+| TVL | Annual Fees | 25% to Buybacks |
+|-----|-------------|-----------------|
+| $10M | $60K | $15K |
+| $50M | $300K | $75K |
+| $100M | $600K | $150K |
+| $500M | $3M | $750K |
+| $1B | $6M | $1.5M |
 
-*Revenue = 1% yield spread + 1% annual transaction fees*
+*Assumes 10bps average fee on 50% monthly turnover*
+
+### Threshold-Based Escalation
+
+As protocol matures, governance can increase revenue share:
+
+| TVL Milestone | Buyback % | Treasury % | Insurance % |
+|---------------|-----------|------------|-------------|
+| $0 - $50M | 25% | 50% | 25% |
+| $50M - $250M | 30% | 50% | 20% |
+| $250M - $1B | 35% | 50% | 15% |
+| $1B+ | 40% | 50% | 10% |
+
+## How to Acquire Governance Tokens
+
+1. **Points Program** — Participate in [Season 1](points-program.md) to earn allocation
+2. **DEX** — Purchase on Curve or Uniswap (post-TGE)
+3. **Staking Rewards** — Receive as buyback distributions
 
 ## Timeline
 
-| Phase | Status |
-|-------|--------|
-| Points Program | 🔜 Coming Soon |
-| Token Name Reveal | TBD |
-| Full Tokenomics | TBD |
-| TGE | TBD |
+```
+NOW:        Season 1 Points Program (16 weeks)
+            └── Earn points through holding, LP, minting
 
-## Stay Updated
+TGE:        Token Generation Event
+            └── Points convert to governance tokens
+            └── 5% distributed to Season 1 participants
 
-Follow our channels for governance token announcements:
-
-* [Twitter](https://x.com/BuckToken)
-* [Telegram](https://t.me/buck_discussions)
+POST-TGE:   Staking & Governance Live
+            └── Stake for buyback distributions
+            └── Vote on protocol decisions
+            └── Season 2 begins
+```
 
 ---
 
