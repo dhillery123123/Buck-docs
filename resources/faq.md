@@ -124,9 +124,16 @@ TGE (Token Generation Event) follows Season 1 completion. Follow [@BuckToken](ht
 
 | Benefit | Details |
 |---------|---------|
-| **Revenue share** | 25% of protocol fees fund buybacks |
+| **Revenue share** | 25% of protocol fees fund buybacks distributed to holders |
 | **Governance rights** | Vote on protocol parameters |
-| **Staking benefits** | Fee discounts, boosted rewards |
+
+### Do I need to stake the governance token?
+
+**No.** Unlike other protocols, Buck does not require staking. Just hold the governance token in your wallet to:
+- Receive your share of buyback distributions
+- Vote on proposals
+
+This simpler model follows Maple Finance's approach after they removed staking in late 2025.
 
 ### What's the total community allocation?
 
