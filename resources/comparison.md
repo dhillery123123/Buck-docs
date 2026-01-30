@@ -1,167 +1,163 @@
 ---
-description: How Buck compares to other yield-bearing tokens
+description: How Buck compares to alternatives
 ---
 
 # Competitive Landscape
 
-## Market Overview
+## Yield-Bearing Stablecoins
 
-| Protocol | Token | TVL | Yield | Yield Source | Model |
-|----------|-------|-----|-------|--------------|-------|
-| Ethena | sUSDe | ~$6.5B | ~5% | Funding rates | Rebasing |
-| Sky | sUSDS | ~$4.6B | ~4.5% | RWAs + lending | Rebasing |
-| Maple | syrupUSDC | ~$2.7B | ~7-8% | Institutional loans | Value accrual |
-| Falcon | sUSDf | ~$2.2B | ~8.5% | Trading | Rebasing |
-| Ondo | USDY | ~$680M | ~4.65% | Treasuries | Value accrual |
-| **Buck** | BUCK | Growing | **~10%** | STRC dividends | **Value accrual** |
+Buck competes in the yield-bearing stablecoin market, but with fundamentally different mechanics.
 
-## Yield Source Comparison
+### Yield Comparison
 
-```
-  INTERNAL YIELD                              EXTERNAL YIELD
-  (Trading/DeFi)                              (Real Assets)
-  
-  ◄────────────────────────────────────────────────────────────►
-  
-  Ethena     Falcon     Maple        Sky        Ondo      BUCK
-  (Funding)  (Trading)  (Loans)      (RWA)      (T-Bills) (STRC)
-  
-  ▲                                                          ▲
-  │                                                          │
-  Most volatile                                    Most stable
-```
+| Protocol | Token | Current Yield | Yield Source | Can Go Negative? |
+|----------|-------|---------------|--------------|------------------|
+| **Buck** | BUCK | ~10% | STRC dividends | ❌ No |
+| Ethena | sUSDe | ~5-15% | Funding rates | ✅ Yes |
+| Ondo | USDY | ~4.65% | T-Bills | ❌ No |
+| Mountain | USDM | ~5% | T-Bills | ❌ No |
+| Maker | sDAI | ~5-8% | DSR + RWA | ❌ No |
 
-## Buck vs. Ethena
+### Why Buck's Yield is Different
 
-| Dimension | Ethena (sUSDe) | Buck (BUCK) |
-|-----------|----------------|-------------|
-| Current Yield | ~5% | **~10%** |
-| Yield Source | Funding rates | STRC dividends |
-| Can Go Negative | Yes | **No** |
-| Model | Rebasing | **Value accrual** |
-| Bitcoin Exposure | No | **Yes** |
+| Factor | Buck | Ethena | Ondo |
+|--------|------|--------|------|
+| **Yield floor** | 0% (dividends can't go negative) | Can go negative in bear markets | 0% |
+| **Yield ceiling** | ~10% (fixed dividend rate) | Unlimited in bull markets | Treasury rate |
+| **Predictability** | High (quarterly dividends) | Low (daily funding varies) | High |
+| **Bitcoin exposure** | ✅ Via STRC backing | ✅ Via BTC collateral | ❌ None |
 
-{% hint style="info" %}
-**Key Insight**
+## Feature Comparison
 
-Ethena's yield dropped from 25%+ to ~5% when funding rates compressed. BUCK's STRC dividends are contractually obligated regardless of market conditions.
-{% endhint %}
+### DeFi Composability
 
-## Buck vs. Ondo
+| Feature | Buck | Ethena | Ondo | Mountain |
+|---------|------|--------|------|----------|
+| **KYC Required** | ❌ No | ❌ No | ✅ Yes | ✅ Yes |
+| **Permissionless Mint** | ✅ Yes | ✅ Yes | ❌ No | ❌ No |
+| **DEX Liquidity** | ✅ Yes | ✅ Yes | Limited | Limited |
+| **Lending Protocol Support** | Coming | ✅ Yes | Limited | Limited |
+| **Yield Tokenization** | Planned | ✅ Yes | ❌ No | ❌ No |
 
-| Dimension | Ondo (USDY) | Buck (BUCK) |
-|-----------|-------------|-------------|
-| Current Yield | ~4.65% | **~10%** |
-| KYC Required | Yes | **No** |
-| DeFi Composability | Limited | **Full** |
-| Model | Value accrual | Value accrual |
-| Bitcoin Exposure | No | **Yes** |
+### Risk Profile
 
-{% hint style="success" %}
-**Key Insight**
+| Risk Factor | Buck | Ethena | Ondo |
+|-------------|------|--------|------|
+| **Smart Contract** | Audited (Cyfrin, Spearbit, SSC) | Audited | Audited |
+| **Custodial** | On-chain + Fireblocks | Off-exchange settlement | Centralized |
+| **Oracle** | RedStone (STRC) | Pyth (multiple) | N/A |
+| **Yield Sustainability** | 77.4 years coverage | Market dependent | Treasury dependent |
+| **Regulatory** | MiCA compliant | Offshore | US regulated |
 
-Buck offers 2x the yield with full DeFi composability and no KYC requirements.
-{% endhint %}
+## Backing Comparison
 
-## Buck vs. Falcon
+### Collateral Types
 
-| Dimension | Falcon (sUSDf) | Buck (BUCK) |
-|-----------|----------------|-------------|
-| Current Yield | ~8.5% | **~10%** |
-| Yield Source | Trading strategies | STRC dividends |
-| Transparency | 96% offchain | **On-chain** |
-| Peg Stability | Depegged to $0.992 | **Maintained** |
-| Bitcoin Exposure | No | **Yes** |
+| Protocol | Primary Backing | Secondary | Overcollateralized? |
+|----------|-----------------|-----------|---------------------|
+| **Buck** | STRC (BTC-backed equity) | USDC reserve | ✅ Yes (100%+) |
+| Ethena | ETH/BTC + short futures | Insurance fund | ✅ Yes |
+| Ondo | US Treasuries | Cash | ✅ Yes |
+| Mountain | US Treasuries | Cash | ✅ Yes |
+| USDC | Cash + Treasuries | None | ✅ Yes (1:1) |
 
-{% hint style="warning" %}
-**Key Insight**
+### Transparency
 
-Falcon's yield depends on trading desk performance. Buck's yield comes from contractual dividends with 77+ years of coverage.
-{% endhint %}
+| Protocol | Reserve Verification | Frequency | Method |
+|----------|---------------------|-----------|--------|
+| **Buck** | Real-time | Continuous | On-chain oracle |
+| Ethena | Real-time | Continuous | Dashboard |
+| Ondo | Monthly | Attestation | Third-party |
+| USDC | Monthly | Attestation | Accounting firm |
 
-## Buck vs. Sky (sUSDS)
+## Tokenomics Comparison
 
-| Dimension | Sky (sUSDS) | Buck (BUCK) |
-|-----------|-------------|-------------|
-| Current Yield | ~4.5% | **~10%** |
-| Track Record | 7+ years | New |
-| Model | Rebasing | **Value accrual** |
-| Complexity | High | **Simple** |
-| Bitcoin Exposure | No | **Yes** |
+### Governance Token Allocation
 
-## Governance Token Comparison
+| Protocol | Community | Team/Investors | Foundation | Revenue Share |
+|----------|-----------|----------------|------------|---------------|
+| **Buck** | **25-30%** | 20% | 15% | **25% buybacks** |
+| Ethena (ENA) | 28% | 55% | 15% | TBD |
+| Falcon (FF) | 8.3% + 35% eco | 24.5% | 32.2% | TBD |
+| Maple (SYRUP) | ~24% | 41.5% | 30% | 25% buybacks |
+| Ondo (ONDO) | Limited | Majority | — | 0% |
 
-| Protocol | Token | Revenue Share | Community % |
-|----------|-------|---------------|-------------|
-| **Buck** | Coming Soon | **25% buybacks & burns** | **TBA** |
-| Hyperliquid | HYPE | 97% | 70% |
-| Maple | SYRUP | 25% | Converted |
-| Ethena | ENA | TBD | 30% |
-| Falcon | FF | Unclear | 8.3% |
-| Ondo | ONDO | 0% | TBD |
+Buck offers the highest direct community allocation with guaranteed revenue sharing from day one.
 
-{% hint style="info" %}
-Buck's governance token is coming soon. Earn points now through our [Points Program](../rewards/points-program.md) to maximize your allocation.
-{% endhint %}
+### Points Program Comparison
 
-## Buck's Unique Position
+| Protocol | S1 Allocation | S1 Duration | Mechanism |
+|----------|---------------|-------------|-----------|
+| **Buck** | 5% | 16 weeks | Points → Governance |
+| Ethena | 5% | 6 weeks | Shards → ENA |
+| Falcon | 8.3% | Ongoing | Miles → FF |
+| Hyperliquid | 31% | 6 months | Points → HYPE |
 
-```
-                     HIGH YIELD
-                         ▲
-                         │
-                    BUCK ●
-                         │    ● Falcon
-                         │         ● Maple
-                         │              ● Ethena
-                         │
-   LOW RISK ◄────────────┼────────────────────────► HIGH RISK
-                         │
-                ● Sky    │
-                  ● Ondo │
-                         │
-                     LOW YIELD
-```
+## TVL & Market Position
 
-## DeFi Integration Comparison
+### Current Landscape (January 2026)
 
-| Protocol | Morpho | Pendle | Aave | Curve |
-|----------|--------|--------|------|-------|
-| Ethena | ✅ | ✅ | ✅ | ✅ |
-| Falcon | ✅ | ✅ | — | ✅ |
-| Maple | ✅ | ✅ | ✅ | — |
-| Sky | — | — | — | — |
-| Ondo | — | — | — | — |
-| **Buck** | 🔄 | 🎯 | — | ✅ |
-
-Legend: ✅ Live | 🔄 In Progress | 🎯 Target | — Not integrated
+| Protocol | TVL | Market Cap | Launch Date |
+|----------|-----|------------|-------------|
+| Ethena | ~$6B | ~$3B | Feb 2024 |
+| Ondo | ~$500M | ~$2B | Jan 2024 |
+| Mountain | ~$150M | N/A | Jul 2023 |
+| **Buck** | Growing | — | Dec 2025 |
 
 ## Why Choose Buck?
 
-### Best For:
+### Buck Advantages
 
-* **Yield Seekers** — 10% vs 4-5% from T-bill alternatives
-* **Bitcoin Believers** — BTC exposure without volatility
-* **DeFi Users** — Full composability, no KYC
-* **Simplicity** — Value accrual means no claiming/staking
+| Advantage | Explanation |
+|-----------|-------------|
+| **Higher Yield** | ~10% vs 4-5% from T-bill backed alternatives |
+| **No Negative Yield** | Unlike funding-rate strategies, dividends can't go negative |
+| **Bitcoin Exposure** | Indirect BTC exposure via STRC backing |
+| **DeFi Native** | No KYC, full composability |
+| **Revenue Sharing** | 25% of fees to token holders from day one |
+| **Community First** | 25-30% allocation to community rewards |
 
-### Consider Alternatives If:
+### When Others Might Be Better
 
-* **Maximum Safety** — Ondo (Treasury-backed)
-* **Maximum Track Record** — Sky (7+ years)
-* **Maximum Liquidity** — Ethena (highest TVL)
+| Scenario | Better Choice | Why |
+|----------|---------------|-----|
+| Need maximum upside | Ethena (sUSDe) | Funding rates can exceed 20%+ in bull markets |
+| Regulatory certainty | Ondo (USDY) | US-regulated, institutional grade |
+| Zero volatility | USDC | True $1.00 peg, no price movement |
 
-## Summary Table
+## Integration Status
 
-| Feature | BUCK Advantage |
-|---------|----------------|
-| Yield | 10% vs 4-8% competitors |
-| Yield Source | External dividends (most stable) |
-| Bitcoin Exposure | Only yield token with BTC backing |
-| Model | Value accrual (simplest) |
-| Fees | 0% standard (lowest) |
-| Community Allocation | 50% (above average) |
-| Revenue Share | 25% active (top tier) |
+### DEX Liquidity
+
+| DEX | Buck | Ethena | Ondo |
+|-----|------|--------|------|
+| Curve | ✅ Live | ✅ Live | Limited |
+| Uniswap | ✅ Live | ✅ Live | Limited |
+| Balancer | Planned | ✅ Live | ❌ No |
+
+### Lending Protocols
+
+| Protocol | Buck | Ethena | Ondo |
+|----------|------|--------|------|
+| Aave | Planned | ✅ Live | ❌ No |
+| Morpho | In Progress | ✅ Live | ❌ No |
+| Compound | Planned | ✅ Live | ❌ No |
+
+### Yield Protocols
+
+| Protocol | Buck | Ethena | Ondo |
+|----------|------|--------|------|
+| Pendle | Target | ✅ Live | ❌ No |
+| Yearn | Planned | ✅ Live | ❌ No |
+
+## Governance Token
+
+Buck's governance token is launching after Season 1. Earn points now through our [Points Program](../rewards/points-program.md) to maximize your allocation:
+
+* **Season 1:** 16 weeks, 5% of supply
+* **Genesis Period (Wk 1-8):** 3x points + BUCK rewards
+* **Growth Period (Wk 9-16):** 1.5x points
+* **Future Seasons:** Additional 20-25% to community
 
 ---
 
