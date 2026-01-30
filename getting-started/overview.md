@@ -17,16 +17,16 @@ Buck is a **value-accruing savings coin** that delivers 10% annualized growth th
 │                    VALUE ACCRUAL FLOW                           │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                 │
-│  STRC Dividends    →    Buck Treasury    →    BUCK Price       │
-│  (10% Annual)           Receives Cash         Increases        │
+│  STRC Dividends    →    Buck Treasury    →    BUCK Price        │
+│  (10% Annual)           Receives Cash         Increases         │
 │                                                                 │
-│  ┌─────────────┐        ┌─────────────┐      ┌─────────────┐   │
-│  │  Strategy   │   $    │    Buck     │  ↑   │    BUCK     │   │
-│  │  Pays Out   │ ────▶  │  Protocol   │ ───▶ │   Token     │   │
-│  │  Quarterly  │        │  Treasury   │      │   Price     │   │
-│  └─────────────┘        └─────────────┘      └─────────────┘   │
+│  ┌─────────────┐        ┌─────────────┐      ┌─────────────┐    │
+│  │  Strategy   │   $    │    Buck     │  ↑   │    BUCK     │    │
+│  │  Pays Out   │ ────▶  │  Protocol   │ ───▶ │   Token     │    │
+│  │  Quarterly  │        │  Treasury   │      │   Price     │    │
+│  └─────────────┘        └─────────────┘      └─────────────┘    │
 │                                                                 │
-│  Result: BUCK price grows ~0.026% daily (~10% annually)        │
+│  Result: BUCK price grows ~0.026% daily (~10% annually)         │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
