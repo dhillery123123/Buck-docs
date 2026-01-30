@@ -26,7 +26,7 @@ Currently Buck Protocol has one token:
 |-------|------|---------|
 | **BUCK** | Savings coin | Hold to earn ~10% annually |
 
-A governance token is coming soon. Earn points through the [Points Program](../rewards/points-program.md) to maximize your allocation.
+A governance token is launching after Season 1. Earn points through the [Points Program](../rewards/points-program.md) to maximize your allocation.
 
 ## Value & Yield
 
@@ -71,7 +71,7 @@ Yes. BUCK is redeemable for USDC at the current exchange rate through the Liquid
 
 ### Is BUCK audited?
 
-Yes. Multiple audits completed by Cyfrin, Spearbit, and SSC. [View audits →](../technical/contracts.md)
+Yes. Multiple audits completed by Cyfrin, Spearbit, and SSC. [View audits →](../security/audits.md)
 
 ### What backs BUCK?
 
@@ -87,34 +87,60 @@ Strategy has $2.25B in cash reserves covering 77.4 years of dividends. If divide
 
 The protocol maintains 100%+ overcollateralization. A significant STRC decline would reduce the collateralization ratio, but BUCK would remain fully redeemable. Circuit breakers pause operations during extreme volatility.
 
-## Governance Token (Coming Soon)
+## Points Program & Governance Token
 
-### When will the governance token launch?
+### How does the Points Program work?
 
-The governance token will launch after the Points Program concludes. Follow [@BuckToken](https://x.com/BuckToken) for announcements.
+Season 1 runs for **16 weeks** with two periods:
 
-### How do I get the governance token?
+| Period | Weeks | Points Multiplier | BUCK Rewards |
+|--------|-------|-------------------|--------------|
+| Genesis | 1-8 | 3x | ✅ Via Merkl |
+| Growth | 9-16 | 1.5x | ❌ Ended |
 
-Earn points through the [Points Program](../rewards/points-program.md) by:
+Earn points by:
+* Holding BUCK (1 pt/$1/day base)
+* Providing Curve LP (3x multiplier)
+* Providing Uniswap LP (2x multiplier)
+* Minting BUCK (5x one-time bonus)
 
-* Holding BUCK
-* Providing LP
-* Minting BUCK
-* Referring users
+### What percentage of tokens go to Season 1?
 
-Your points will convert to governance tokens at TGE.
+**5% of governance token supply** (50 million tokens) is allocated to Season 1 point earners. This matches Ethena's proven model.
+
+### How do points convert to tokens?
+
+Pro-rata distribution:
+
+```
+Your Tokens = (Your Points ÷ Total Points) × 50,000,000
+```
+
+### When does the governance token launch?
+
+TGE (Token Generation Event) follows Season 1 completion. Follow [@BuckToken](https://x.com/BuckToken) for announcements.
 
 ### What will the governance token do?
 
 | Benefit | Details |
 |---------|---------|
-| Buyback & burn share | 25% of protocol fees |
-| Governance rights | Vote on protocol parameters |
-| Staking benefits | Boosted rewards, fee discounts |
+| **Revenue share** | 25% of protocol fees fund buybacks |
+| **Governance rights** | Vote on protocol parameters |
+| **Staking benefits** | Fee discounts, boosted rewards |
 
-### What's the revenue commitment?
+### What's the total community allocation?
 
-25% of all protocol revenue will fund governance token buybacks and burns, creating continuous deflation. See [Governance (Coming Soon)](../rewards/governance.md) for full details.
+**25-30% of total supply** across all seasons:
+
+| Season | Allocation |
+|--------|------------|
+| Season 1 | 5% |
+| Season 2 | 5% |
+| Season 3+ | 15-20% (governance-determined) |
+
+### Do early participants get benefits in future seasons?
+
+Yes. Season 1 participants receive a **10% point boost** in Season 2. Season 1+2 participants get **15% boost** in Season 3.
 
 ## Technical
 
@@ -129,7 +155,7 @@ Currently Ethereum. Solana expansion planned.
 | BUCK Token | `0xdb13997f4D83EF343845d0bAEb27d1173dF8c224` |
 | Liquidity Window | `0x6E87adb23ac0e150Ca9F76C33Df2AdCae508548E` |
 
-[Full contract list →](../technical/contracts.md)
+[Full contract list →](../security/addresses.md)
 
 ### Is BUCK composable with DeFi?
 
