@@ -23,17 +23,17 @@ Unlike USDC or USDT that maintain a fixed $1.00 price, BUCK's price steadily inc
 │                    BUCK VALUE ACCRUAL                           │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                 │
-│  1. You deposit USDC, receive BUCK at current exchange rate     │
+│  1. You deposit USDC, receive BUCK at current exchange rate    │
 │                         ↓                                       │
-│  2. Protocol uses USDC to acquire STRC                          │
+│  2. Protocol uses USDC to acquire STRC                         │
 │                         ↓                                       │
-│  3. STRC pays 10% annual dividends                              │
+│  3. STRC pays 10% annual dividends                             │
 │                         ↓                                       │
-│  4. Dividends increase treasury value                           │
+│  4. Dividends increase treasury value                          │
 │                         ↓                                       │
-│  5. BUCK exchange rate rises proportionally                     │
+│  5. BUCK exchange rate rises proportionally                    │
 │                         ↓                                       │
-│  6. Your BUCK is worth more (no action required)                │
+│  6. Your BUCK is worth more (no action required)               │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
@@ -97,9 +97,8 @@ STRC is Strategy's (formerly MicroStrategy) preferred stock:
 
 Buck Protocol will launch a governance token with:
 
-* **25% revenue share** — Protocol fees fund buybacks
+* **25% revenue share** — Protocol fees fund buybacks distributed to all holders
 * **Governance rights** — Vote on protocol parameters
-* **Staking benefits** — Fee discounts, boosted rewards
 
 {% hint style="success" %}
 **Season 1 Points Program — 16 Weeks**
