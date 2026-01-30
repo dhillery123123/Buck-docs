@@ -11,7 +11,7 @@ Buck Protocol's governance token enables community ownership and aligns long-ter
 {% hint style="success" %}
 **25% of Protocol Revenue**
 
-Every fee collected by Buck Protocol—from minting, redemption, and transaction fees—25% is used to buy back governance tokens and distribute to stakers.
+Every fee collected by Buck Protocol—from minting, redemption, and transaction fees—25% is used to buy back governance tokens and distribute to holders. No staking required.
 {% endhint %}
 
 ## Token Specifications
@@ -79,8 +79,8 @@ Buck prioritizes community ownership with the highest direct community allocatio
             ▼                                   
      ┌─────────────┐                           
      │ Distributed │                           
-     │     to      │                           
-     │  stakers    │                           
+     │ to token    │                           
+     │  holders    │                           
      └─────────────┘                           
 ```
 
@@ -88,56 +88,53 @@ Buck prioritizes community ownership with the highest direct community allocatio
 
 1. **Collection** — Fees accumulate in protocol treasury
 2. **Execution** — Weekly automatic buybacks via DEX
-3. **Distribution** — Purchased tokens sent to stakers
+3. **Distribution** — Purchased tokens distributed pro-rata to all holders
 4. **Transparency** — All transactions on-chain and verifiable
+
+{% hint style="info" %}
+**No Staking Required**
+
+Unlike protocols that require staking to earn rewards, Buck distributes buybacks to ALL token holders automatically. Just hold tokens in your wallet.
+{% endhint %}
 
 ### Revenue Share Comparison
 
-| Protocol | Token | Revenue to Holders | Status |
-|----------|-------|-------------------|--------|
-| **Buck** | Governance | **25% buybacks** | ✅ From launch |
-| Maple | SYRUP | 25% buybacks | ✅ Active |
-| Ethena | ENA | TBD | ⏳ Pending |
-| Ondo | ONDO | 0% | ❌ None |
+| Protocol | Token | Revenue to Holders | Staking Required? |
+|----------|-------|-------------------|-------------------|
+| **Buck** | Governance | **25% buybacks** | ❌ No |
+| Maple | SYRUP | 25% buybacks | ❌ No (removed Nov 2025) |
+| Ethena | ENA | TBD | ✅ Yes |
+| Ondo | ONDO | 0% | N/A |
 
-Unlike protocols that promise future "fee switches," Buck implements revenue sharing from day one.
+Buck and Maple both moved to a simpler model: hold tokens, receive value. No extra steps.
 
-## Staking Benefits
+## Token Holder Benefits
 
-### Stake to Receive:
+### What You Get
 
 | Benefit | Details |
 |---------|---------|
 | **Buyback Distribution** | Pro-rata share of weekly buybacks |
-| **Reduced Fees** | 50% discount on mint/redeem fees |
-| **Governance Weight** | 1.5x voting power vs unstaked |
+| **Governance Rights** | Vote on protocol parameters |
 | **Points Multiplier** | 2x during future reward campaigns |
 
-### Staking Mechanics
+### How It Works
 
 ```
-Stake Governance Token → Receive staked version (1:1)
-                    │
-                    ├── Earn buyback distributions
-                    ├── Vote with 1.5x weight
-                    ├── Access reduced fees
-                    └── Boosted points in future seasons
+Hold Governance Token
+        │
+        ├── Automatically receive buyback distributions
+        ├── Vote on proposals (1 token = 1 vote)
+        └── Boosted points in future seasons
 ```
 
-### Unstaking
-
-* **Cooldown Period** — 7 days
-* **Slashing Risk** — None
-* **Principal** — 100% returned
+No staking, no lockups, no cooldown periods. Just hold.
 
 ## Governance
 
 ### Voting Power
 
-| Token State | Voting Power |
-|-------------|--------------|
-| Unstaked | 1x |
-| Staked | 1.5x |
+All token holders can vote. 1 token = 1 vote.
 
 ### Governance Scope
 
@@ -214,7 +211,7 @@ As protocol matures, governance can increase revenue share:
 
 1. **Points Program** — Participate in [Season 1](points-program.md) to earn allocation
 2. **DEX** — Purchase on Curve or Uniswap (post-TGE)
-3. **Staking Rewards** — Receive as buyback distributions
+3. **Buyback Distributions** — Hold tokens to receive your share
 
 ## Timeline
 
@@ -226,8 +223,8 @@ TGE:        Token Generation Event
             └── Points convert to governance tokens
             └── 5% distributed to Season 1 participants
 
-POST-TGE:   Staking & Governance Live
-            └── Stake for buyback distributions
+POST-TGE:   Governance & Revenue Share Live
+            └── Hold tokens to receive buyback distributions
             └── Vote on protocol decisions
             └── Season 2 begins
 ```
