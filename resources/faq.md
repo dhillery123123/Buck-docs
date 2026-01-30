@@ -1,0 +1,197 @@
+---
+description: Frequently asked questions
+---
+
+# FAQ
+
+## General
+
+### What is BUCK?
+
+BUCK is a **value-accruing savings coin**. Unlike stablecoins that stay at $1.00, BUCK's price steadily increases (\~10% annually) as yield from STRC dividends accrues to the token.
+
+### How does BUCK increase in value?
+
+Buck Protocol holds STRC (Strategy's preferred stock), which pays 10% annual dividends. These dividends flow into the treasury, increasing BUCK's exchange rate automatically.
+
+### Do I need to stake or claim rewards?
+
+**No.** Just hold BUCK in your wallet. The value accrues automatically—no staking, no claiming, no gas costs.
+
+### What tokens does Buck Protocol have?
+
+Currently Buck Protocol has one token:
+
+| Token | Type | Purpose |
+|-------|------|---------|
+| **BUCK** | Savings coin | Hold to earn ~10% annually |
+
+A governance token is coming soon. Earn points through the [Points Program](../rewards/points-program.md) to maximize your allocation.
+
+## Value & Yield
+
+### What's the current BUCK price?
+
+BUCK started at $1.00 and increases daily. Check [buck.io](https://buck.io) for the current exchange rate.
+
+### Is the 10% yield guaranteed?
+
+The yield comes from STRC dividends, which are contractually obligated but not guaranteed. Strategy has 77.4 years of dividend coverage ($2.25B reserves), making it highly reliable.
+
+### Can BUCK's yield go negative?
+
+**No.** Unlike funding-rate-based yields (Ethena), STRC dividends are always positive. The yield rate may vary slightly based on STRC prices, but value always accrues.
+
+### How is this different from rebasing tokens?
+
+| Rebasing | Value Accrual (BUCK) |
+|----------|----------------------|
+| Token quantity changes | Token quantity stays same |
+| Creates tax events | Tax only when you sell |
+| Can be confusing | Simple to understand |
+
+## Minting & Redemption
+
+### How do I get BUCK?
+
+1. Go to [buck.io](https://buck.io)
+2. Connect your wallet
+3. Deposit USDC
+4. Receive BUCK at current exchange rate
+
+### Can I always redeem BUCK?
+
+Yes. BUCK is redeemable for USDC at the current exchange rate through the Liquidity Window. No waiting period.
+
+### Are there fees?
+
+* **Normal times:** 10% mint/ 30% redeem fees
+
+## Safety & Risk
+
+### Is BUCK audited?
+
+Yes. Multiple audits completed by Cyfrin, Spearbit, and SSC. [View audits →](../technical/contracts.md)
+
+### What backs BUCK?
+
+* **STRC Holdings** — Strategy preferred equity
+* **Liquidity Reserve** — USDC for redemptions
+* **100%+ Collateralization** — Always overcollateralized
+
+### What if Strategy stops paying dividends?
+
+Strategy has $2.25B in cash reserves covering 77.4 years of dividends. If dividends were reduced, BUCK's growth rate would decrease proportionally, but your BUCK would still be backed by STRC and reserve assets.
+
+### What happens if STRC price crashes?
+
+The protocol maintains 100%+ overcollateralization. A significant STRC decline would reduce the collateralization ratio, but BUCK would remain fully redeemable. Circuit breakers pause operations during extreme volatility.
+
+## Governance Token (Coming Soon)
+
+### When will the governance token launch?
+
+The governance token will launch after the Points Program concludes. Follow [@BuckToken](https://x.com/BuckToken) for announcements.
+
+### How do I get the governance token?
+
+Earn points through the [Points Program](../rewards/points-program.md) by:
+
+* Holding BUCK
+* Providing LP
+* Minting BUCK
+* Referring users
+
+Your points will convert to governance tokens at TGE.
+
+### What will the governance token do?
+
+| Benefit | Details |
+|---------|---------|
+| Buyback & burn share | 25% of protocol fees |
+| Governance rights | Vote on protocol parameters |
+| Staking benefits | Boosted rewards, fee discounts |
+
+### What's the revenue commitment?
+
+25% of all protocol revenue will fund governance token buybacks and burns, creating continuous deflation. See [Governance (Coming Soon)](../rewards/governance.md) for full details.
+
+## Technical
+
+### What chain is BUCK on?
+
+Currently Ethereum. Solana expansion planned.
+
+### What's the contract address?
+
+| Contract | Address |
+|----------|---------|
+| BUCK Token | `0xdb13997f4D83EF343845d0bAEb27d1173dF8c224` |
+| Liquidity Window | `0x6E87adb23ac0e150Ca9F76C33Df2AdCae508548E` |
+
+[Full contract list →](../technical/contracts.md)
+
+### Is BUCK composable with DeFi?
+
+Yes. BUCK works with:
+
+* **DEXs** — Curve, Uniswap
+* **Lending** — Morpho (coming soon)
+* **Yield** — Pendle (planned)
+
+### How does the oracle work?
+
+The Oracle Adapter uses RedStone for STRC price feeds with:
+
+* 30-minute TWAP smoothing
+* Market hours detection
+* Circuit breakers for extreme moves
+
+## Comparisons
+
+### How is BUCK different from USDC?
+
+| Feature | USDC | BUCK |
+|---------|------|------|
+| Yield | 0% | \~10% annually |
+| Price | Fixed $1.00 | Grows over time |
+| Backing | Cash/treasuries | STRC (BTC-backed) |
+
+### How is BUCK different from sUSDe (Ethena)?
+
+| Feature | sUSDe | BUCK |
+|---------|-------|------|
+| Yield | \~5% (variable) | \~10% |
+| Can go negative | Yes | No |
+| Yield source | Funding rates | Dividends |
+
+### How is BUCK different from USDY (Ondo)?
+
+| Feature | USDY | BUCK |
+|---------|------|------|
+| Yield | \~4.65% | \~10% |
+| KYC | Required | Not required |
+| DeFi | Limited | Full composability |
+
+## Support
+
+### Where can I get help?
+
+* **Telegram:** [t.me/buck\_discussions](https://t.me/buck_discussions)
+* **Twitter:** [@BuckToken](https://x.com/BuckToken)
+* **Email:** admin@buck.io
+
+### How do I report a bug or security issue?
+
+* **General bugs:** [GitHub Issues](https://github.com/buck-labs/buck-v1/issues)
+* **Security issues:** security@buck.io (up to $500K bounty)
+
+### Where can I learn more?
+
+* [Whitepaper (PDF)](https://buck.io/documents/Buck_Token_MiCA_Whitepaper_-_Publication_date_12.16.25_Update_date_1.4.26.pdf)
+* [GitHub](https://github.com/buck-labs/buck-v1)
+* [Blog](https://buck.io/blog)
+
+---
+
+*Have more questions? Join our [Telegram](https://t.me/buck_discussions)*
