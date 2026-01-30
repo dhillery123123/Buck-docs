@@ -1,140 +1,184 @@
 ---
-description: Understanding Buck's value-accrual savings coin model
+description: Understanding Buck Protocol
 ---
 
 # Overview
 
-## The Bitcoin Dollar
+## What is Buck?
 
-Buck is a **value-accruing savings coin** that delivers 10% annualized growth through STRC dividends. Unlike traditional stablecoins that stay pegged to $1.00, BUCK's price steadily increases as yield accrues directly to the token.
+Buck is a **value-accruing savings coin** protocol that delivers ~10% annualized returns through external yield from STRC (Strategy's Bitcoin-collateralized preferred stock).
 
-## Value Accrual Model
+{% hint style="info" %}
+**Not a Stablecoin**
 
-### How It Works
+Unlike USDC or USDT that maintain a fixed $1.00 price, BUCK's price steadily increases over time as yield accrues. Think of it as a savings account that automatically compounds.
+{% endhint %}
+
+## How BUCK Works
+
+### The Value Accrual Model
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                    VALUE ACCRUAL FLOW                           │
+│                    BUCK VALUE ACCRUAL                           │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                 │
-│  STRC Dividends    →    Buck Treasury    →    BUCK Price        │
-│  (10% Annual)           Receives Cash         Increases         │
-│                                                                 │
-│  ┌─────────────┐        ┌─────────────┐      ┌─────────────┐    │
-│  │  Strategy   │   $    │    Buck     │  ↑   │    BUCK     │    │
-│  │  Pays Out   │ ────▶  │  Protocol   │ ───▶ │   Token     │    │
-│  │  Quarterly  │        │  Treasury   │      │   Price     │    │
-│  └─────────────┘        └─────────────┘      └─────────────┘    │
-│                                                                 │
-│  Result: BUCK price grows ~0.026% daily (~10% annually)         │
+│  1. You deposit USDC, receive BUCK at current exchange rate     │
+│                         ↓                                       │
+│  2. Protocol uses USDC to acquire STRC                          │
+│                         ↓                                       │
+│  3. STRC pays 10% annual dividends                              │
+│                         ↓                                       │
+│  4. Dividends increase treasury value                           │
+│                         ↓                                       │
+│  5. BUCK exchange rate rises proportionally                     │
+│                         ↓                                       │
+│  6. Your BUCK is worth more (no action required)                │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-### Why Value Accrual?
+### Price Growth Example
 
-| Model | How Yield Works | User Experience |
-|-------|-----------------|-----------------|
-| **Rebasing** (like stETH) | Token quantity increases | Confusing, tax events |
-| **Reward Claiming** (like farms) | Manual claim required | Gas costs, complexity |
-| **Value Accrual** (like wstETH, **BUCK**) | Token price increases | Simple, automatic |
+| Day | BUCK Price | 1,000 BUCK Value | Cumulative Growth |
+|-----|------------|------------------|-------------------|
+| 0 | $1.0000 | $1,000.00 | — |
+| 30 | $1.0082 | $1,008.20 | +0.82% |
+| 90 | $1.0247 | $1,024.70 | +2.47% |
+| 180 | $1.0500 | $1,050.00 | +5.00% |
+| 365 | $1.1000 | $1,100.00 | +10.00% |
 
-BUCK uses the **value accrual model** because:
+## Why External Yield Matters
 
-1. **Simplicity** — Just hold BUCK, value grows automatically
-2. **Tax Efficiency** — No taxable events until you sell
-3. **DeFi Compatibility** — Works seamlessly as collateral
-4. **No Gas Costs** — No transactions needed to receive yield
+Buck's yield comes from a fundamentally different source than other yield-bearing tokens:
 
-## Token System
+| Protocol | Yield Source | Can Go Negative? | Sustainability |
+|----------|--------------|------------------|----------------|
+| **Buck** | STRC dividends | ❌ No | 77.4 years coverage |
+| Ethena (sUSDe) | Funding rates | ✅ Yes | Market dependent |
+| Ondo (USDY) | T-Bills | ❌ No | ~4.65% (lower) |
+| Traditional stables | None | N/A | 0% |
 
-Buck Protocol currently operates with one token, with a governance token coming soon:
+### What is STRC?
 
-### BUCK — The Savings Coin
+STRC is Strategy's (formerly MicroStrategy) preferred stock:
+
+* **10% annual dividend** — Contractually obligated
+* **BTC-backed** — Strategy holds $60B+ in Bitcoin
+* **77.4 years coverage** — $2.25B in cash reserves
+* **US-regulated** — Traded on NASDAQ
+
+## Protocol Architecture
+
+### Two Asset Pools
+
+| Pool | Purpose | Composition |
+|------|---------|-------------|
+| **STRC Holdings** | Yield generation | Strategy preferred equity |
+| **Liquidity Reserve** | Instant redemptions | USDC |
+
+### Key Guarantees
+
+* **100%+ Collateralized** — Always overcollateralized
+* **Instant Redemption** — No waiting periods
+* **On-chain Verification** — Real-time reserve transparency
+
+## BUCK Token
 
 | Property | Value |
 |----------|-------|
 | **Type** | Value-accruing savings coin |
-| **Yield** | ~10% annualized price appreciation |
-| **Mechanism** | Price increases as STRC dividends accrue |
+| **Starting Price** | $1.00 |
+| **Current Price** | Increases daily (~10% APY) |
+| **Chain** | Ethereum (Solana planned) |
+| **Contract** | `0xdb13997f4D83EF343845d0bAEb27d1173dF8c224` |
 
-### Governance Token — Coming Soon
+## Governance Token (Coming Soon)
 
-| Property | Value |
-|----------|-------|
-| **Type** | Governance & value capture |
-| **Revenue Share** | 25% of protocol fees will fund buybacks & burns |
-| **Use Cases** | Voting, staking for boosted rewards |
+Buck Protocol will launch a governance token with:
 
-{% hint style="info" %}
-Earn points now through our [Points Program](../rewards/points-program.md) to maximize your governance token allocation at TGE.
+* **25% revenue share** — Protocol fees fund buybacks
+* **Governance rights** — Vote on protocol parameters
+* **Staking benefits** — Fee discounts, boosted rewards
+
+{% hint style="success" %}
+**Season 1 Points Program — 16 Weeks**
+
+Earn points now through our [Points Program](../rewards/points-program.md) to maximize your governance token allocation at TGE. Season 1 participants receive **5% of total supply** plus loyalty bonuses for future seasons.
+
+**Genesis Period (Weeks 1-8):** Earn 3x points + BUCK rewards via Merkl
+**Growth Period (Weeks 9-16):** Earn 1.5x points
 {% endhint %}
 
-## Core Value Proposition
+## DeFi Composability
 
-### vs. Traditional Stablecoins (USDC, USDT)
+BUCK is fully composable with DeFi:
 
-| Feature | USDC/USDT | BUCK |
-|---------|-----------|------|
-| Yield | 0% | ~10% annually |
-| Price | Fixed at $1.00 | Grows over time |
-| Backing | Cash/treasuries | STRC (Bitcoin-backed) |
+### Current Integrations
 
-### vs. Yield-Bearing Stablecoins (sDAI, sUSDe)
+| Protocol | Type | Status |
+|----------|------|--------|
+| Curve | DEX | ✅ Live |
+| Uniswap V3 | DEX | ✅ Live |
 
-| Feature | sDAI | sUSDe | BUCK |
-|---------|------|-------|------|
-| Yield | ~5% | ~5% (variable) | ~10% |
-| Yield Source | RWAs + lending | Funding rates | STRC dividends |
-| Can Go Negative | No | Yes | No |
-| Bitcoin Exposure | No | No | Yes |
+### Planned Integrations
 
-## Yield Source: STRC
+| Protocol | Type | Status |
+|----------|------|--------|
+| Morpho | Lending | 🔄 In Progress |
+| Pendle | Yield | 🎯 Target |
+| GMX V2 | Perps | 📋 Research |
 
-### What is STRC?
+## Use Cases
 
-STRC (Strategy Preferred Stock) is a preferred equity instrument issued by Strategy (formerly MicroStrategy), the largest corporate holder of Bitcoin.
+### 1. Savings
 
-| Property | Details |
-|----------|---------|
-| **Issuer** | Strategy (NASDAQ: MSTR) |
-| **Type** | Series A Perpetual Preferred Stock |
-| **Dividend Rate** | 10% annual (paid quarterly) |
-| **Backing** | Strategy's Bitcoin treasury (~$60B+) |
-| **Dividend Coverage** | 77.4 years at current rates |
+Hold BUCK and earn ~10% annually with zero complexity:
+* No staking required
+* No rewards to claim
+* No gas costs for yield
 
-### Why STRC?
+### 2. Collateral
 
-1. **External Yield** — Dividends paid regardless of crypto market conditions
-2. **Publicly Traded** — Full transparency and regulatory oversight
-3. **Long-Term Stability** — 77+ years of dividend coverage
+BUCK's appreciating price makes it ideal collateral:
+* Effective LTV improves over time
+* Earn yield while borrowing
+* Reduced liquidation risk
 
-## How to Use BUCK
+### 3. Treasury Management
 
-### Mint BUCK
+For DAOs and protocols:
+* Productive treasury asset
+* On-chain verifiable backing
+* DeFi-native composability
 
-```
-Deposit USDC → Receive BUCK at current exchange rate
-```
+## Getting Started
 
-### Hold BUCK
+### To Hold BUCK
 
-```
-BUCK price increases daily (~0.026% per day)
-No staking, no claiming, no action required
-```
+1. Visit [buck.io](https://buck.io)
+2. Connect your wallet
+3. Mint BUCK with USDC
+4. Watch your value grow
 
-### Redeem BUCK
+### To Earn Points
 
-```
-Burn BUCK → Receive USDC at current exchange rate
-```
+1. Mint or hold BUCK
+2. Optionally provide LP on Curve/Uniswap
+3. Points accrue automatically
+4. Convert to governance tokens at TGE
 
-### Use as Collateral
+[Learn more about the Points Program →](../rewards/points-program.md)
 
-```
-Deposit BUCK in Morpho/Aave → Borrow against appreciating collateral
-```
+## Quick Links
+
+| Resource | Link |
+|----------|------|
+| Website | [buck.io](https://buck.io) |
+| Whitepaper | [MiCA Whitepaper](https://buck.io/documents/Buck_Token_MiCA_Whitepaper_-_Publication_date_12.16.25_Update_date_1.4.26.pdf) |
+| GitHub | [github.com/buck-labs](https://github.com/buck-labs/buck-v1) |
+| Twitter | [@BuckToken](https://x.com/BuckToken) |
+| Telegram | [buck_discussions](https://t.me/buck_discussions) |
 
 ---
 
