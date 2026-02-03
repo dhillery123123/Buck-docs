@@ -6,13 +6,13 @@ description: Get started earning yield in 5 minutes
 
 ## Choose Your Path
 
-| Path | Difficulty | Rewards | Best For |
-|------|------------|---------|----------|
-| **Hold BUCK** | Easy | Native yield + Racks + Merkl | Passive holders |
-| **Provide LP** | Medium | 3x Racks + fees + Merkl | Active DeFi users |
-| **Refer Friends** | Easy | 10% of referee's Racks | Community builders |
+| Path              | Difficulty | Rewards                      | Best For           |
+| ----------------- | ---------- | ---------------------------- | ------------------ |
+| **Hold BUCK**     | Easy       | Native yield + Racks + Merkl | Passive holders    |
+| **Provide LP**    | Medium     | 3x Racks + fees + Merkl      | Active DeFi users  |
+| **Refer Friends** | Easy       | 10% of referee's Racks       | Community builders |
 
----
+***
 
 ## Path 1: Hold BUCK (Easiest)
 
@@ -35,32 +35,32 @@ You need USDC on Ethereum mainnet. Bridge from other chains or buy on an exchang
 
 ### Step 4: You're Done!
 
-BUCK in your wallet automatically earns ~10% APY. No staking, no claiming, no gas costs. The price increases daily as dividends accrue.
+BUCK in your wallet automatically earns \~10% APY. No staking, no claiming, no gas costs. The price increases daily as dividends accrue.
 
 ### What You're Earning
 
-| Reward | Type | How It Works |
-|--------|------|--------------|
-| **Native Yield** | ~10% APY | Automatic — BUCK price rises daily |
-| **Racks** | Points → future tokens | Hold $100+ BUCK, earn automatically |
-| **Merkl BUCK** | Weekly BUCK rewards | $6,250/week pool for holders |
+| Reward           | Type                         | How It Works                        |
+| ---------------- | ---------------------------- | ----------------------------------- |
+| **Native Yield** | \~10% APY                    | Automatic — BUCK price rises daily  |
+| **Racks**        | Points → protocol allocation | Hold $100+ BUCK, earn automatically |
+| **Merkl BUCK**   | Weekly BUCK rewards          | $6,250/week pool for holders        |
 
 {% hint style="success" %}
 **That's it!** Just holding BUCK earns you all three reward streams. Check back anytime — your balance stays the same but the value grows.
 {% endhint %}
 
----
+***
 
 ## Path 2: Provide LP (Higher Rewards)
 
 ### Why Provide Liquidity?
 
-| Benefit | Details |
-|---------|---------|
-| **3x Racks** | LP positions earn 3x vs holding |
-| **Trading Fees** | ~1-2% APY from swaps |
-| **Merkl Rewards** | $4,167/week (Curve) or $2,083/week (Uniswap) |
-| **Protocol Impact** | Deep liquidity helps Buck grow |
+| Benefit             | Details                                      |
+| ------------------- | -------------------------------------------- |
+| **3x Racks**        | LP positions earn 3x vs holding              |
+| **Trading Fees**    | \~1-2% APY from swaps                        |
+| **Merkl Rewards**   | $4,167/week (Curve) or $2,083/week (Uniswap) |
+| **Protocol Impact** | Deep liquidity helps Buck grow               |
 
 ### Step 1: Get BUCK + USDC
 
@@ -92,14 +92,14 @@ Uniswap offers concentrated liquidity for capital efficiency.
 
 ### What You're Earning
 
-| Reward | Type | How It Works |
-|--------|------|--------------|
-| **Native Yield** | ~5% APY | Half your position is BUCK |
-| **Trading Fees** | ~1-2% APY | From users swapping |
-| **Racks** | 3x multiplier | Automatic for LP positions |
-| **Merkl BUCK** | Weekly rewards | Curve: $4,167/wk, Uniswap: $2,083/wk |
+| Reward           | Type           | How It Works                         |
+| ---------------- | -------------- | ------------------------------------ |
+| **Native Yield** | \~5% APY       | Half your position is BUCK           |
+| **Trading Fees** | \~1-2% APY     | From users swapping                  |
+| **Racks**        | 3x multiplier  | Automatic for LP positions           |
+| **Merkl BUCK**   | Weekly rewards | Curve: $4,167/wk, Uniswap: $2,083/wk |
 
----
+***
 
 ## Path 3: Refer Friends
 
@@ -111,81 +111,84 @@ Uniswap offers concentrated liquidity for capital efficiency.
 
 ### Requirements
 
-| Requirement | Details |
-|-------------|---------|
-| **Minimum mint** | Referee must mint $100+ BUCK |
-| **Where** | Must mint through buck.io (not DEX) |
-| **Duration** | You earn as long as they earn |
+| Requirement      | Details                             |
+| ---------------- | ----------------------------------- |
+| **Minimum mint** | Referee must mint $100+ BUCK        |
+| **Where**        | Must mint through buck.io (not DEX) |
+| **Duration**     | You earn as long as they earn       |
 
 ### Example
 
 Your friend mints $10,000 BUCK and holds for 30 days:
-- They earn 5,000 Racks/day (5x multiplier at 30 days)
-- You earn 500 Racks/day (10% of theirs)
-- Over 8 weeks: They get 280,000 Racks, you get 28,000 Racks
 
----
+* They earn 5,000 Racks/day (5x multiplier at 30 days)
+* You earn 500 Racks/day (10% of theirs)
+* Over 8 weeks: They get 280,000 Racks, you get 28,000 Racks
+
+***
 
 ## Tracking Your Rewards
 
 ### Racks Dashboard
 
 View your Racks at **buck.io/racks**:
-- Daily Racks earned
-- Current multiplier
-- Hold duration
-- Leaderboard position
+
+* Daily Racks earned
+* Current multiplier
+* Hold duration
+* Leaderboard position
 
 ### Merkl Rewards
 
 Claim your BUCK rewards at [merkl.xyz](https://merkl.xyz):
-- Connect your wallet
-- Find Buck campaigns
-- Claim accumulated rewards
-- Distributed weekly
 
----
+* Connect your wallet
+* Find Buck campaigns
+* Claim accumulated rewards
+* Distributed weekly
+
+***
 
 ## Contract Addresses
 
 Add BUCK to your wallet:
 
-| Contract | Address |
-|----------|---------|
-| **BUCK Token** | `0xdb13997f4D83EF343845d0bAEb27d1173dF8c224` |
+| Contract        | Address                                      |
+| --------------- | -------------------------------------------- |
+| **BUCK Token**  | `0xdb13997f4D83EF343845d0bAEb27d1173dF8c224` |
 | **Mint/Redeem** | `0x6E87adb23ac0e150Ca9F76C33Df2AdCae508548E` |
 
 {% hint style="info" %}
 **Add to MetaMask:** Click the BUCK token address above, then "Add to MetaMask" on Etherscan.
 {% endhint %}
 
----
+***
 
 ## Multiplier Reference
 
 ### Hold Duration Multipliers
 
-| Duration | Multiplier | Daily Racks ($10K) |
-|----------|------------|-------------------|
-| 0-29 days | 1x | 1,000 |
-| 30-89 days | 5x | 5,000 |
-| 90-179 days | 10x | 10,000 |
-| 180+ days | 20x | 20,000 |
+| Duration    | Multiplier | Daily Racks ($10K) |
+| ----------- | ---------- | ------------------ |
+| 0-29 days   | 1x         | 1,000              |
+| 30-89 days  | 5x         | 5,000              |
+| 90-179 days | 10x        | 10,000             |
+| 180+ days   | 20x        | 20,000             |
 
 ### Activity Multipliers
 
-| Activity | Multiplier |
-|----------|------------|
-| Hold BUCK | 1x (+ duration bonus) |
-| Curve LP | 3x |
-| Uniswap LP | 3x |
-| Morpho Lending | 3x (coming soon) |
+| Activity       | Multiplier            |
+| -------------- | --------------------- |
+| Hold BUCK      | 1x (+ duration bonus) |
+| Curve LP       | 3x                    |
+| Uniswap LP     | 3x                    |
+| Morpho Lending | 3x (coming soon)      |
 
 {% hint style="warning" %}
 **Multipliers don't stack.** LP positions earn the 3x activity multiplier, not 3x × hold duration.
 {% endhint %}
 
----
+***
 
 ## FAQ
 
@@ -199,22 +202,22 @@ Yes. Go to buck.io, click "Redeem," enter your BUCK amount, and receive USDC at 
 
 ### What's the minimum to participate?
 
-$100 BUCK minimum to earn Racks. No minimum for native yield — any amount of BUCK earns ~10% APY.
+$100 BUCK minimum to earn Racks. No minimum for native yield — any amount of BUCK earns \~10% APY.
 
 ### Do I need to claim rewards?
 
-- **Native yield:** No — automatic
-- **Racks:** No — tracked automatically, converts at TGE
-- **Merkl BUCK:** Yes — claim weekly at merkl.xyz
+* **Native yield:** No — automatic
+* **Racks:** No — tracked automatically, converts at TGE
+* **Merkl BUCK:** Yes — claim weekly at merkl.xyz
 
----
+***
 
 ## Next Steps
 
-- [Understand the risks →](../protocol/risks.md)
-- [Learn how Racks multipliers work →](../rewards/points-program.md)
-- [See how BUCK compares to alternatives →](../resources/comparison.md)
+* [Understand the risks →](../protocol/risks.md)
+* [Learn how Racks multipliers work →](../rewards/points-program.md)
+* [See how BUCK compares to alternatives →](../resources/comparison.md)
 
----
+***
 
-*Next: [BUCK Token →](../tokens/buck-token.md)*
+_Next:_ [_BUCK Token →_](../tokens/buck-token.md)
