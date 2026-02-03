@@ -105,7 +105,7 @@ Uniswap offers concentrated liquidity for capital efficiency.
 
 ### How It Works
 
-1. Get your unique referral link from [buck.io](https://buck.io) (powered by Sharemint)
+1. Get your unique referral link from [buck.io](https://buck.io) (powered by Merkl)
 2. Share with friends
 3. When they mint $100+ BUCK, you earn **10% of their Racks** — forever
 
@@ -119,9 +119,9 @@ Uniswap offers concentrated liquidity for capital efficiency.
 
 ### Example
 
-Your friend mints $10,000 BUCK and holds for 30 days:
+Your friend mints $10,000 BUCK and holds for 30+ days:
 
-* They earn 5,000 Racks/day (5x multiplier at 30 days)
+* They earn 5,000 Racks/day (5x multiplier at 30+ days)
 * You earn 500 Racks/day (10% of theirs)
 * Over 8 weeks: They get 280,000 Racks, you get 28,000 Racks
 
@@ -168,21 +168,19 @@ Add BUCK to your wallet:
 
 ### Hold Duration Multipliers
 
-| Duration    | Multiplier | Daily Racks ($10K) |
-| ----------- | ---------- | ------------------ |
-| 0-29 days   | 1x         | 1,000              |
-| 30-89 days  | 5x         | 5,000              |
-| 90-179 days | 10x        | 10,000             |
-| 180+ days   | 20x        | 20,000             |
+| Duration  | Multiplier | Daily Racks ($10K) |
+| --------- | ---------- | ------------------ |
+| 0-29 days | 1x         | 1,000              |
+| 30+ days  | 5x         | 5,000              |
 
 ### Activity Multipliers
 
-| Activity       | Multiplier            |
-| -------------- | --------------------- |
-| Hold BUCK      | 1x (+ duration bonus) |
-| Curve LP       | 3x                    |
-| Uniswap LP     | 3x                    |
-| Morpho Lending | 3x (coming soon)      |
+| Activity       | Multiplier           |
+| -------------- | -------------------- |
+| Hold BUCK      | 1x (5x at 30+ days) |
+| Curve LP       | 3x                   |
+| Uniswap LP     | 3x                   |
+| Morpho Lending | 3x (coming soon)     |
 
 {% hint style="warning" %}
 **Multipliers don't stack.** LP positions earn the 3x activity multiplier, not 3x × hold duration.

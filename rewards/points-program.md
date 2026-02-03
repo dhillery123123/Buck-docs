@@ -1,22 +1,22 @@
 ---
-description: Earn Racks toward Buck's governance token
+description: Earn Racks toward Buck's protocol allocation
 ---
 
 # Racks Program
 
 ## Season 1 Overview
 
-Buck Racks rewards early participants with governance token allocation. Season 1 runs for **8 weeks** with rewards distributed based on participation across holding, liquidity provision, lending, and referrals.
+Buck Racks rewards early participants with protocol allocation. Season 1 runs for **8 weeks** with rewards distributed based on participation across holding, liquidity provision, lending, and referrals.
 
 {% hint style="success" %}
 **Dual Rewards: Racks + BUCK**
 
-During Season 1, earn both Racks (future governance tokens) AND direct BUCK rewards through our Merkl campaign. This is the highest-reward period in Buck's history.
+During Season 1, earn both Racks (future protocol allocation) AND direct BUCK rewards through our Merkl campaign. This is the highest-reward period in Buck's history.
 {% endhint %}
 
 ## How Racks Work
 
-Racks are points that convert to governance tokens at TGE. The longer you hold and the more you contribute to the protocol, the more Racks you earn.
+Racks are points that convert to protocol allocation at TGE. The longer you hold and the more you contribute to the protocol, the more Racks you earn.
 
 **No staking required.** Buck streams yield automatically via STRC dividends. Racks multipliers are earned simply by holding longer—no lock contracts, no commitments, just hold.
 
@@ -48,9 +48,7 @@ The longer you hold continuously, the higher your multiplier:
 | Hold Duration | Multiplier | Daily Racks ($10K) |
 |---------------|------------|-------------------|
 | 0-29 days | 1x | 1,000 |
-| 30-89 days | 5x | 5,000 |
-| 90-179 days | 10x | 10,000 |
-| 180+ days | 20x | 20,000 |
+| 30+ days | 5x | 5,000 |
 
 **How it works:** Your multiplier increases automatically based on how long you've held continuously. If you sell or transfer, your timer resets to zero.
 
@@ -75,10 +73,8 @@ Based on 1 Rack per $10/day base rate:
 
 | Scenario | Multiplier | Daily Racks | 8-Week Total |
 |----------|------------|-------------|--------------|
-| $10K BUCK, just started | 1x | 1,000 | 56,000 |
-| $10K BUCK, held 30+ days | 5x | 5,000 | 280,000 |
-| $10K BUCK, held 90+ days | 10x | 10,000 | 560,000 |
-| $10K BUCK, held 180+ days | 20x | 20,000 | 1,120,000 |
+| $10K BUCK, 0-29 days | 1x | 1,000 | 56,000 |
+| $10K BUCK, 30+ days | 5x | 5,000 | 280,000 |
 | $10K in Curve LP | 3x | 3,000 | 168,000 |
 | $10K in Morpho | 3x | 3,000 | 168,000 |
 
@@ -88,7 +84,7 @@ Earn **10% of your referees' Racks** on an ongoing basis.
 
 | Component | Details |
 |-----------|---------|
-| **Platform** | Sharemint |
+| **Platform** | Merkl |
 | **Bonus** | 10% of referee's Racks |
 | **Qualifying Action** | Referee mints $100+ BUCK via buck.io |
 | **Duration** | Ongoing (as long as referee earns) |
@@ -112,7 +108,7 @@ Alongside Racks, Season 1 includes direct BUCK distributions via Merkl:
 **Two Reward Streams**
 
 During Season 1, you earn BOTH:
-1. **Racks** → Convert to governance tokens at TGE
+1. **Racks** → Convert to protocol allocation at TGE
 2. **BUCK** → Immediate value via Merkl, claimable weekly
 {% endhint %}
 
@@ -124,13 +120,13 @@ During Season 1, you earn BOTH:
 | **Minimum Participation** | $100 BUCK |
 | **Base Rate** | 1 Rack per $10/day |
 | **Referral Bonus** | 10% of referee's Racks |
-| **Tracking** | Daily snapshots via Absinthe |
+| **Tracking** | Daily snapshots via Merkl |
 
-## Converting Racks to Governance Tokens
+## Converting Racks to Protocol Allocation
 
 ### Pro-Rata Distribution
 
-Your governance token allocation is calculated as:
+Your protocol allocation is calculated as:
 
 ```
 Your Allocation = (Your Racks ÷ Total Racks Earned) × Season 1 Pool
@@ -178,7 +174,7 @@ Hold duration multipliers require **continuous** holding. Any break (selling, tr
 
 | Strategy | Risk | Reward | Best For |
 |----------|------|--------|----------|
-| **Hold BUCK** | Low | Up to 20x (at 180 days) | Patient holders |
+| **Hold BUCK** | Low | Up to 5x (at 30+ days) | Patient holders |
 | **Curve LP** | Medium | 3x + trading fees | Active DeFi users |
 | **Morpho Lending** | Medium | 3x + lending yield | Yield optimizers |
 | **Refer Friends** | None | 10% of referee's Racks | Community builders |
@@ -191,8 +187,8 @@ Racks dashboard at buck.io/racks. Your position is tracked on-chain via daily sn
 
 | Component | Platform | Purpose |
 |-----------|----------|---------|
-| **Racks Tracking** | [Absinthe Network](https://absinthe.network) | On-chain activity tracking, leaderboard |
-| **Referrals** | [Sharemint](https://sharemint.com) | Referral links, 10% bonus tracking |
+| **Racks Tracking** | [Merkl](https://merkl.xyz) | On-chain activity tracking, leaderboard |
+| **Referrals** | [Merkl](https://merkl.xyz) | Referral links, 10% bonus tracking |
 | **BUCK Rewards** | [Merkl](https://merkl.xyz) | Direct BUCK distributions |
 
 ## Season Timeline
@@ -204,7 +200,7 @@ SEASON 1: 8 WEEKS
 └── Goal:   Bootstrap TVL + liquidity for Morpho approval
 
 TGE: Following Season 1
-├── Racks convert to governance tokens
+├── Racks convert to protocol allocation
 ├── Conversion ratio announced pre-TGE
 └── Season 2 begins
 ```
@@ -217,7 +213,7 @@ Buck Racks draws from proven models:
 |----------|---------|----------|-------|
 | **Ethena** | Shards | ~6 weeks | Shards → ENA |
 | **Falcon** | Miles | Ongoing | Miles → FF |
-| **Buck** | Racks | 8 weeks | Racks → Governance |
+| **Buck** | Racks | 8 weeks | Racks → Protocol Allocation |
 
 We designed Racks with strategic ambiguity on token details (following Ethena's playbook) while providing clear earning mechanics.
 
