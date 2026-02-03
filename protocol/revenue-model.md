@@ -6,7 +6,7 @@ description: Protocol economics and value distribution
 
 ## Overview
 
-Buck Protocol generates revenue through fees on minting, redemption, and transactions. This revenue is distributed across three purposes: future governance token holders, STRC accumulation, and protocol insurance.
+Buck Protocol generates revenue through fees on minting, redemption, and transactions. This revenue is distributed across three purposes: protocol token buyback & burn, STRC accumulation, and protocol insurance.
 
 ## Revenue Allocation
 
@@ -25,8 +25,8 @@ Buck Protocol generates revenue through fees on minting, redemption, and transac
    ┌─────────────┐     ┌─────────────┐     ┌─────────────┐
    │     25%     │     │     50%     │     │     25%     │
    │             │     │             │     │             │
-   │  Governance │     │  Treasury   │     │  Insurance  │
-   │   Token     │     │   (STRC     │     │    Fund     │
+   │   Protocol  │     │  Treasury   │     │  Insurance  │
+   │    Token    │     │   (STRC     │     │    Fund     │
    │  Buyback &  │     │ Acquisition)│     │             │
    │    Burn     │     │             │     │             │
    └─────────────┘     └─────────────┘     └─────────────┘
@@ -41,11 +41,11 @@ Buck Protocol generates revenue through fees on minting, redemption, and transac
 | Mint (normal) | 10 bps |
 | Redeem (normal) | 30 bps |
 
-## 25% → Governance Token Buyback & Burn
+## 25% → Protocol Token Buyback & Burn
 
-Buck Protocol will launch a governance token. From day one, we're committing to use **25% of all protocol revenue** to:
+**25% of all protocol revenue** is committed to:
 
-1. **Buy** governance tokens from the open market
+1. **Buy** protocol tokens from the open market
 2. **Burn** them permanently, reducing total supply
 
 This creates continuous buy pressure and deflation — the more the protocol earns, the more tokens get burned.
@@ -59,7 +59,7 @@ Unlike protocols that promise future "fee switches," we're building token burns 
 ### Competitive Comparison
 
 | Protocol | Revenue to Token Holders | Mechanism |
-|----------|-------------------------|-----------|
+|----------|--------------------------|-----------|
 | **Buck** | **25%** | Buyback & burn |
 | Maple (SYRUP) | 25% | Buybacks + staking |
 | Ethena (ENA) | TBD | Fee switch pending |
@@ -135,7 +135,7 @@ The Insurance Fund provides protocol protection:
 
 ### By TVL
 
-| TVL | Annual Revenue | To Buyback/Burn (25%) | To Treasury (50%) | To Insurance (25%) |
+| TVL | Annual Revenue | To Buyback & Burn (25%) | To Treasury (50%) | To Insurance (25%) |
 |-----|----------------|----------------------|-------------------|-------------------|
 | $10M | $200K | $50K | $100K | $50K |
 | $50M | $1M | $250K | $500K | $250K |
@@ -153,10 +153,9 @@ The Insurance Fund provides protocol protection:
 * **25% to Insurance** — Protection for redemptions
 * **Net Effect** — Sustainable, protected growth
 
-### For Future Governance Token Holders
+### For Protocol Token Holders
 
 * **25% to Buyback & Burn** — Continuous deflation
-* **Governance rights** — Shape protocol direction
 * **Net Effect** — Protocol success = increasing scarcity
 
 ---
