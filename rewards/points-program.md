@@ -226,4 +226,4 @@ We designed Racks with strategic ambiguity on token details (following Ethena's 
 
 ---
 
-*Next: [Governance →](governance.md)*
+*Next: [Yield Mechanics →](../protocol/yield-mechanics.md)*

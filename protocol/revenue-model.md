@@ -53,7 +53,7 @@ This creates continuous buy pressure and deflation — the more the protocol ear
 {% hint style="info" %}
 **Deflationary by Design**
 
-Unlike protocols that promise future "fee switches," we're building token burns into the protocol from launch. See [Governance (Coming Soon)](../rewards/governance.md) for more details.
+Unlike protocols that promise future "fee switches," we're building token burns into the protocol from launch.
 {% endhint %}
 
 ### Competitive Comparison

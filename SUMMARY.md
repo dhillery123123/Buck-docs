@@ -15,7 +15,6 @@
 ## Rewards
 
 * [Racks Program](rewards/points-program.md)
-* [Governance](rewards/governance.md)
 
 ## Protocol
 
