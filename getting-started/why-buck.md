@@ -27,7 +27,7 @@ No gas costs. No reward claiming. Just hold.
 
 ### Yield That Can't Go Negative
 
-STRC dividends are contractually obligated payments. Unlike funding rates or trading strategies, dividends don't reverse. Your BUCK will never be worth less tomorrow than it is today (absent a redemption).
+STRC dividends are contractually obligated payments. Unlike funding rates or trading strategies, ROC dividends don't reverse. Your BUCK will never be worth less tomorrow than it is today (absent a redemption).
 
 ### Bitcoin Exposure Without the Volatility
 
@@ -66,10 +66,6 @@ Your BUCK is worth more
 Strategy would need to formally default on preferred equity obligations for dividends to stop. With 77+ years of cash coverage, this is extremely unlikely.
 
 ## Full DeFi Composability
-
-### No KYC Required
-
-Mint, hold, trade, LP — all permissionless. No identity verification, no geographic restrictions, no waiting periods.
 
 ### Works Everywhere
 
