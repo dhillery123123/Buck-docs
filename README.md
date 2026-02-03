@@ -28,7 +28,9 @@ Unlike traditional stablecoins that maintain a fixed $1.00 price, BUCK's price *
 {% hint style="success" %}
 **Governance Token Coming Soon**
 
-Buck Protocol will launch a governance token with 25% of protocol fees funding buybacks and burns. Earn points now through our [Points Program](rewards/points-program.md) to maximize your allocation at TGE.
+Buck Protocol will launch a governance token with protocol fees funding buybacks to holders. Earn Racks now through our [Racks Program](rewards/points-program.md) to maximize your allocation at TGE.
+
+**Season 1:** 8 weeks | **Dual Rewards:** Racks + $100K BUCK via Merkl
 {% endhint %}
 
 ## Why Buck?
@@ -63,6 +65,13 @@ Buck's yield comes from real dividends paid by STRC—Strategy's preferred equit
 | BUCK Token | `0xdb13997f4D83EF343845d0bAEb27d1173dF8c224` |
 | Liquidity Window | `0x6E87adb23ac0e150Ca9F76C33Df2AdCae508548E` |
 | Liquidity Reserve | `0x1A426E3a87368a4851f7443Ff656A054Af872f66` |
+
+## Get Started
+
+Ready to earn 10% on your dollars?
+
+* [Why Buck? →](getting-started/why-buck.md) — Understand what makes Buck different
+* [Quick Start Guide →](getting-started/quickstart.md) — Mint your first BUCK in 5 minutes
 
 ---
 

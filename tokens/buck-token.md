@@ -151,7 +151,8 @@ Day 365: Your collateral is now worth $11,000
 Provide BUCK liquidity and earn:
 
 * Trading fees from swaps
-* Points through the [Points Program](../rewards/points-program.md)
+* Racks through the [Racks Program](../rewards/points-program.md)
+* BUCK rewards via Merkl (during Season 1)
 
 ### Integrations
 
@@ -195,4 +196,4 @@ STRC trades during US market hours only. The oracle:
 
 ---
 
-*Next: [Points Program →](../rewards/points-program.md)*
+*Next: [Racks Program →](../rewards/points-program.md)*

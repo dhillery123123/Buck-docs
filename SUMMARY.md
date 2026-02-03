@@ -3,6 +3,8 @@
 ## Getting Started
 
 * [Welcome](README.md)
+* [Why Buck?](getting-started/why-buck.md)
+* [Quick Start Guide](getting-started/quickstart.md)
 * [Overview](getting-started/overview.md)
 * [About Buck](getting-started/about.md)
 
@@ -12,14 +14,18 @@
 
 ## Rewards
 
-* [Points Program](rewards/points-program.md)
-* [Governance (Coming Soon)](rewards/governance.md)
+* [Racks Program](rewards/points-program.md)
+* [Governance](rewards/governance.md)
 
 ## Protocol
 
 * [Yield Mechanics](protocol/yield-mechanics.md)
 * [Revenue Model](protocol/revenue-model.md)
+* [Reserve Attestations](protocol/reserve-attestations.md)
 * [Risk Framework](protocol/risks.md)
+  * [STRC & Collateral Risk](protocol/risks-strc.md)
+  * [Oracle & Market Hours Risk](protocol/risks-oracle.md)
+  * [Smart Contract Risk](protocol/risks-smart-contract.md)
 
 ## Technical
 

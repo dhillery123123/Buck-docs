@@ -7,100 +7,55 @@ description: Understanding and managing protocol risks
 {% hint style="warning" %}
 **Important**
 
-All DeFi protocols carry inherent risks. You could lose some or all of your funds. Only deposit what you can afford to lose.
+All DeFi protocols carry inherent risks. You could lose some or all of your funds. Only deposit what you can afford to lose. This section helps you understand the specific risks of holding BUCK.
 {% endhint %}
 
-## Risk Categories
+## Risk Overview
 
-| Category | Key Risks |
-|----------|-----------|
-| **Market** | STRC price volatility, BTC exposure |
-| **Counterparty** | Strategy solvency, custody |
-| **Liquidity** | Redemption capacity, DEX depth |
-| **Regulatory** | Securities classification |
+Buck's risk profile differs from traditional stablecoins and other yield-bearing tokens. Understanding these differences helps you make informed decisions.
 
-## Market Risks
+### Risk Categories
 
-### STRC Price Volatility
+| Category | Page | Key Concerns |
+|----------|------|--------------|
+| **STRC & Collateral** | [Read →](risks-strc.md) | Dividend risk, STRC price volatility, collateralization |
+| **Oracle & Market Hours** | [Read →](risks-oracle.md) | Price gaps, oracle manipulation, liquidation protection |
+| **Smart Contract & Operational** | [Read →](risks-smart-contract.md) | Code security, upgradeability, custody, access control |
 
-**Risk:** STRC price may decline, reducing treasury value and BUCK's backing.
+## Quick Risk Summary
 
-**Mitigations:**
+### What Could Cause Losses?
 
-* 100% minimum overcollateralization
-* Liquidity Reserve holds stablecoins
-* Circuit breakers pause on extreme moves
-* Insurance fund provides buffer
+| Risk | Likelihood | Potential Impact | Primary Mitigation |
+|------|------------|------------------|-------------------|
+| STRC price crash | Low-Medium | Medium | 100%+ overcollateralization |
+| Dividend suspension | Very Low | Medium | 77.4 years cash coverage |
+| Smart contract exploit | Low | Critical | 3 independent audits |
+| Oracle manipulation | Low | Medium | NASDAQ-based pricing + TWAP |
+| Strategy bankruptcy | Extremely Low | High | Preferred equity priority |
 
-### Bitcoin Correlation
+### What BUCK Is Not
 
-**Risk:** STRC correlates with Bitcoin. Severe BTC crash could impact STRC value.
+- **Not a stablecoin:** BUCK price changes (upward) as yield accrues
+- **Not risk-free:** Smart contract, counterparty, and market risks exist
+- **Not guaranteed:** Yield depends on STRC dividends continuing
+- **Not insured by FDIC:** This is DeFi, not a bank account
 
-**Mitigations:**
+## Audits
 
-* STRC is preferred equity (senior to common)
-* Dividends paid regardless of BTC price
-* Overcollateralization absorbs declines
-* Strategy's diversified BTC acquisition
+Three independent security firms have audited Buck's smart contracts:
 
-## Counterparty Risks
+| Auditor | Scope | Status | Report |
+|---------|-------|--------|--------|
+| **Cyfrin** | Full protocol | ✅ Complete | [View](https://github.com/buck-labs/buck-v1/blob/master/docs/audits/2025-12-19-cyfrin-strong-v2.0.pdf) |
+| **Spearbit** | Full protocol | ✅ Complete | [View](https://github.com/buck-labs/buck-v1/blob/master/docs/audits/spearbit-buck-1219.pdf) |
+| **SSC** | Full protocol | ✅ Complete | [View](https://github.com/buck-labs/buck-v1/blob/master/docs/audits/Strong%20DAO%20Smart%20Contracts%20_%20SSC.pdf) |
 
-### Strategy (STRC Issuer)
+All critical and high-severity findings have been resolved.
 
-**Risk:** Strategy could reduce or suspend dividends.
+## Bug Bounty
 
-**Mitigations:**
-
-* 77.4 years dividend coverage ($2.25B reserves)
-* Publicly traded with regulatory oversight
-* Preferred equity has legal dividend claim
-* Core business tied to Bitcoin success
-
-### Custody
-
-**Risk:** Custodians could be compromised or insolvent.
-
-**Mitigations:**
-
-* Fireblocks institutional custody
-* MPC key management
-* SOC 2 Type II certified
-* Insurance on custodied assets
-
-## Liquidity Risks
-
-### Redemption Capacity
-
-**Risk:** Large redemptions could exceed available liquidity.
-
-**Mitigations:**
-
-* Liquidity Reserve maintains stablecoin buffer
-* STRC can be liquidated for large redemptions
-* Insurance fund provides backstop
-* Redemption queuing for extreme scenarios
-
-### Market Hours Gap
-
-**Risk:** STRC doesn't trade 24/7, creating price uncertainty.
-
-**Mitigations:**
-
-* Oracle uses "most recent price" during closed periods
-* Conservative valuations overnight
-* Fundamental pricing methodology
-
-## Security Resources
-
-### Audits
-
-| Auditor | Report |
-|---------|--------|
-| Cyfrin | [View](https://github.com/buck-labs/buck-v1/blob/master/docs/audits/2025-12-19-cyfrin-strong-v2.0.pdf) |
-| Spearbit | [View](https://github.com/buck-labs/buck-v1/blob/master/docs/audits/spearbit-buck-1219.pdf) |
-| SSC | [View](https://github.com/buck-labs/buck-v1/blob/master/docs/audits/Strong%20DAO%20Smart%20Contracts%20_%20SSC.pdf) |
-
-### Bug Bounty
+We maintain an active bug bounty program:
 
 | Severity | Reward |
 |----------|--------|
@@ -109,8 +64,16 @@ All DeFi protocols carry inherent risks. You could lose some or all of your fund
 | Medium | Up to $10,000 |
 | Low | Up to $1,000 |
 
-Report to: security@buck.io
+**Report to:** security@buck.io
+
+## Detailed Risk Documentation
+
+For comprehensive risk analysis, see:
+
+- [STRC & Collateral Risk →](risks-strc.md)
+- [Oracle & Market Hours Risk →](risks-oracle.md)
+- [Smart Contract & Operational Risk →](risks-smart-contract.md)
 
 ---
 
-*Next: [Smart Contracts →](../technical/contracts.md)*
+*Next: [STRC & Collateral Risk →](risks-strc.md)*

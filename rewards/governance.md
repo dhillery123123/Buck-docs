@@ -6,59 +6,33 @@ description: Protocol governance and value capture
 
 ## Overview
 
-Buck Protocol's governance token enables community ownership and aligns long-term holders with protocol success through **direct revenue sharing** and governance rights.
+Buck Protocol's governance token enables community ownership and aligns long-term holders with protocol success through governance rights and value accrual mechanisms.
 
-{% hint style="success" %}
-**25% of Protocol Revenue**
+{% hint style="info" %}
+**Strategic Ambiguity**
 
-Every fee collected by Buck Protocol—from minting, redemption, and transaction fees—25% is used to buy back governance tokens and distribute to holders. No staking required.
+Following the Ethena and Falcon playbooks, specific token details (name, supply, allocation percentages) will be announced closer to TGE. This page covers the planned governance structure and value accrual mechanisms.
 {% endhint %}
 
-## Token Specifications
+## Earning Governance Tokens
 
-| Property | Value |
-|----------|-------|
-| **Total Supply** | 1,000,000,000 (1 billion) |
-| **Standard** | ERC-20 |
-| **Chain** | Ethereum |
-| **TGE** | Following Season 1 completion |
+The primary path to governance tokens is through the **Racks Program**. Racks earned during Season 1 convert to governance tokens at TGE.
 
-## Token Allocation
+See [Racks Program](points-program.md) for full earning details.
 
-| Category | Allocation | Tokens | Vesting |
-|----------|-----------|--------|---------|
-| **Community Rewards** | 25-30% | 250-300M | Via seasonal points programs |
-| **Ecosystem Growth** | 20% | 200M | 24-month linear |
-| **Team & Contributors** | 15% | 150M | 1-year cliff, 3-year linear |
-| **Treasury** | 10% | 100M | Protocol-controlled |
-| **Foundation** | 15% | 150M | Operations & development |
-| **Investors** | 5% | 50M | 1-year cliff, 2-year linear |
+### Conversion Process
 
-### Community Allocation Breakdown
+```
+Your Allocation = (Your Racks ÷ Total Racks Earned) × Season 1 Pool
+```
 
-The 25-30% community allocation is distributed across seasons:
+- **Pro-rata distribution** ensures fair allocation based on contribution
+- **Conversion ratio** announced 2-4 weeks before TGE
+- **Season 1 pool size** announced 4-6 weeks before TGE
 
-| Season | Allocation | Timing |
-|--------|------------|--------|
-| **Season 1** | 5% (50M tokens) | 16 weeks, pre-TGE |
-| **Season 2** | 5% (50M tokens) | Post-TGE |
-| **Season 3** | 5% (50M tokens) | Post-Season 2 |
-| **Future Seasons** | 10-15% | Governance-determined |
+## Value Accrual
 
-### Allocation Comparison
-
-| Protocol | Community | Team/Investors | Foundation |
-|----------|-----------|----------------|------------|
-| **Buck** | **25-30%** | 20% | 15% |
-| Ethena (ENA) | 28% | 55% | 15% |
-| Falcon (FF) | 8.3% + 35% ecosystem | 24.5% | 32.2% |
-| Maple (SYRUP) | ~24% | 41.5% | 30% |
-
-Buck prioritizes community ownership with the highest direct community allocation among comparable protocols.
-
-## Value Accrual: Revenue Share
-
-### Revenue Allocation
+### Revenue Allocation (Planned)
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -70,7 +44,6 @@ Buck prioritizes community ownership with the highest direct community allocatio
             │                 │                 │
             ▼                 ▼                 ▼
      ┌─────────────┐   ┌─────────────┐   ┌─────────────┐
-     │     25%     │   │     50%     │   │     25%     │
      │   Token     │   │  Treasury   │   │  Insurance  │
      │  Buybacks   │   │   (STRC     │   │    Fund     │
      │             │   │ Acquisition)│   │             │
@@ -87,8 +60,8 @@ Buck prioritizes community ownership with the highest direct community allocatio
 ### How Buybacks Work
 
 1. **Collection** — Fees accumulate in protocol treasury
-2. **Execution** — Weekly automatic buybacks via DEX
-3. **Distribution** — Purchased tokens distributed pro-rata to all holders
+2. **Execution** — Periodic automatic buybacks via DEX
+3. **Distribution** — Purchased tokens distributed pro-rata to holders
 4. **Transparency** — All transactions on-chain and verifiable
 
 {% hint style="info" %}
@@ -97,26 +70,15 @@ Buck prioritizes community ownership with the highest direct community allocatio
 Unlike protocols that require staking to earn rewards, Buck distributes buybacks to ALL token holders automatically. Just hold tokens in your wallet.
 {% endhint %}
 
-### Revenue Share Comparison
-
-| Protocol | Token | Revenue to Holders | Staking Required? |
-|----------|-------|-------------------|-------------------|
-| **Buck** | Governance | **25% buybacks** | ❌ No |
-| Maple | SYRUP | 25% buybacks | ❌ No (removed Nov 2025) |
-| Ethena | ENA | TBD | ✅ Yes |
-| Ondo | ONDO | 0% | N/A |
-
-Buck and Maple both moved to a simpler model: hold tokens, receive value. No extra steps.
-
 ## Token Holder Benefits
 
 ### What You Get
 
 | Benefit | Details |
 |---------|---------|
-| **Buyback Distribution** | Pro-rata share of weekly buybacks |
+| **Buyback Distribution** | Pro-rata share of buybacks |
 | **Governance Rights** | Vote on protocol parameters |
-| **Points Multiplier** | 2x during future reward campaigns |
+| **Future Season Boosts** | Multipliers in future Racks seasons |
 
 ### How It Works
 
@@ -125,7 +87,7 @@ Hold Governance Token
         │
         ├── Automatically receive buyback distributions
         ├── Vote on proposals (1 token = 1 vote)
-        └── Boosted points in future seasons
+        └── Boosted Racks in future seasons
 ```
 
 No staking, no lockups, no cooldown periods. Just hold.
@@ -141,12 +103,12 @@ All token holders can vote. 1 token = 1 vote.
 Token holders can vote on:
 
 * **Protocol Parameters** — Collateralization ratios, fee structures
-* **Revenue Allocation** — Adjustments to the 25/50/25 split
+* **Revenue Allocation** — Adjustments to buyback/treasury/insurance split
 * **Collateral Policy** — Approved collateral types and limits
 * **Integration Approvals** — New DeFi protocol partnerships
 * **Treasury Deployment** — STRC acquisition strategy
 * **Upgrade Proposals** — Smart contract upgrades
-* **Future Season Allocations** — Community reward distributions
+* **Future Season Parameters** — Racks program adjustments
 
 ### Governance Process
 
@@ -163,71 +125,73 @@ Token holders can vote on:
 4. Execution (Timelock: 48 hours)
 ```
 
-### Quorum Requirements
+## Top Wallet Vesting
 
-| Proposal Type | Quorum |
-|---------------|--------|
-| Standard | 4% of supply |
-| Critical (parameters, upgrades) | 10% of supply |
+To prevent large holders from dumping at TGE, the top 2,000 wallets by Racks will have vesting requirements:
+
+| Component | Details |
+|-----------|---------|
+| **Scope** | Top 2,000 wallets by Racks |
+| **Split** | 50% at TGE / 50% vested |
+| **Vesting Period** | 6 months linear |
+| **Participation Requirement** | Must maintain protocol activity during vesting |
+
+### Why Vesting?
+
+- Prevents concentrated sell pressure at TGE
+- Ensures large holders remain aligned post-launch
+- Filters long-term believers from mercenary capital
+
+Wallets outside the top 2,000 receive full allocation at TGE.
 
 ## Season Loyalty Program
 
-Early participants receive ongoing benefits:
+Early participants receive ongoing benefits in future seasons:
 
-| Participation | Season 2 Boost | Season 3 Boost |
-|---------------|----------------|----------------|
-| Season 1 only | +10% points | +10% points |
-| Season 1 + 2 | — | +15% points |
-| All seasons | Compounding | Compounding |
+| Participation | Future Season Boost |
+|---------------|---------------------|
+| Season 1 only | +10% Racks |
+| Season 1 + 2 | +15% Racks |
+| All seasons | Compounding |
 
 This rewards long-term alignment over mercenary farming.
 
-## Revenue Projections
-
-### Projected Buyback Value
-
-| TVL | Annual Fees | 25% to Buybacks |
-|-----|-------------|-----------------|
-| $10M | $60K | $15K |
-| $50M | $300K | $75K |
-| $100M | $600K | $150K |
-| $500M | $3M | $750K |
-| $1B | $6M | $1.5M |
-
-*Assumes 10bps average fee on 50% monthly turnover*
-
-### Threshold-Based Escalation
-
-As protocol matures, governance can increase revenue share:
-
-| TVL Milestone | Buyback % | Treasury % | Insurance % |
-|---------------|-----------|------------|-------------|
-| $0 - $50M | 25% | 50% | 25% |
-| $50M - $250M | 30% | 50% | 20% |
-| $250M - $1B | 35% | 50% | 15% |
-| $1B+ | 40% | 50% | 10% |
-
 ## How to Acquire Governance Tokens
 
-1. **Points Program** — Participate in [Season 1](points-program.md) to earn allocation
+1. **Racks Program** — Participate in [Season 1](points-program.md) to earn allocation
 2. **DEX** — Purchase on Curve or Uniswap (post-TGE)
 3. **Buyback Distributions** — Hold tokens to receive your share
 
 ## Timeline
 
 ```
-NOW:        Season 1 Points Program (16 weeks)
-            └── Earn points through holding, LP, minting
+NOW:        Season 1 Racks Program (8 weeks)
+            └── Earn Racks through holding, LP, Morpho, referrals
+
+PRE-TGE:    Token Details Announced
+            └── Token name, supply, allocation % revealed
+            └── Conversion ratio announced
 
 TGE:        Token Generation Event
-            └── Points convert to governance tokens
-            └── 5% distributed to Season 1 participants
+            └── Racks convert to governance tokens
+            └── Top 2000 wallets: 50% immediate, 50% vesting
 
-POST-TGE:   Governance & Revenue Share Live
+POST-TGE:   Governance & Value Accrual Live
             └── Hold tokens to receive buyback distributions
             └── Vote on protocol decisions
             └── Season 2 begins
 ```
+
+## Competitive Context
+
+| Protocol | Token | Revenue to Holders | Staking Required? |
+|----------|-------|-------------------|-------------------|
+| **Buck** | Governance | Buybacks | ❌ No |
+| Maple | SYRUP | Buybacks | ❌ No |
+| Ethena | ENA | TBD | ✅ Yes |
+| Ondo | ONDO | None | N/A |
+
+Buck follows the Maple model: hold tokens, receive value. No extra steps.
 
 ---
 

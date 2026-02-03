@@ -1,94 +1,106 @@
 ---
-description: Earn points toward Buck's governance token
+description: Earn Racks toward Buck's governance token
 ---
 
-# Points Program
+# Racks Program
 
 ## Season 1 Overview
 
-Buck's Points Program rewards early participants with governance token allocation. Season 1 runs for **16 weeks** with **5% of governance tokens** allocated to point earners.
+Buck Racks rewards early participants with governance token allocation. Season 1 runs for **8 weeks** with rewards distributed based on participation across holding, liquidity provision, lending, and referrals.
 
 {% hint style="success" %}
-**Dual Rewards: Points + BUCK**
+**Dual Rewards: Racks + BUCK**
 
-During the Genesis Period (Weeks 1-8), earn both points AND direct BUCK rewards through our Merkl campaign. This is the highest-reward period in Buck's history.
+During Season 1, earn both Racks (future governance tokens) AND direct BUCK rewards through our Merkl campaign. This is the highest-reward period in Buck's history.
 {% endhint %}
 
-## Season 1 Structure
+## How Racks Work
 
-Season 1 is divided into two periods with different multipliers:
+Racks are points that convert to governance tokens at TGE. The longer you hold and the more you contribute to the protocol, the more Racks you earn.
 
-| Period | Weeks | Points Multiplier | Merkl BUCK Rewards |
-|--------|-------|-------------------|-------------------|
-| **Genesis** | 1-8 | **3x** | ✅ Active ($12,500/week) |
-| **Growth** | 9-16 | **1.5x** | ❌ Ended |
+**No staking required.** Buck streams yield automatically via STRC dividends. Racks multipliers are earned simply by holding longer—no lock contracts, no commitments, just hold.
 
-### Why Two Periods?
+## Earning Structure
 
-**Genesis Period (Weeks 1-8):** Maximum rewards create urgency. Merkl BUCK distributions provide immediate value while points accumulate for TGE. This bootstraps TVL and DEX liquidity.
+### Base Rate
 
-**Growth Period (Weeks 9-16):** Merkl ends, filtering out mercenary capital. Remaining participants are aligned with long-term governance—exactly who should receive tokens.
+**1 Rack per $10 BUCK per day**
 
-## How to Earn Points
+A $10,000 BUCK position earns 1,000 Racks per day at the base rate.
 
-### Base Earning Rates
+### Activity Weights
 
-| Action | Base Rate | Genesis (3x) | Growth (1.5x) |
-|--------|-----------|--------------|---------------|
-| **Hold BUCK** | 1 pt / $1 / day | 3 pts | 1.5 pts |
-| **Curve LP** | 3 pts / $1 / day | 9 pts | 4.5 pts |
-| **Uniswap LP** | 2 pts / $1 / day | 6 pts | 3 pts |
-| **Mint BUCK** | 5 pts / $1 (one-time) | 15 pts | 7.5 pts |
+Racks are distributed across four activities:
 
-### Why LP Earns More
+| Activity | Weight | Description |
+|----------|--------|-------------|
+| **Hold BUCK** | 50% | Simply hold BUCK in your wallet |
+| **Liquidity Provision** | 30% | Provide LP to Curve or Uniswap BUCK pools |
+| **Morpho Lending** | 10% | Supply BUCK to Morpho lending markets |
+| **Referrals** | 10% | Refer new users who mint BUCK |
 
-Liquidity providers take on additional risk (impermanent loss) and provide critical infrastructure for the protocol. Deep DEX liquidity enables:
+### Multipliers
 
-- Morpho curator confidence in liquidations
-- Better price execution for all users
-- Protocol credibility with integrations
+#### Hold Duration Multipliers
 
-Curve receives higher weighting (3x vs 2x) as the primary stablecoin venue.
+The longer you hold continuously, the higher your multiplier:
 
-### Mint Bonus
+| Hold Duration | Multiplier | Daily Racks ($10K) |
+|---------------|------------|-------------------|
+| 0-29 days | 1x | 1,000 |
+| 30-89 days | 5x | 5,000 |
+| 90-179 days | 10x | 10,000 |
+| 180+ days | 20x | 20,000 |
 
-The 5x mint bonus is a **one-time credit** per wallet. It rewards users who mint directly through buck.io rather than buying on DEXs—minting grows protocol TVL while DEX purchases don't.
+**How it works:** Your multiplier increases automatically based on how long you've held continuously. If you sell or transfer, your timer resets to zero.
 
-## Multipliers
+#### Activity Multipliers
 
-### Time-Based Multipliers
+| Activity | Base Multiplier |
+|----------|-----------------|
+| Hold BUCK | 1x |
+| Curve LP | 3x |
+| Uniswap V3 LP | 3x |
+| Morpho Lending | 3x |
 
-| Multiplier | Bonus | Condition |
-|------------|-------|-----------|
-| **Genesis** | 3x | Participate during Weeks 1-8 |
-| **Growth** | 1.5x | Participate during Weeks 9-16 |
-| **Diamond Hands** | 1.25x | Hold continuously for 30+ days |
+{% hint style="warning" %}
+**Multipliers Do NOT Stack**
 
-### Position-Based Adjustments
+You earn either the hold duration multiplier OR the activity multiplier—whichever applies to that position. A Curve LP position earns 3x, not 3x × hold duration.
+{% endhint %}
 
-| Adjustment | Effect | Rationale |
-|------------|--------|-----------|
-| **Whale Cap** | 0.5x above $500K | Ensures broad distribution |
-| **Minimum Balance** | $100 to earn | Sybil resistance |
+## Earning Examples
 
-### Multiplier Stacking
+Based on 1 Rack per $10/day base rate:
 
-Multipliers stack multiplicatively:
+| Scenario | Multiplier | Daily Racks | 8-Week Total |
+|----------|------------|-------------|--------------|
+| $10K BUCK, just started | 1x | 1,000 | 56,000 |
+| $10K BUCK, held 30+ days | 5x | 5,000 | 280,000 |
+| $10K BUCK, held 90+ days | 10x | 10,000 | 560,000 |
+| $10K BUCK, held 180+ days | 20x | 20,000 | 1,120,000 |
+| $10K in Curve LP | 3x | 3,000 | 168,000 |
+| $10K in Morpho | 3x | 3,000 | 168,000 |
 
-```
-Example (Genesis + Curve LP + Diamond Hands):
-Base: 1 pt/$1/day
-× Curve LP: 3x = 3 pts
-× Genesis: 3x = 9 pts  
-× Diamond Hands: 1.25x = 11.25 pts/$1/day
-```
+## Referral Program
 
-## Merkl BUCK Rewards (Weeks 1-8)
+Earn **10% of your referees' Racks** on an ongoing basis.
 
-Alongside points, the Genesis Period includes direct BUCK distributions via Merkl:
+| Component | Details |
+|-----------|---------|
+| **Platform** | Sharemint |
+| **Bonus** | 10% of referee's Racks |
+| **Qualifying Action** | Referee mints $100+ BUCK via buck.io |
+| **Duration** | Ongoing (as long as referee earns) |
 
-| Pool | Weekly BUCK | 8-Week Total | Expected APY* |
-|------|-------------|--------------|---------------|
+Referrals only count for direct mints through buck.io—DEX purchases don't qualify.
+
+## Merkl BUCK Rewards (Running Concurrently)
+
+Alongside Racks, Season 1 includes direct BUCK distributions via Merkl:
+
+| Pool | Weekly BUCK | 8-Week Total | Est. APY* |
+|------|-------------|--------------|-----------|
 | **BUCK Holders** | $6,250 | $50,000 | ~75% |
 | **Curve LP** | $4,167 | $33,333 | ~50% |
 | **Uniswap LP** | $2,083 | $16,667 | ~50% |
@@ -99,103 +111,56 @@ Alongside points, the Genesis Period includes direct BUCK distributions via Merk
 {% hint style="info" %}
 **Two Reward Streams**
 
-During Genesis, you earn BOTH:
-1. **Points** → Convert to governance tokens at TGE
-2. **BUCK** → Immediate value, auto-deposited weekly
+During Season 1, you earn BOTH:
+1. **Racks** → Convert to governance tokens at TGE
+2. **BUCK** → Immediate value via Merkl, claimable weekly
 {% endhint %}
 
-## Converting Points to Governance Tokens
+## Season 1 Parameters
+
+| Parameter | Value |
+|-----------|-------|
+| **Duration** | 8 weeks |
+| **Minimum Participation** | $100 BUCK |
+| **Base Rate** | 1 Rack per $10/day |
+| **Referral Bonus** | 10% of referee's Racks |
+| **Tracking** | Daily snapshots via Absinthe |
+
+## Converting Racks to Governance Tokens
 
 ### Pro-Rata Distribution
 
 Your governance token allocation is calculated as:
 
 ```
-Your Allocation = (Your Points ÷ Total Points Earned) × Season 1 Pool
-
-Where:
-- Season 1 Pool = 5% of total governance token supply
-- Total governance supply = 1,000,000,000 tokens
-- Season 1 Pool = 50,000,000 tokens
+Your Allocation = (Your Racks ÷ Total Racks Earned) × Season 1 Pool
 ```
 
-### Example Calculation
-
-```
-You earned: 10,000,000 points
-Total earned by all users: 1,000,000,000 points
-Season 1 pool: 50,000,000 tokens
-
-Your allocation: (10M ÷ 1B) × 50M = 500,000 governance tokens
-```
+The exact Season 1 pool size (% of total token supply) will be announced closer to TGE.
 
 ### Why Pro-Rata?
 
 Pro-rata distribution ensures:
-- Predictable total dilution (exactly 5% for S1)
+- Predictable total dilution
 - Rewards relative contribution fairly
 - No gaming through last-minute deposits
 
 ## Anti-Gaming Measures
 
-### Time-Weighted Snapshots
+### Daily Snapshots
 
-Points are calculated using random hourly snapshots, not end-of-period balances. This prevents:
+Racks are calculated using daily balance snapshots. This prevents:
 - Last-minute deposits before snapshots
 - Flash loan manipulation
 - Cross-protocol arbitrage
 
-### Continuous Holding Requirement
+### Minimum Balance
 
-The Diamond Hands multiplier requires **continuous** holding. Any break in holding (selling, transferring) resets the 30-day counter.
+$100 minimum BUCK balance required to earn Racks. Filters dust wallets and reduces sybil attacks.
 
-### Whale Cap
+### Continuous Holding
 
-Positions above $500K earn at 0.5x rate. This ensures:
-- Broader distribution across community
-- No single wallet dominates allocation
-- Still rewards large holders, just at diminishing rate
-
-### Sybil Resistance
-
-- Minimum $100 balance to earn points
-- Only official pools count for LP rewards
-- Referral abuse detection
-
-## Season Timeline
-
-```
-SEASON 1: 16 WEEKS
-├── Week 1-8:  Genesis Period
-│   ├── Points: 3x multiplier
-│   ├── Merkl:  $12,500/week BUCK
-│   └── Goal:   Bootstrap TVL + liquidity
-│
-└── Week 9-16: Growth Period
-    ├── Points: 1.5x multiplier
-    ├── Merkl:  Ended
-    └── Goal:   Filter for sticky capital
-
-TGE: Following Season 1 completion
-├── Points convert to governance tokens
-├── Season 1 participants: 5% of supply
-└── Season 2 begins with loyalty bonuses
-```
-
-## Future Seasons
-
-| Season | Allocation | Duration | Notes |
-|--------|------------|----------|-------|
-| **Season 1** | 5% | 16 weeks | Genesis + Growth periods |
-| **Season 2** | 5% | TBD | Post-TGE, S1 participants get 10% boost |
-| **Season 3+** | 5-10% | TBD | Governance-determined |
-| **Total Community** | 25-30% | — | Across all seasons |
-
-### Loyalty Bonuses
-
-- Season 1 participants receive **10% point boost** in Season 2
-- Season 1+2 participants receive **15% boost** in Season 3
-- Rewards long-term alignment over mercenary farming
+Hold duration multipliers require **continuous** holding. Any break (selling, transferring out) resets your timer to zero.
 
 ## How to Participate
 
@@ -204,35 +169,64 @@ TGE: Following Season 1 completion
 ```
 1. Go to buck.io
 2. Connect wallet
-3. Mint BUCK with USDC (earn 5x mint bonus)
+3. Mint BUCK with USDC
    —or—
-   Buy on Curve/Uniswap (no mint bonus)
+   Buy on Curve/Uniswap
 ```
 
 ### Step 2: Choose Your Strategy
 
 | Strategy | Risk | Reward | Best For |
 |----------|------|--------|----------|
-| **Hold BUCK** | Low | Base points + BUCK appreciation | Passive participants |
-| **Curve LP** | Medium | 3x points + trading fees | Active DeFi users |
-| **Uniswap LP** | Medium | 2x points + trading fees | Active DeFi users |
+| **Hold BUCK** | Low | Up to 20x (at 180 days) | Patient holders |
+| **Curve LP** | Medium | 3x + trading fees | Active DeFi users |
+| **Morpho Lending** | Medium | 3x + lending yield | Yield optimizers |
+| **Refer Friends** | None | 10% of referee's Racks | Community builders |
 
 ### Step 3: Track Progress
 
-Points dashboard coming soon at buck.io/points. Until then, your position is tracked on-chain and calculated at season end.
+Racks dashboard at buck.io/racks. Your position is tracked on-chain via daily snapshots.
+
+## Infrastructure
+
+| Component | Platform | Purpose |
+|-----------|----------|---------|
+| **Racks Tracking** | [Absinthe Network](https://absinthe.network) | On-chain activity tracking, leaderboard |
+| **Referrals** | [Sharemint](https://sharemint.com) | Referral links, 10% bonus tracking |
+| **BUCK Rewards** | [Merkl](https://merkl.xyz) | Direct BUCK distributions |
+
+## Season Timeline
+
+```
+SEASON 1: 8 WEEKS
+├── Racks:  Earn based on holding, LP, Morpho, referrals
+├── Merkl:  $12,500/week BUCK rewards
+└── Goal:   Bootstrap TVL + liquidity for Morpho approval
+
+TGE: Following Season 1
+├── Racks convert to governance tokens
+├── Conversion ratio announced pre-TGE
+└── Season 2 begins
+```
 
 ## Competitive Context
 
-Buck's points design draws from proven models:
+Buck Racks draws from proven models:
 
-| Protocol | S1 Allocation | S1 Duration | Model |
-|----------|---------------|-------------|-------|
-| **Ethena** | 5% | 6 weeks | Shards → ENA |
-| **Falcon** | 8.3% | Ongoing | Miles → FF |
-| **Maple** | ~24% | Quarterly | Drips → SYRUP |
-| **Buck** | 5% | 16 weeks | Points → Governance |
+| Protocol | Program | Duration | Model |
+|----------|---------|----------|-------|
+| **Ethena** | Shards | ~6 weeks | Shards → ENA |
+| **Falcon** | Miles | Ongoing | Miles → FF |
+| **Buck** | Racks | 8 weeks | Racks → Governance |
 
-We chose 5% (matching Ethena) with longer duration to allow time for Morpho integration and organic growth without Ethena's pre-launch hype.
+We designed Racks with strategic ambiguity on token details (following Ethena's playbook) while providing clear earning mechanics.
+
+## Contract Addresses
+
+| Contract | Address |
+|----------|---------|
+| **BUCK Token** | `0xdb13997f4D83EF343845d0bAEb27d1173dF8c224` |
+| **Liquidity Window (Mint)** | `0x6E87adb23ac0e150Ca9F76C33Df2AdCae508548E` |
 
 ---
 

@@ -26,7 +26,7 @@ Currently Buck Protocol has one token:
 |-------|------|---------|
 | **BUCK** | Savings coin | Hold to earn ~10% annually |
 
-A governance token is launching after Season 1. Earn points through the [Points Program](../rewards/points-program.md) to maximize your allocation.
+A governance token is launching after Season 1. Earn Racks through the [Racks Program](../rewards/points-program.md) to maximize your allocation.
 
 ## Value & Yield
 
@@ -65,7 +65,7 @@ Yes. BUCK is redeemable for USDC at the current exchange rate through the Liquid
 
 ### Are there fees?
 
-* **Normal times:** 10% mint/ 30% redeem fees
+* **Normal times:** 10% mint / 30% redeem fees
 
 ## Safety & Risk
 
@@ -87,44 +87,48 @@ Strategy has $2.25B in cash reserves covering 77.4 years of dividends. If divide
 
 The protocol maintains 100%+ overcollateralization. A significant STRC decline would reduce the collateralization ratio, but BUCK would remain fully redeemable. Circuit breakers pause operations during extreme volatility.
 
-## Points Program & Governance Token
+## Racks Program & Governance Token
 
-### How does the Points Program work?
+### How does the Racks Program work?
 
-Season 1 runs for **16 weeks** with two periods:
+Season 1 runs for **8 weeks**. Earn Racks based on your activity:
 
-| Period | Weeks | Points Multiplier | BUCK Rewards |
-|--------|-------|-------------------|--------------|
-| Genesis | 1-8 | 3x | ✅ Via Merkl |
-| Growth | 9-16 | 1.5x | ❌ Ended |
+| Activity | Weight | Multiplier |
+|----------|--------|------------|
+| Hold BUCK | 50% | 1x-20x (based on hold duration) |
+| Curve/Uniswap LP | 30% | 3x |
+| Morpho Lending | 10% | 3x |
+| Referrals | 10% | 10% of referee's Racks |
 
-Earn points by:
-* Holding BUCK (1 pt/$1/day base)
-* Providing Curve LP (3x multiplier)
-* Providing Uniswap LP (2x multiplier)
-* Minting BUCK (5x one-time bonus)
+**Hold Duration Multipliers:**
+- 0-29 days: 1x
+- 30-89 days: 5x
+- 90-179 days: 10x
+- 180+ days: 20x
+
+Base rate: 1 Rack per $10 BUCK per day. Minimum $100 to participate.
 
 ### What percentage of tokens go to Season 1?
 
-**5% of governance token supply** (50 million tokens) is allocated to Season 1 point earners. This matches Ethena's proven model.
+The exact allocation will be announced closer to TGE. We're following Ethena's playbook of strategic ambiguity on token details while providing clear earning mechanics.
 
-### How do points convert to tokens?
+### How do Racks convert to tokens?
 
 Pro-rata distribution:
 
 ```
-Your Tokens = (Your Points ÷ Total Points) × 50,000,000
+Your Tokens = (Your Racks ÷ Total Racks) × Season 1 Pool
 ```
 
 ### When does the governance token launch?
 
-TGE (Token Generation Event) follows Season 1 completion. Follow [@BuckToken](https://x.com/BuckToken) for announcements.
+TGE (Token Generation Event) follows Season 1 completion. Token name, supply, and conversion ratio will be announced 2-4 weeks before TGE. Follow [@BuckToken](https://x.com/BuckToken) for announcements.
 
 ### What will the governance token do?
 
 | Benefit | Details |
 |---------|---------|
-| **Revenue share** | 25% of protocol fees fund buybacks distributed to holders |
+| **Revenue share** | Protocol fees fund buybacks distributed to holders |
 | **Governance rights** | Vote on protocol parameters |
 
 ### Do I need to stake the governance token?
@@ -133,21 +137,17 @@ TGE (Token Generation Event) follows Season 1 completion. Follow [@BuckToken](ht
 - Receive your share of buyback distributions
 - Vote on proposals
 
-This simpler model follows Maple Finance's approach after they removed staking in late 2025.
+### Do large wallets have vesting?
 
-### What's the total community allocation?
+Yes. Top 2,000 wallets by Racks receive:
+- 50% at TGE
+- 50% vested over 6 months (requires continued participation)
 
-**25-30% of total supply** across all seasons:
-
-| Season | Allocation |
-|--------|------------|
-| Season 1 | 5% |
-| Season 2 | 5% |
-| Season 3+ | 15-20% (governance-determined) |
+Wallets outside top 2,000 receive full allocation at TGE.
 
 ### Do early participants get benefits in future seasons?
 
-Yes. Season 1 participants receive a **10% point boost** in Season 2. Season 1+2 participants get **15% boost** in Season 3.
+Yes. Season 1 participants receive a **10% Racks boost** in Season 2.
 
 ## Technical
 

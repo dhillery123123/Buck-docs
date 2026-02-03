@@ -97,16 +97,17 @@ STRC is Strategy's (formerly MicroStrategy) preferred stock:
 
 Buck Protocol will launch a governance token with:
 
-* **25% revenue share** — Protocol fees fund buybacks distributed to all holders
+* **Revenue share** — Protocol fees fund buybacks distributed to all holders
 * **Governance rights** — Vote on protocol parameters
 
 {% hint style="success" %}
-**Season 1 Points Program — 16 Weeks**
+**Season 1 Racks Program — 8 Weeks**
 
-Earn points now through our [Points Program](../rewards/points-program.md) to maximize your governance token allocation at TGE. Season 1 participants receive **5% of total supply** plus loyalty bonuses for future seasons.
+Earn Racks now through our [Racks Program](../rewards/points-program.md) to maximize your governance token allocation at TGE.
 
-**Genesis Period (Weeks 1-8):** Earn 3x points + BUCK rewards via Merkl
-**Growth Period (Weeks 9-16):** Earn 1.5x points
+**Dual Rewards:** Earn both Racks (future governance tokens) AND $100K BUCK via Merkl
+**Hold Multipliers:** 1x → 5x → 10x → 20x based on continuous hold duration
+**LP/Morpho:** 3x multiplier for liquidity providers and lenders
 {% endhint %}
 
 ## DeFi Composability
@@ -160,14 +161,14 @@ For DAOs and protocols:
 3. Mint BUCK with USDC
 4. Watch your value grow
 
-### To Earn Points
+### To Earn Racks
 
 1. Mint or hold BUCK
-2. Optionally provide LP on Curve/Uniswap
-3. Points accrue automatically
+2. Optionally provide LP on Curve/Uniswap or lend on Morpho
+3. Racks accrue automatically based on daily snapshots
 4. Convert to governance tokens at TGE
 
-[Learn more about the Points Program →](../rewards/points-program.md)
+[Learn more about the Racks Program →](../rewards/points-program.md)
 
 ## Quick Links
 

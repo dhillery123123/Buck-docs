@@ -84,11 +84,11 @@ Buck competes in the yield-bearing stablecoin market, but with fundamentally dif
 
 Buck offers the highest direct community allocation with guaranteed revenue sharing from day one.
 
-### Points Program Comparison
+### Racks Program Comparison
 
 | Protocol | S1 Allocation | S1 Duration | Mechanism |
 |----------|---------------|-------------|-----------|
-| **Buck** | 5% | 16 weeks | Points → Governance |
+| **Buck** | TBD | 8 weeks | Racks → Governance |
 | Ethena | 5% | 6 weeks | Shards → ENA |
 | Falcon | 8.3% | Ongoing | Miles → FF |
 | Hyperliquid | 31% | 6 months | Points → HYPE |
@@ -152,12 +152,12 @@ Buck offers the highest direct community allocation with guaranteed revenue shar
 
 ## Governance Token
 
-Buck's governance token is launching after Season 1. Earn points now through our [Points Program](../rewards/points-program.md) to maximize your allocation:
+Buck's governance token is launching after Season 1. Earn Racks now through our [Racks Program](../rewards/points-program.md) to maximize your allocation:
 
-* **Season 1:** 16 weeks, 5% of supply
-* **Genesis Period (Wk 1-8):** 3x points + BUCK rewards
-* **Growth Period (Wk 9-16):** 1.5x points
-* **Future Seasons:** Additional 20-25% to community
+* **Season 1:** 8 weeks
+* **Dual Rewards:** Racks + $100K BUCK via Merkl
+* **Hold Multipliers:** Up to 20x for 180+ day holders
+* **LP/Morpho:** 3x multiplier for active DeFi participation
 
 ---
 
