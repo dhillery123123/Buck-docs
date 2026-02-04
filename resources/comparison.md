@@ -12,7 +12,7 @@ Buck competes in the yield-bearing stablecoin market, but with fundamentally dif
 
 | Protocol | Token | Current Yield | Yield Source | Can Go Negative? |
 |----------|-------|---------------|--------------|------------------|
-| **Buck** | BUCK | ~10% | STRC dividends | ❌ No |
+| **Buck** | BUCK | ~10% | Hard asset dividends | ❌ No |
 | Ethena | sUSDe | ~5-15% | Funding rates | ✅ Yes |
 | Ondo | USDY | ~4.65% | T-Bills | ❌ No |
 | Mountain | USDM | ~5% | T-Bills | ❌ No |
@@ -25,7 +25,7 @@ Buck competes in the yield-bearing stablecoin market, but with fundamentally dif
 | **Yield floor** | 0% (dividends can't go negative) | Can go negative in bear markets | 0% |
 | **Yield ceiling** | ~10% (fixed dividend rate) | Unlimited in bull markets | Treasury rate |
 | **Predictability** | High (quarterly dividends) | Low (daily funding varies) | High |
-| **Bitcoin exposure** | ✅ Via STRC backing | ✅ Via BTC collateral | ❌ None |
+| **Bitcoin exposure** | ✅ Via hard asset treasury | ✅ Via BTC collateral | ❌ None |
 
 ## Feature Comparison
 
@@ -45,8 +45,8 @@ Buck competes in the yield-bearing stablecoin market, but with fundamentally dif
 |-------------|------|--------|------|
 | **Smart Contract** | Audited (Cyfrin, Spearbit, SSC) | Audited | Audited |
 | **Custodial** | On-chain + Fireblocks | Off-exchange settlement | Centralized |
-| **Oracle** | RedStone (STRC) | Pyth (multiple) | N/A |
-| **Yield Sustainability** | 77.4 years coverage | Market dependent | Treasury dependent |
+| **Oracle** | RedStone (multiple) | Pyth (multiple) | N/A |
+| **Yield Sustainability** | Contractual dividends | Market dependent | Treasury dependent |
 | **Regulatory** | MiCA compliant | Offshore | US regulated |
 
 ## Backing Comparison
@@ -55,7 +55,7 @@ Buck competes in the yield-bearing stablecoin market, but with fundamentally dif
 
 | Protocol | Primary Backing | Secondary | Overcollateralized? |
 |----------|-----------------|-----------|---------------------|
-| **Buck** | STRC (BTC-backed equity) | USDC reserve | ✅ Yes (100%+) |
+| **Buck** | Hard assets (BTC, gold, T-bills, yield instruments) | USDC reserve | ✅ Yes (100%+) |
 | Ethena | ETH/BTC + short futures | Insurance fund | ✅ Yes |
 | Ondo | US Treasuries | Cash | ✅ Yes |
 | Mountain | US Treasuries | Cash | ✅ Yes |
@@ -112,7 +112,7 @@ Buck offers the highest direct community allocation with guaranteed revenue shar
 |-----------|-------------|
 | **Higher Yield** | ~10% vs 4-5% from T-bill backed alternatives |
 | **No Negative Yield** | Unlike funding-rate strategies, dividends can't go negative |
-| **Bitcoin Exposure** | Indirect BTC exposure via STRC backing |
+| **Bitcoin Exposure** | Direct BTC in treasury + yield instrument backing |
 | **DeFi Native** | No KYC, full composability |
 | **Revenue Sharing** | 25% of fees to token holders from day one |
 | **Community First** | 25-30% allocation to community rewards |

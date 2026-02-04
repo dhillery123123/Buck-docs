@@ -18,7 +18,7 @@ Buck's risk profile differs from traditional stablecoins and other yield-bearing
 
 | Category | Page | Key Concerns |
 |----------|------|--------------|
-| **STRC & Collateral** | [Read →](risks-strc.md) | Dividend risk, STRC price volatility, collateralization |
+| **Treasury & Collateral** | [Read →](risks-collateral.md) | Dividend risk, asset price volatility, collateralization |
 | **Oracle & Market Hours** | [Read →](risks-oracle.md) | Price gaps, oracle manipulation, liquidation protection |
 | **Smart Contract & Operational** | [Read →](risks-smart-contract.md) | Code security, upgradeability, custody, access control |
 
@@ -28,17 +28,17 @@ Buck's risk profile differs from traditional stablecoins and other yield-bearing
 
 | Risk | Likelihood | Potential Impact | Primary Mitigation |
 |------|------------|------------------|-------------------|
-| STRC price crash | Low-Medium | Medium | 100%+ overcollateralization |
-| Dividend suspension | Very Low | Medium | 77.4 years cash coverage |
+| Treasury asset decline | Low-Medium | Medium | 100%+ overcollateralization, diversification |
+| Dividend suspension | Very Low | Medium | Contractual obligations, cash coverage |
 | Smart contract exploit | Low | Critical | 3 independent audits |
 | Oracle manipulation | Low | Medium | NASDAQ-based pricing + TWAP |
-| Strategy bankruptcy | Extremely Low | High | Preferred equity priority |
+| Counterparty default | Extremely Low | High | Diversified treasury, preferred equity priority |
 
 ### What BUCK Is Not
 
 - **Not a stablecoin:** BUCK price changes (upward) as yield accrues
 - **Not risk-free:** Smart contract, counterparty, and market risks exist
-- **Not guaranteed:** Yield depends on STRC dividends continuing
+- **Not guaranteed:** Yield depends on hard asset dividends continuing
 - **Not insured by FDIC:** This is DeFi, not a bank account
 
 ## Audits
@@ -70,10 +70,10 @@ We maintain an active bug bounty program:
 
 For comprehensive risk analysis, see:
 
-- [STRC & Collateral Risk →](risks-strc.md)
+- [Treasury & Collateral Risk →](risks-collateral.md)
 - [Oracle & Market Hours Risk →](risks-oracle.md)
 - [Smart Contract & Operational Risk →](risks-smart-contract.md)
 
 ---
 
-*Next: [STRC & Collateral Risk →](risks-strc.md)*
+*Next: [Treasury & Collateral Risk →](risks-collateral.md)*

@@ -8,11 +8,11 @@ description: Frequently asked questions
 
 ### What is BUCK?
 
-BUCK is a **value-accruing savings coin**. Unlike stablecoins that stay at $1.00, BUCK's price steadily increases (\~10% annually) as yield from STRC dividends accrues to the token.
+BUCK is a **value-accruing savings coin**. Unlike stablecoins that stay at $1.00, BUCK's price steadily increases (\~10% annually) as yield from hard asset backing accrues to the token.
 
 ### How does BUCK increase in value?
 
-Buck Protocol holds STRC (Strategy's preferred stock), which pays 10% annual dividends. These dividends flow into the treasury, increasing BUCK's exchange rate automatically.
+Buck Protocol holds a diversified treasury of hard assets — Bitcoin, gold, U.S. treasuries, and institutional yield instruments — that generate \~10% annual yield. This yield flows into the treasury, increasing BUCK's exchange rate automatically.
 
 ### Do I need to stake or claim rewards?
 
@@ -36,11 +36,11 @@ BUCK started at $1.00 and increases daily. Check [buck.io](https://buck.io) for 
 
 ### Is the 10% yield guaranteed?
 
-The yield comes from STRC dividends, which are contractually obligated but not guaranteed. Strategy has 77.4 years of dividend coverage ($2.25B reserves), making it highly reliable.
+The yield comes from contractual dividends on hard asset holdings, which are legally obligated but not guaranteed. The primary yield instruments have extensive cash coverage, making them highly reliable.
 
 ### Can BUCK's yield go negative?
 
-**No.** Unlike funding-rate-based yields (Ethena), STRC dividends are always positive. The yield rate may vary slightly based on STRC prices, but value always accrues.
+**No.** Unlike funding-rate-based yields (Ethena), hard asset dividends are always positive. The yield rate may vary slightly based on treasury asset prices, but value always accrues.
 
 ### How is this different from rebasing tokens?
 
@@ -75,17 +75,17 @@ Yes. Multiple audits completed by Cyfrin, Spearbit, and SSC. [View audits →](.
 
 ### What backs BUCK?
 
-* **STRC Holdings** — Strategy preferred equity
-* **Liquidity Reserve** — USDC for redemptions
+* **Hard Asset Treasury** — Bitcoin, gold, U.S. treasuries, and institutional yield instruments
+* **Liquidity Reserve** — USDC for instant redemptions
 * **100%+ Collateralization** — Always overcollateralized
 
-### What if Strategy stops paying dividends?
+### What if dividends stop?
 
-Strategy has $2.25B in cash reserves covering 77.4 years of dividends. If dividends were reduced, BUCK's growth rate would decrease proportionally, but your BUCK would still be backed by STRC and reserve assets.
+Buck's treasury is diversified across multiple hard asset classes, reducing single-issuer risk. If dividends on any instrument were reduced, BUCK's growth rate would decrease proportionally, but your BUCK would still be backed by the remaining treasury assets and reserves.
 
-### What happens if STRC price crashes?
+### What happens if treasury assets decline?
 
-The protocol maintains 100%+ overcollateralization. A significant STRC decline would reduce the collateralization ratio, but BUCK would remain fully redeemable. Circuit breakers pause operations during extreme volatility.
+The protocol maintains 100%+ overcollateralization. A significant decline in any single asset is partially offset by diversification across BTC, gold, T-bills, and yield instruments. Circuit breakers pause operations during extreme volatility.
 
 ## Racks Program & Governance Token
 
@@ -174,7 +174,7 @@ Yes. BUCK works with:
 
 ### How does the oracle work?
 
-The Oracle Adapter uses RedStone for STRC price feeds with:
+The Oracle Adapter uses RedStone for treasury asset price feeds with:
 
 * 30-minute TWAP smoothing
 * Market hours detection
@@ -188,7 +188,7 @@ The Oracle Adapter uses RedStone for STRC price feeds with:
 |---------|------|------|
 | Yield | 0% | \~10% annually |
 | Price | Fixed $1.00 | Grows over time |
-| Backing | Cash/treasuries | STRC (BTC-backed) |
+| Backing | Cash/treasuries | Hard assets (BTC, gold, T-bills) |
 
 ### How is BUCK different from sUSDe (Ethena)?
 

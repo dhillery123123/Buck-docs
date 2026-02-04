@@ -6,7 +6,7 @@ description: Understanding Buck Protocol
 
 ## What is Buck?
 
-Buck is a **value-accruing savings coin** protocol that delivers \~10% annualized returns through external yield from STRC (Strategy's Bitcoin-collateralized preferred stock).
+Buck is a **value-accruing savings coin** protocol that delivers \~10% annualized returns through external yield from a diversified treasury of hard assets — Bitcoin, gold, U.S. treasuries, and institutional yield instruments.
 
 {% hint style="info" %}
 **Not a Stablecoin**
@@ -25,11 +25,12 @@ Unlike USDC or USDT that maintain a fixed $1.00 price, BUCK's price steadily inc
 │                                                                 │
 │  1. You deposit USDC, receive BUCK at current exchange rate     │
 │                         ↓                                       │
-│  2. Protocol uses USDC to acquire STRC                          │
+│  2. Protocol deploys USDC into hard asset treasury              │
+│     (BTC, gold, T-bills, institutional yield instruments)       │
 │                         ↓                                       │
-│  3. STRC pays 10% annual dividends                              │
+│  3. Hard assets generate ~10% annual yield via dividends        │
 │                         ↓                                       │
-│  4. Dividends increase treasury value                           │
+│  4. Yield increases treasury value                              │
 │                         ↓                                       │
 │  5. BUCK exchange rate rises proportionally                     │
 │                         ↓                                       │
@@ -52,30 +53,30 @@ Unlike USDC or USDT that maintain a fixed $1.00 price, BUCK's price steadily inc
 
 Buck's yield comes from a fundamentally different source than other yield-bearing tokens:
 
-| Protocol            | Yield Source   | Can Go Negative? | Sustainability      |
-| ------------------- | -------------- | ---------------- | ------------------- |
-| **Buck**            | STRC dividends | ❌ No             | 77.4 years coverage |
-| Ethena (sUSDe)      | Funding rates  | ✅ Yes            | Market dependent    |
-| Ondo (USDY)         | T-Bills        | ❌ No             | \~4.65% (lower)     |
-| Traditional stables | None           | N/A              | 0%                  |
+| Protocol            | Yield Source        | Can Go Negative? | Sustainability      |
+| ------------------- | ------------------- | ---------------- | ------------------- |
+| **Buck**            | Hard asset dividends | ❌ No             | Contractual backing |
+| Ethena (sUSDe)      | Funding rates       | ✅ Yes            | Market dependent    |
+| Ondo (USDY)         | T-Bills             | ❌ No             | \~4.65% (lower)     |
+| Traditional stables | None                | N/A              | 0%                  |
 
-### What is STRC?
+### What Backs Buck?
 
-STRC is Strategy's (formerly MicroStrategy) preferred stock:
+Buck's treasury is diversified across the hardest assets in the world:
 
-* **10% annual dividend** — Contractually obligated
-* **BTC-backed** — Strategy holds $60B+ in Bitcoin
-* **77.4 years coverage** — $2.25B in cash reserves
-* **US-regulated** — Traded on NASDAQ
+* **Institutional yield instruments** — Contractual dividends generating \~10% annually
+* **Bitcoin** — The hardest digital money, held as reserve backing
+* **Gold** — Traditional store of value and safe haven asset
+* **U.S. Treasuries** — Risk-free government-backed securities
 
 ## Protocol Architecture
 
 ### Two Asset Pools
 
-| Pool                  | Purpose             | Composition               |
-| --------------------- | ------------------- | ------------------------- |
-| **STRC Holdings**     | Yield generation    | Strategy preferred equity |
-| **Liquidity Reserve** | Instant redemptions | USDC                      |
+| Pool                    | Purpose             | Composition                                    |
+| ----------------------- | ------------------- | ---------------------------------------------- |
+| **Hard Asset Treasury** | Yield generation    | BTC, gold, T-bills, institutional yield instruments |
+| **Liquidity Reserve**   | Instant redemptions | USDC                                           |
 
 ### Key Guarantees
 

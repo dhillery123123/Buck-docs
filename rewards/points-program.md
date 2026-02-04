@@ -18,7 +18,7 @@ During Season 1, earn both Racks (future protocol allocation) AND direct BUCK re
 
 Racks are points that convert to protocol allocation at TGE. The longer you hold and the more you contribute to the protocol, the more Racks you earn.
 
-**No staking required.** Buck streams yield automatically via STRC dividends. Racks multipliers are earned simply by holding longer—no lock contracts, no commitments, just hold.
+**No staking required.** Buck streams yield automatically via hard asset backing. Racks multipliers are earned simply by holding longer—no lock contracts, no commitments, just hold.
 
 ## Earning Structure
 

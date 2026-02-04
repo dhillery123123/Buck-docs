@@ -4,9 +4,9 @@ description: The value-accruing savings coin
 
 # BUCK
 
-## The Bitcoin Dollar
+## Hard Money
 
-BUCK is a **value-accruing savings coin** that delivers \~10% annualized growth. Unlike stablecoins that maintain a fixed $1.00 price, BUCK's price steadily increases as STRC dividend yield accrues directly to the token.
+BUCK is a **value-accruing savings coin** that delivers \~10% annualized growth. Unlike stablecoins that maintain a fixed $1.00 price, BUCK's price steadily increases as hard asset yield accrues directly to the token.
 
 {% hint style="success" %}
 **Simple as Holding**
@@ -38,7 +38,7 @@ Just hold BUCK in your wallet. No staking, no claiming, no complexity. Your BUCK
 │                    BUCK VALUE ACCRUAL                           │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                 │
-│  1. Strategy pays STRC dividends quarterly                      │
+│  1. Hard asset treasury generates yield via dividends            │
 │                         ↓                                       │
 │  2. Buck Treasury receives dividend payments                    │
 │                         ↓                                       │
@@ -81,7 +81,7 @@ Deposit 1,050 USDC → Receive 1,000 BUCK
 The BUCK exchange rate is calculated as:
 
 ```
-Exchange Rate = (STRC Price / 100) + Accrued Yield
+Exchange Rate = (Treasury NAV / BUCK Supply) + Accrued Yield
 ```
 
 This rate increases continuously as dividends accrue.
@@ -112,15 +112,15 @@ Burn 1,000 BUCK → Receive 1,100 USDC
 
 BUCK is backed by two asset pools:
 
-| Pool                  | Purpose             | Composition               |
-| --------------------- | ------------------- | ------------------------- |
-| **STRC Holdings**     | Yield generation    | Strategy preferred equity |
-| **Liquidity Reserve** | Instant redemptions | USDC                      |
+| Pool                    | Purpose             | Composition                                    |
+| ----------------------- | ------------------- | ---------------------------------------------- |
+| **Hard Asset Treasury** | Yield generation    | BTC, gold, T-bills, institutional yield instruments |
+| **Liquidity Reserve**   | Instant redemptions | USDC                                           |
 
 ### Collateralization: 100%
 
 ```
-Collateralization Ratio = (STRC Value + Reserve Value) / (BUCK Supply × BUCK Price)
+Collateralization Ratio = (Treasury Value + Reserve Value) / (BUCK Supply × BUCK Price)
 ```
 
 The protocol maintains 100% collateralization at all times.
@@ -174,15 +174,15 @@ function getExchangeRate() public view returns (uint256) {
 
 ### Price Feed Components
 
-| Component       | Source          | Purpose                   |
-| --------------- | --------------- | ------------------------- |
-| STRC Price      | RedStone Oracle | Value STRC holdings       |
-| Reserve Balance | On-chain        | Value stablecoin reserves |
-| BUCK Supply     | On-chain        | Calculate exchange rate   |
+| Component        | Source          | Purpose                    |
+| ---------------- | --------------- | -------------------------- |
+| Treasury NAV     | Multiple oracles | Value hard asset holdings  |
+| Reserve Balance  | On-chain        | Value stablecoin reserves  |
+| BUCK Supply      | On-chain        | Calculate exchange rate    |
 
 ### Market Hours Handling
 
-STRC trades during US market hours only. The oracle:
+Some treasury assets trade during US market hours only. The oracle:
 
 * Uses live pricing during market hours
 * Uses most recent market close price during off hours
