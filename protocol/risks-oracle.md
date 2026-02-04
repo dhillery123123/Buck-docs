@@ -6,7 +6,7 @@ description: Understanding oracle infrastructure and market hours risks
 
 ## Overview
 
-STRC trades on NASDAQ during US market hours only. This creates unique challenges for 24/7 DeFi protocols that Buck's oracle infrastructure addresses.
+Key treasury assets trade on NASDAQ during US market hours only. This creates unique challenges for 24/7 DeFi protocols that Buck's oracle infrastructure addresses.
 
 ## Market Hours Gap
 

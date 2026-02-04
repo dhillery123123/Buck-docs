@@ -35,7 +35,7 @@ You need USDC on Ethereum mainnet. Bridge from other chains or buy on an exchang
 
 ### Step 4: You're Done!
 
-BUCK in your wallet automatically earns \~10% APY. No staking, no claiming, no gas costs. The price increases daily as dividends accrue.
+BUCK in your wallet automatically earns \~10% APY. No staking, no claiming, no gas costs. The price increases daily as hard asset yield accrues.
 
 ### What You're Earning
 

@@ -1,14 +1,14 @@
 ---
-description: The Bitcoin Dollar — A value-accruing savings coin
+description: Hard Money — A value-accruing savings coin
 ---
 
 # Welcome
 
-Buck is a **value-accruing savings coin** backed by STRC (Strategy's Bitcoin-collateralized preferred stock), delivering **10% annualized value growth** through external Return-of-Capital dividends rather than token emissions or trading strategies.
+Buck is a **value-accruing savings coin** backed by a diversified treasury of hard assets — Bitcoin, gold, U.S. treasuries, and institutional yield instruments — delivering **\~10% annualized value growth** through external dividends rather than token emissions or trading strategies.
 
 ## How BUCK Works
 
-Unlike traditional stablecoins that maintain a fixed $1.00 price, BUCK's price **steadily increases over time** as yield from STRC ROC dividends accrues directly to the token's value.
+Unlike traditional stablecoins that maintain a fixed $1.00 price, BUCK's price **steadily increases over time** as yield from hard asset backing accrues directly to the token's value.
 
 | Day | BUCK Price | Your 1,000 BUCK Value |
 | --- | ---------- | --------------------- |
@@ -23,21 +23,21 @@ Unlike traditional stablecoins that maintain a fixed $1.00 price, BUCK's price *
 
 | Token    | Purpose      | Value Driver                                         |
 | -------- | ------------ | ---------------------------------------------------- |
-| **BUCK** | Savings coin | Price appreciates \~10% annually from STRC dividends |
+| **BUCK** | Savings coin | Price appreciates \~10% annually from hard asset yield |
 
 ## Why Buck?
 
 {% hint style="info" %}
 **External Yield, Not Emissions**
 
-Buck's yield comes from real ROC dividends paid by STRC—Strategy's preferred equity backed by their $65B+ Bitcoin treasury. This isn't funding rate arbitrage or token inflation. It's real yield from a real asset.
+Buck's yield comes from real dividends paid by institutional hard assets — not funding rate arbitrage or token inflation. It's real yield from real assets, backed by the hardest money in the world.
 {% endhint %}
 
 ### Key Differentiators
 
-* **10% Annualized Growth** — BUCK price increases steadily, no action required
-* **External Yield Source** — STRC dividends with 77.4 years of coverage
-* **DeFi Native** — Full composability
+* **\~10% Annualized Growth** — BUCK price increases steadily, no action required
+* **Hard Asset Backing** — Bitcoin, gold, U.S. treasuries, and institutional yield instruments
+* **DeFi Native** — Full composability, no KYC required
 * **Zero Complexity** — No staking, no claiming, no rebasing
 
 ## Quick Links

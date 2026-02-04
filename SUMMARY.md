@@ -22,7 +22,7 @@
 * [Revenue Model](protocol/revenue-model.md)
 * [Reserve Attestations](protocol/reserve-attestations.md)
 * [Risk Framework](protocol/risks.md)
-  * [STRC & Collateral Risk](protocol/risks-strc.md)
+  * [Treasury & Collateral Risk](protocol/risks-collateral.md)
   * [Oracle & Market Hours Risk](protocol/risks-oracle.md)
   * [Smart Contract Risk](protocol/risks-smart-contract.md)
 

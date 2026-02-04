@@ -6,7 +6,7 @@ description: Protocol economics and value distribution
 
 ## Overview
 
-Buck Protocol generates revenue through fees on minting, redemption, and transactions. This revenue is distributed across three purposes: protocol token buyback & burn, STRC accumulation, and protocol insurance.
+Buck Protocol generates revenue through fees on minting, redemption, and transactions. This revenue is distributed across three purposes: protocol token buyback & burn, hard asset treasury growth, and protocol insurance.
 
 ## Revenue Allocation
 
@@ -26,7 +26,7 @@ Buck Protocol generates revenue through fees on minting, redemption, and transac
    │     25%     │     │     50%     │     │     25%     │
    │             │     │             │     │             │
    │   Protocol  │     │  Treasury   │     │  Insurance  │
-   │    Token    │     │   (STRC     │     │    Fund     │
+   │    Token    │     │ (Hard Asset │     │    Fund     │
    │  Buyback &  │     │ Acquisition)│     │             │
    │    Burn     │     │             │     │             │
    └─────────────┘     └─────────────┘     └─────────────┘
@@ -65,14 +65,14 @@ Unlike protocols that promise future "fee switches," we're building token burns 
 | Ethena (ENA) | TBD | Fee switch pending |
 | Ondo (ONDO) | 0% | None |
 
-## 50% → Treasury (STRC Acquisition)
+## 50% → Treasury (Hard Asset Acquisition)
 
 ### Purpose
 
-Half of protocol revenue funds **STRC accumulation**:
+Half of protocol revenue funds **hard asset accumulation**:
 
-* **More Yield** — More STRC = more dividends = faster BUCK growth
-* **Liquidity Moat** — Large position makes replication expensive
+* **More Yield** — More hard assets = more dividends = faster BUCK growth
+* **Liquidity Moat** — Large treasury makes replication expensive
 * **Stronger Backing** — Higher collateralization protects holders
 
 ### Flywheel Effect
@@ -81,10 +81,10 @@ Half of protocol revenue funds **STRC accumulation**:
 Protocol Revenue
       │
       ▼
-50% → Treasury → Buys More STRC
+50% → Treasury → Acquires More Hard Assets
                       │
                       ▼
-               More STRC Holdings
+               Larger Treasury Holdings
                       │
                       ▼
                Higher Dividend Income
@@ -143,13 +143,13 @@ The Insurance Fund provides protocol protection:
 | $500M | $10M | $2.5M | $5M | $2.5M |
 | $1B | $20M | $5M | $10M | $5M |
 
-*Revenue = 1% yield spread (STRC 11% - 10% pass-through) + 1% annual transaction fees*
+*Revenue = 1% yield spread (treasury yield - 10% pass-through) + 1% annual transaction fees*
 
 ## Stakeholder Alignment
 
 ### For BUCK Holders
 
-* **50% to Treasury** — More STRC = faster value growth
+* **50% to Treasury** — More hard assets = faster value growth
 * **25% to Insurance** — Protection for redemptions
 * **Net Effect** — Sustainable, protected growth
 

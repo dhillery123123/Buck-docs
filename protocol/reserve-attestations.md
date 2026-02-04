@@ -14,10 +14,10 @@ Buck's reserves are independently verified by The Network Firm through monthly a
 
 | Item | Description |
 |------|-------------|
-| **STRC Holdings** | Quantity and value of STRC in treasury |
+| **Hard Asset Holdings** | Quantity and value of treasury assets (STRC, BTC, gold, T-bills) |
 | **USDC Reserve** | Stablecoin balance in Liquidity Reserve |
 | **Total BUCK Supply** | Outstanding BUCK tokens |
-| **Collateralization Ratio** | (STRC + Reserve) / (BUCK Supply × Price) |
+| **Collateralization Ratio** | (Treasury + Reserve) / (BUCK Supply × Price) |
 | **Exchange Rate Accuracy** | Calculated vs. reported rate |
 
 ### Attestation Process
@@ -25,7 +25,7 @@ Buck's reserves are independently verified by The Network Firm through monthly a
 ```
 1. The Network Firm receives read access to treasury wallets
          ↓
-2. Independent verification of STRC holdings via custody provider
+2. Independent verification of hard asset holdings via custody provider
          ↓
 3. On-chain verification of BUCK supply and reserve balances
          ↓
@@ -65,7 +65,7 @@ Each attestation includes:
 |-------|-------------|
 | **Date** | Attestation date |
 | **Period** | Period covered |
-| **STRC Holdings** | Quantity and USD value |
+| **Hard Asset Holdings** | Quantity and USD value by asset type |
 | **USDC Reserve** | Balance |
 | **BUCK Supply** | Total outstanding |
 | **Collateralization Ratio** | Percentage |
@@ -121,7 +121,7 @@ Monitor Buck's backing in real-time:
 
 | Wallet | Purpose | Etherscan |
 |--------|---------|-----------|
-| **Treasury** | STRC holdings | `0x5d105791469064cA0764cfaCfc577c286351CFAD` |
+| **Treasury** | Hard asset holdings | `0x5d105791469064cA0764cfaCfc577c286351CFAD` |
 | **Liquidity Reserve** | USDC buffer | `0x1A426E3A87368a4851f7443Ff656A054Af872f66` |
 | **BUCK Token** | Supply tracking | `0xdb13997f4D83EF343845d0bAEb27d1173dF8c224` |
 
@@ -141,7 +141,7 @@ Both are important:
 
 ## Historical Attestations
 
-| Date | Collat. Ratio | STRC Holdings | BUCK Supply | Report |
+| Date | Collat. Ratio | Treasury Holdings | BUCK Supply | Report |
 |------|---------------|---------------|-------------|--------|
 | *Coming Soon* | — | — | — | — |
 
