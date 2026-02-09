@@ -36,7 +36,6 @@
 ## Technical
 
 * [Smart Contracts](technical/contracts.md)
-* [Integration Guide](technical/integration.md)
 
 ## Links
 

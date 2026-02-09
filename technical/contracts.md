@@ -37,4 +37,4 @@ All contracts use UUPS proxy pattern with 48-hour timelock and multi-sig for upg
 
 ---
 
-*Next: [Integration Guide →](integration.md)*
+*[Back to FAQ →](../resources/faq.md)*
