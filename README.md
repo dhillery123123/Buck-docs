@@ -21,8 +21,8 @@ BUCK holders earn \~10% annualized yield from STRC dividends, distributed monthl
 
 ## BUCK Token
 
-| Token    | Purpose      | Value Driver                                      |
-| -------- | ------------ | ------------------------------------------------- |
+| Token    | Purpose      | Value Driver                                          |
+| -------- | ------------ | ----------------------------------------------------- |
 | **BUCK** | Savings coin | \~10% APY from STRC's contractual preferred dividends |
 
 ## Why Buck?
@@ -37,7 +37,7 @@ Buck's yield comes from real dividends paid by STRC — Strategy's 10% preferred
 
 * **\~10% APY** — From STRC's contractual quarterly dividends
 * **Can't go negative** — Preferred dividends are legally obligated
-* **180% over-collateralized** — $1.80+ in backing per $1 of BUCK
+* **100% over-collateralized** — $1.80+ in backing per $1 of BUCK
 * **DeFi native** — Full composability, no KYC required
 * **Monthly distributions** — Yield distributed automatically on the 15th of each month
 
