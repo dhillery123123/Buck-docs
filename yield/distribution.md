@@ -20,12 +20,12 @@ BUCK yield is distributed automatically each month. On the **15th of each month*
 
 ## The Eligibility Window
 
-| Parameter | Details |
-|-----------|---------|
-| **Date** | 15th of each month |
-| **Opens** | 9:00 AM ET |
-| **Closes** | 4:00 PM ET |
-| **Duration** | 7 hours |
+| Parameter             | Details                            |
+| --------------------- | ---------------------------------- |
+| **Date**              | 15th of each month                 |
+| **Opens**             | 9:00 AM ET                         |
+| **Closes**            | 4:00 PM ET                         |
+| **Duration**          | 7 hours                            |
 | **Why market hours?** | Aligns with STRC trading on NASDAQ |
 
 ### Why 9 AM - 4 PM ET?
@@ -63,21 +63,21 @@ Your Share:            $83,333 x 1% = $833.33
 
 Distributions occur on the 15th of every month. If the 15th falls on a weekend or market holiday, distribution moves to the next trading day.
 
-| Month | Distribution Date | Window |
-|-------|-------------------|--------|
-| February 2026 | Feb 17 (Mon)* | 9:00 AM - 4:00 PM ET |
-| March 2026 | Mar 16 (Mon)* | 9:00 AM - 4:00 PM ET |
-| April 2026 | Apr 15 (Wed) | 9:00 AM - 4:00 PM ET |
-| May 2026 | May 15 (Fri) | 9:00 AM - 4:00 PM ET |
+| Month         | Distribution Date | Window               |
+| ------------- | ----------------- | -------------------- |
+| February 2026 | Feb 17 (Mon)\*    | 9:00 AM - 4:00 PM ET |
+| March 2026    | Mar 16 (Mon)\*    | 9:00 AM - 4:00 PM ET |
+| April 2026    | Apr 15 (Wed)      | 9:00 AM - 4:00 PM ET |
+| May 2026      | May 15 (Fri)      | 9:00 AM - 4:00 PM ET |
 
-*Adjusted for weekends
+\*Adjusted for weekends
 
 ## What If I Don't Hold During the Window?
 
 {% hint style="warning" %}
 **Hold During the Eligibility Window**
 
-If you don't hold BUCK during the eligibility window on the 15th, you won't receive that month's yield. The unclaimed portion rolls into the next month's distribution pool. Set a reminder for the 15th of each month.
+If you don't hold BUCK during the eligibility window on the 15th, you won't receive that month's yield. Set a reminder for the 15th of each month.
 {% endhint %}
 
 ## FAQ
@@ -102,6 +102,6 @@ Distribution moves to the next U.S. trading day.
 
 No. Yield is distributed automatically — no transaction required on your end.
 
----
+***
 
-*Next: [BUCK Token →](../tokens/buck-token.md)*
+_Next:_ [_BUCK Token →_](../tokens/buck-token.md)
