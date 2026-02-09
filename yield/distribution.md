@@ -6,7 +6,7 @@ description: Monthly yield distribution and the eligibility window
 
 ## How It Works
 
-BUCK yield is distributed automatically each month. On the **15th of each month**, the protocol takes a snapshot during U.S. market hours. Holders who have BUCK in their wallet during the eligibility window receive their share of that month's yield — no action required.
+BUCK yield is distributed automatically each month. On the **15th of each month**, the protocol takes a snapshot during U.S. market hours to determine eligible holders. Yield is then distributed in USDC on the **first business day of the following month** — no action required.
 
 {% hint style="success" %}
 **Eligibility Window**
@@ -61,16 +61,16 @@ Your Share:            $83,333 x 1% = $833.33
 
 ## Distribution Schedule
 
-Distributions occur on the 15th of every month. If the 15th falls on a weekend or market holiday, distribution moves to the next trading day.
+Eligibility is determined on the 15th of each month. Yield is then distributed on the **first business day of the following month**.
 
-| Month         | Distribution Date | Window               |
-| ------------- | ----------------- | -------------------- |
-| February 2026 | Feb 17 (Mon)\*    | 9:00 AM - 4:00 PM ET |
-| March 2026    | Mar 16 (Mon)\*    | 9:00 AM - 4:00 PM ET |
-| April 2026    | Apr 15 (Wed)      | 9:00 AM - 4:00 PM ET |
-| May 2026      | May 15 (Fri)      | 9:00 AM - 4:00 PM ET |
+| Month | Eligibility Date | Distribution Date |
+|-------|------------------|-------------------|
+| February 2026 | Feb 15 (Sun)* | Mar 2 (Mon) |
+| March 2026 | Mar 15 (Sun)* | Apr 1 (Wed) |
+| April 2026 | Apr 15 (Wed) | May 1 (Fri) |
+| May 2026 | May 15 (Fri) | Jun 1 (Mon) |
 
-\*Adjusted for weekends
+*When the 15th falls on a weekend, eligibility is based on the last trading day before the 15th.
 
 ## What If I Don't Hold During the Window?
 

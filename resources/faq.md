@@ -16,7 +16,7 @@ Buck Protocol holds STRC — Strategy's 10% perpetual preferred stock on NASDAQ.
 
 ### Do I need to claim my yield?
 
-**No.** Yield is distributed automatically. On the 15th of each month, eligible holders receive their USDC yield during the eligibility window (9:00 AM - 4:00 PM ET). Just hold BUCK — no action needed. Your BUCK balance stays the same; yield is paid as a separate USDC payment.
+**No.** Yield is distributed automatically. Hold BUCK during the eligibility window on the 15th (9:00 AM - 4:00 PM ET), and your USDC yield is distributed on the first business day of the following month. No action needed. Your BUCK balance stays the same; yield is paid as a separate USDC payment.
 
 ### What tokens does Buck Protocol have?
 

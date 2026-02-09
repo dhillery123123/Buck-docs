@@ -35,15 +35,15 @@ You need USDC on Ethereum mainnet. Bridge from other chains or buy on an exchang
 
 ### Step 4: Receive Yield Monthly
 
-On the **15th of each month**, STRC yield is distributed automatically to eligible holders during the eligibility window (9:00 AM - 4:00 PM ET). Just hold BUCK — yield arrives in your wallet as USDC.
+On the **15th of each month**, a snapshot determines eligible holders during the eligibility window (9:00 AM - 4:00 PM ET). Yield is then distributed automatically in USDC on the first business day of the following month.
 
 ### What You're Earning
 
-| Reward         | Type                         | How It Works                                           |
-| -------------- | ---------------------------- | ------------------------------------------------------ |
-| **STRC Yield** | \~10% APY                    | Distributed automatically on the 15th (9 AM - 4 PM ET) |
-| **Points**     | Points → protocol allocation | Hold $100+ BUCK, tracked automatically                 |
-| **Merkl BUCK** | Weekly BUCK rewards          | $6,250/week pool for holders                           |
+| Reward           | Type                         | How It Works                                          |
+| ---------------- | ---------------------------- | ----------------------------------------------------- |
+| **STRC Yield**   | \~10% APY                    | Hold on 15th, distributed 1st business day next month |
+| **Points**       | Points → protocol allocation | Hold $100+ BUCK, tracked automatically                |
+| **Merkl BUCK**   | Weekly BUCK rewards          | $6,250/week pool for holders                          |
 
 {% hint style="success" %}
 **Three reward streams.** Hold BUCK and earn STRC yield (distributed automatically), Points (automatic), and Merkl BUCK rewards (claim weekly at merkl.xyz).
@@ -138,7 +138,7 @@ Claim your BUCK rewards at [merkl.xyz](https://merkl.xyz):
 
 STRC yield is distributed automatically:
 
-* Distributed on the 15th of each month
+* Eligibility on the 15th, distributed 1st business day of the following month
 * Eligibility window: 9:00 AM - 4:00 PM ET
 * Paid in USDC — no action required
 
@@ -186,7 +186,7 @@ Add BUCK to your wallet:
 
 ### When do I receive yield?
 
-Monthly, at the beginning of the following month. Yield is distributed automatically for those who held during the eligibility window (9:00 AM - 4:00 PM ET). Just hold BUCK.
+Hold BUCK during the eligibility window on the 15th (9:00 AM - 4:00 PM ET). Yield is distributed automatically on the first business day of the following month.
 
 ### Can I redeem anytime?
 
@@ -198,7 +198,7 @@ $100 BUCK minimum to earn Points. No minimum for STRC yield — any amount of BU
 
 ### Do I need to claim rewards?
 
-* **STRC yield:** No — distributed automatically on the 15th
+* **STRC yield:** No — distributed automatically on the 1st business day of the following month
 * **Points:** No — tracked automatically, converts at TGE
 * **Merkl BUCK:** Yes — claim weekly at merkl.xyz
 

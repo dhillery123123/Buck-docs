@@ -11,7 +11,7 @@ BUCK is a **yield-bearing savings coin** that delivers \~10% APY from STRC divid
 {% hint style="success" %}
 **Hold BUCK, Earn Automatically**
 
-Hold BUCK in your wallet. On the 15th of each month, your share of STRC dividend yield is distributed automatically in USDC during the eligibility window (9:00 AM - 4:00 PM ET).
+Hold BUCK in your wallet during the eligibility window on the 15th (9:00 AM - 4:00 PM ET). Your share of STRC dividend yield is distributed automatically in USDC on the first business day of the following month.
 {% endhint %}
 
 ## Token Specifications

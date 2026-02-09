@@ -31,7 +31,7 @@ Unlike USDC or USDT that maintain a fixed $1.00 price, BUCK's value grows over t
 │                         ↓                                        │
 │  4. Yield passed through to holders monthly                      │
 │                         ↓                                        │
-│  5. On the 15th, yield distributed automatically (9 AM - 4 PM ET)│
+│  5. Yield distributed on the 1st business day of next month     │
 │                                                                  │
 └─────────────────────────────────────────────────────────────────┘
 ```
@@ -116,7 +116,7 @@ BUCK is fully composable with DeFi:
 
 Hold BUCK and earn \~10% APY:
 
-* Yield distributed automatically on the 15th
+* Yield distributed automatically on the 1st business day of each month
 * No lock-ups or commitments
 * Redeem for USDC anytime
 
@@ -143,7 +143,7 @@ For DAOs and protocols:
 1. Visit [buck.io](https://buck.io)
 2. Connect your wallet
 3. Mint BUCK with USDC
-4. Receive yield automatically on the 15th of each month
+4. Receive yield automatically on the 1st business day of each month
 
 ### To Earn Points
 

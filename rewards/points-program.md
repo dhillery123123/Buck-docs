@@ -18,7 +18,7 @@ During Season 1, earn both Points (future protocol allocation) AND direct BUCK r
 
 Points convert to protocol allocation at TGE. The longer you hold and the more you contribute to the protocol, the more Points you earn.
 
-**No staking required for Points.** Points multipliers are earned simply by holding longer — no lock contracts, no commitments. Just hold BUCK to accrue Points automatically. (Note: STRC yield is distributed automatically on the 15th of each month.)
+**No staking required for Points.** Points multipliers are earned simply by holding longer — no lock contracts, no commitments. Just hold BUCK to accrue Points automatically. (Note: STRC yield is distributed automatically on the first business day of each month.)
 
 ## Earning Structure
 

@@ -115,7 +115,7 @@ Buck offers the highest direct community allocation with guaranteed revenue shar
 | **Bitcoin Exposure** | STRC is backed by Strategy's $60B+ Bitcoin treasury |
 | **DeFi Native** | No KYC, full composability |
 | **Revenue Sharing** | 25% of fees to token holders from day one |
-| **Monthly Distributions** | Yield distributed automatically in USDC on the 15th |
+| **Monthly Distributions** | Yield distributed automatically in USDC on the 1st business day of each month |
 
 ### When Others Might Be Better
 
