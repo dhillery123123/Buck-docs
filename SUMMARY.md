@@ -5,36 +5,41 @@
 * [Welcome](README.md)
 * [Why Buck?](getting-started/why-buck.md)
 * [Quick Start Guide](getting-started/quickstart.md)
-* [Overview](getting-started/overview.md)
 * [About Buck](getting-started/about.md)
 
-## Tokens
+## How Yield Works
+
+* [Yield Overview](yield/overview.md)
+* [Monthly Distribution](yield/distribution.md)
+* [Claiming Your Yield](yield/claiming.md)
+
+## BUCK Token
 
 * [BUCK](tokens/buck-token.md)
 
-## Rewards
+## Racks Program
 
-* [Racks Program](rewards/points-program.md)
+* [Season 1](rewards/points-program.md)
+* [Governance Token](rewards/governance.md)
 
-## Protocol
+## Safety & Risk
 
-* [Yield Mechanics](protocol/yield-mechanics.md)
-* [Revenue Model](protocol/revenue-model.md)
+* [How Buck is Backed](protocol/collateralization.md)
 * [Reserve Attestations](protocol/reserve-attestations.md)
 * [Risk Framework](protocol/risks.md)
   * [Treasury & Collateral Risk](protocol/risks-collateral.md)
   * [Oracle & Market Hours Risk](protocol/risks-oracle.md)
   * [Smart Contract Risk](protocol/risks-smart-contract.md)
 
-## Technical
-
-* [Smart Contracts](technical/contracts.md)
-* [Integration Guide](technical/integration.md)
-
 ## Resources
 
 * [Competitive Landscape](resources/comparison.md)
 * [FAQ](resources/faq.md)
+
+## Technical
+
+* [Smart Contracts](technical/contracts.md)
+* [Integration Guide](technical/integration.md)
 
 ## Links
 

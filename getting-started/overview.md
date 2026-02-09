@@ -6,40 +6,37 @@ description: Understanding Buck Protocol
 
 ## What is Buck?
 
-Buck is a **value-accruing savings coin** protocol that delivers \~10% annualized returns through external yield from a diversified treasury of hard assets — Bitcoin, gold, U.S. treasuries, and institutional yield instruments.
+Buck is a **yield-bearing savings coin** that delivers \~10% APY through STRC — Strategy's Bitcoin-collateralized preferred stock. STRC pays contractual quarterly dividends, and Buck passes this yield to holders via monthly distributions.
 
 {% hint style="info" %}
 **Not a Stablecoin**
 
-Unlike USDC or USDT that maintain a fixed $1.00 price, BUCK's price steadily increases over time as yield accrues. Think of it as a savings account that automatically compounds.
+Unlike USDC or USDT that maintain a fixed $1.00 price, BUCK's value grows over time as STRC dividend yield accrues. Think of it as a savings account with monthly interest payments.
 {% endhint %}
 
 ## How BUCK Works
 
-### The Value Accrual Model
+### The Monthly Yield Model
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                    BUCK VALUE ACCRUAL                           │
+│                    HOW BUCK YIELD WORKS                          │
 ├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  1. You deposit USDC, receive BUCK at current exchange rate     │
-│                         ↓                                       │
-│  2. Protocol deploys USDC into hard asset treasury              │
-│     (BTC, gold, T-bills, institutional yield instruments)       │
-│                         ↓                                       │
-│  3. Hard assets generate ~10% annual yield via dividends        │
-│                         ↓                                       │
-│  4. Yield increases treasury value                              │
-│                         ↓                                       │
-│  5. BUCK exchange rate rises proportionally                     │
-│                         ↓                                       │
-│  6. Your BUCK is worth more (no action required)                │
-│                                                                 │
+│                                                                  │
+│  1. You deposit USDC, receive BUCK at the current exchange rate  │
+│                         ↓                                        │
+│  2. Protocol holds STRC (Strategy's 10% preferred stock)         │
+│                         ↓                                        │
+│  3. STRC generates ~10% annual yield via quarterly dividends     │
+│                         ↓                                        │
+│  4. Yield passed through to holders monthly                      │
+│                         ↓                                        │
+│  5. On the 15th, claim your USDC yield (9 AM - 4 PM ET)         │
+│                                                                  │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-### Price Growth Example
+### Growth Example
 
 | Day | BUCK Price | 1,000 BUCK Value | Cumulative Growth |
 | --- | ---------- | ---------------- | ----------------- |
@@ -53,45 +50,45 @@ Unlike USDC or USDT that maintain a fixed $1.00 price, BUCK's price steadily inc
 
 Buck's yield comes from a fundamentally different source than other yield-bearing tokens:
 
-| Protocol            | Yield Source        | Can Go Negative? | Sustainability      |
-| ------------------- | ------------------- | ---------------- | ------------------- |
-| **Buck**            | Hard asset dividends | ❌ No             | Contractual backing |
-| Ethena (sUSDe)      | Funding rates       | ✅ Yes            | Market dependent    |
-| Ondo (USDY)         | T-Bills             | ❌ No             | \~4.65% (lower)     |
-| Traditional stables | None                | N/A              | 0%                  |
+| Protocol            | Yield Source         | Can Go Negative? | Sustainability      |
+| ------------------- | -------------------- | ---------------- | ------------------- |
+| **Buck**            | STRC dividends       | ❌ No             | Contractual backing |
+| Ethena (sUSDe)      | Funding rates        | ✅ Yes            | Market dependent    |
+| Ondo (USDY)         | T-Bills              | ❌ No             | \~4.65% (lower)     |
+| Traditional stables | None                 | N/A              | 0%                  |
 
 ### What Backs Buck?
 
-Buck's treasury is diversified across the hardest assets in the world:
+Buck is backed by **STRC** — Strategy's 10% perpetual preferred stock:
 
-* **Institutional yield instruments** — Contractual dividends generating \~10% annually
-* **Bitcoin** — The hardest digital money, held as reserve backing
-* **Gold** — Traditional store of value and safe haven asset
-* **U.S. Treasuries** — Risk-free government-backed securities
+* **$60B+ Bitcoin treasury** — Strategy holds more Bitcoin than any other public company
+* **$2.25B cash reserves** — 77.4 years of dividend coverage at current rates
+* **180% over-collateralized** — $1.80+ of backing per $1 of BUCK
+* **SEC-regulated, NASDAQ-listed** — Institutional-grade oversight
 
 ## Protocol Architecture
 
-### Two Asset Pools
+### Two Components
 
-| Pool                    | Purpose             | Composition                                    |
-| ----------------------- | ------------------- | ---------------------------------------------- |
-| **Hard Asset Treasury** | Yield generation    | BTC, gold, T-bills, institutional yield instruments |
-| **Liquidity Reserve**   | Instant redemptions | USDC                                           |
+| Component | Purpose | Composition |
+| --------- | ------- | ----------- |
+| **STRC Treasury** | Yield generation + collateral | STRC (Strategy preferred stock) |
+| **Liquidity Reserve** | Instant redemptions | USDC |
 
 ### Key Guarantees
 
-* **100%+ Collateralized** — Always overcollateralized
-* **Instant Redemption** — No waiting periods
-* **On-chain Verification** — Real-time reserve transparency
+* **180%+ Over-Collateralized** — Significant buffer above backing requirements
+* **Instant Redemption** — Redeem BUCK for USDC anytime via the Liquidity Reserve
+* **On-chain Verification** — Collateral attestations verifiable on Etherscan
 
 ## BUCK Token
 
 | Property           | Value                                        |
 | ------------------ | -------------------------------------------- |
-| **Type**           | Value-accruing savings coin                  |
+| **Type**           | Yield-bearing savings coin                   |
 | **Starting Price** | $1.00                                        |
-| **Current Price**  | Increases daily (\~10% APY)                  |
-| **Chain**          | Ethereum (Solana planned)                    |
+| **Yield**          | \~10% APY from STRC dividends               |
+| **Chain**          | Ethereum                                     |
 | **Contract**       | `0xdb13997f4D83EF343845d0bAEb27d1173dF8c224` |
 
 ## DeFi Composability
@@ -117,15 +114,15 @@ BUCK is fully composable with DeFi:
 
 ### 1. Savings
 
-Hold BUCK and earn \~10% annually with zero complexity:
+Hold BUCK and earn \~10% APY:
 
-* No staking required
-* No rewards to claim
-* No gas costs for yield
+* Claim yield monthly on the 15th
+* No lock-ups or commitments
+* Redeem for USDC anytime
 
 ### 2. Collateral
 
-BUCK's appreciating price makes it ideal collateral:
+BUCK's appreciating value makes it ideal collateral:
 
 * Effective LTV improves over time
 * Earn yield while borrowing
@@ -146,11 +143,11 @@ For DAOs and protocols:
 1. Visit [buck.io](https://buck.io)
 2. Connect your wallet
 3. Mint BUCK with USDC
-4. Watch your value grow
+4. Claim yield on the 15th of each month
 
 ### To Earn Racks
 
-1. Mint or hold BUCK
+1. Mint or hold $100+ BUCK
 2. Optionally provide LP on Curve/Uniswap or lend on Morpho
 3. Racks accrue automatically based on daily snapshots
 4. Convert to governance tokens at TGE

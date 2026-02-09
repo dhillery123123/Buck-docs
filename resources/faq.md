@@ -8,47 +8,55 @@ description: Frequently asked questions
 
 ### What is BUCK?
 
-BUCK is a **value-accruing savings coin**. Unlike stablecoins that stay at $1.00, BUCK's price steadily increases (\~10% annually) as yield from hard asset backing accrues to the token.
+BUCK is a **yield-bearing savings coin** backed by STRC (Strategy's Bitcoin-collateralized preferred stock). BUCK holders earn \~10% APY from STRC's contractual quarterly dividends, distributed monthly.
 
-### How does BUCK increase in value?
+### How does BUCK generate yield?
 
-Buck Protocol holds a diversified treasury of hard assets — Bitcoin, gold, U.S. treasuries, and institutional yield instruments — that generate \~10% annual yield. This yield flows into the treasury, increasing BUCK's exchange rate automatically.
+Buck Protocol holds STRC — Strategy's 10% perpetual preferred stock on NASDAQ. STRC pays contractual quarterly dividends. Buck passes this yield to holders via monthly distributions on the 15th of each month.
 
-### Do I need to stake or claim rewards?
+### Do I need to claim my yield?
 
-**No.** Just hold BUCK in your wallet. The value accrues automatically—no staking, no claiming, no gas costs.
+**Yes.** Yield is distributed monthly. On the 15th of each month, visit buck.io during the eligibility window (9:00 AM - 4:00 PM ET) to claim your USDC yield. Your BUCK balance stays the same — yield is paid as a separate USDC payment.
 
 ### What tokens does Buck Protocol have?
 
-Currently Buck Protocol has one token:
-
 | Token | Type | Purpose |
 |-------|------|---------|
-| **BUCK** | Savings coin | Hold to earn ~10% annually |
+| **BUCK** | Savings coin | Hold to earn \~10% APY from STRC dividends |
 
 A governance token is launching after Season 1. Earn Racks through the [Racks Program](../rewards/points-program.md) to maximize your allocation.
 
-## Value & Yield
+## Yield & Distribution
 
-### What's the current BUCK price?
+### When do I receive yield?
 
-BUCK started at $1.00 and increases daily. Check [buck.io](https://buck.io) for the current exchange rate.
+On the **15th of each month** during the eligibility window: **9:00 AM - 4:00 PM ET**. If the 15th falls on a weekend or market holiday, distribution moves to the next trading day.
+
+### Why is the eligibility window 9 AM - 4 PM ET?
+
+STRC trades on NASDAQ during U.S. market hours. The eligibility window aligns with these hours so that STRC pricing is live and accurate during distribution.
+
+### What if I miss the eligibility window?
+
+Unclaimed yield rolls into the next month's distribution pool.
 
 ### Is the 10% yield guaranteed?
 
-The yield comes from contractual dividends on hard asset holdings, which are legally obligated but not guaranteed. The primary yield instruments have extensive cash coverage, making them highly reliable.
+The yield comes from STRC's contractual preferred equity dividends. While these are contractually obligated (not discretionary), they are not guaranteed in the strictest sense. Strategy has $2.25B in cash reserves covering 77.4 years of dividend payments, making them highly reliable.
 
 ### Can BUCK's yield go negative?
 
-**No.** Unlike funding-rate-based yields (Ethena), hard asset dividends are always positive. The yield rate may vary slightly based on treasury asset prices, but value always accrues.
+**No.** STRC dividends are contractual preferred equity payments — they are always positive or zero, never negative. Unlike funding-rate-based yields (Ethena), you will never owe yield back.
 
-### How is this different from rebasing tokens?
+### What currency is yield paid in?
 
-| Rebasing | Value Accrual (BUCK) |
-|----------|----------------------|
-| Token quantity changes | Token quantity stays same |
-| Creates tax events | Tax only when you sell |
-| Can be confusing | Simple to understand |
+USDC. Your BUCK balance stays the same; yield is a separate USDC payment.
+
+### How is my share calculated?
+
+```
+Your Monthly Yield = (Your BUCK Balance / Total BUCK Supply) x Monthly Distribution Pool
+```
 
 ## Minting & Redemption
 
@@ -65,27 +73,34 @@ Yes. BUCK is redeemable for USDC at the current exchange rate through the Liquid
 
 ### Are there fees?
 
-* **Normal times:** 10% mint / 30% redeem fees
+| Action | Fee |
+|--------|-----|
+| Mint | 10 bps (0.1%) |
+| Redeem | 30 bps (0.3%) |
 
 ## Safety & Risk
 
 ### Is BUCK audited?
 
-Yes. Multiple audits completed by Cyfrin, Spearbit, and SSC. [View audits →](../security/audits.md)
+Yes. Multiple audits completed by Cyfrin, Halborn, and Spearbit.
 
 ### What backs BUCK?
 
-* **Hard Asset Treasury** — Bitcoin, gold, U.S. treasuries, and institutional yield instruments
-* **Liquidity Reserve** — USDC for instant redemptions
-* **100%+ Collateralization** — Always overcollateralized
+* **STRC** — Strategy's 10% preferred stock ($60B+ BTC backing, $2.25B cash reserves)
+* **USDC Liquidity Reserve** — For instant redemptions
+* **180%+ Overcollateralization** — $1.80+ of backing per $1 of BUCK
 
-### What if dividends stop?
+### What if STRC dividends stop?
 
-Buck's treasury is diversified across multiple hard asset classes, reducing single-issuer risk. If dividends on any instrument were reduced, BUCK's growth rate would decrease proportionally, but your BUCK would still be backed by the remaining treasury assets and reserves.
+STRC dividends are contractually obligated preferred equity payments. If they were reduced or suspended:
+- Your BUCK remains backed by the STRC treasury value and USDC reserves
+- Yield rate would decrease proportionally
+- You can still redeem at the current exchange rate
+- Strategy's $2.25B cash reserves cover 77.4 years of dividends
 
-### What happens if treasury assets decline?
+### What happens if STRC price declines?
 
-The protocol maintains 100%+ overcollateralization. A significant decline in any single asset is partially offset by diversification across BTC, gold, T-bills, and yield instruments. Circuit breakers pause operations during extreme volatility.
+Buck maintains 180%+ overcollateralization. STRC would need to decline by more than 44% before the protocol approaches 100% collateralization. Circuit breakers and mint pauses activate at defined thresholds.
 
 ## Racks Program & Governance Token
 
@@ -95,16 +110,10 @@ Season 1 runs for **8 weeks**. Earn Racks based on your activity:
 
 | Activity | Weight | Multiplier |
 |----------|--------|------------|
-| Hold BUCK | 50% | 1x-20x (based on hold duration) |
+| Hold BUCK | 50% | 1x (5x at 30+ days) |
 | Curve/Uniswap LP | 30% | 3x |
 | Morpho Lending | 10% | 3x |
 | Referrals | 10% | 10% of referee's Racks |
-
-**Hold Duration Multipliers:**
-- 0-29 days: 1x
-- 30-89 days: 5x
-- 90-179 days: 10x
-- 180+ days: 20x
 
 Base rate: 1 Rack per $10 BUCK per day. Minimum $100 to participate.
 
@@ -117,7 +126,7 @@ The exact allocation will be announced closer to TGE. We're following Ethena's p
 Pro-rata distribution:
 
 ```
-Your Tokens = (Your Racks ÷ Total Racks) × Season 1 Pool
+Your Tokens = (Your Racks / Total Racks) x Season 1 Pool
 ```
 
 ### When does the governance token launch?
@@ -153,7 +162,7 @@ Yes. Season 1 participants receive a **10% Racks boost** in Season 2.
 
 ### What chain is BUCK on?
 
-Currently Ethereum. Solana expansion planned.
+Ethereum mainnet.
 
 ### What's the contract address?
 
@@ -161,8 +170,6 @@ Currently Ethereum. Solana expansion planned.
 |----------|---------|
 | BUCK Token | `0xdb13997f4D83EF343845d0bAEb27d1173dF8c224` |
 | Liquidity Window | `0x6E87adb23ac0e150Ca9F76C33Df2AdCae508548E` |
-
-[Full contract list →](../security/addresses.md)
 
 ### Is BUCK composable with DeFi?
 
@@ -174,11 +181,11 @@ Yes. BUCK works with:
 
 ### How does the oracle work?
 
-The Oracle Adapter uses RedStone for treasury asset price feeds with:
+The Oracle Adapter uses RedStone for STRC price feeds with:
 
 * 30-minute TWAP smoothing
-* Market hours detection
-* Circuit breakers for extreme moves
+* Market hours detection (STRC trades Mon-Fri 9:30 AM - 4 PM ET)
+* Circuit breakers for >15% moves
 
 ## Comparisons
 
@@ -186,9 +193,9 @@ The Oracle Adapter uses RedStone for treasury asset price feeds with:
 
 | Feature | USDC | BUCK |
 |---------|------|------|
-| Yield | 0% | \~10% annually |
-| Price | Fixed $1.00 | Grows over time |
-| Backing | Cash/treasuries | Hard assets (BTC, gold, T-bills) |
+| Yield | 0% | \~10% APY |
+| Price | Fixed $1.00 | Exchange rate + monthly yield |
+| Backing | Cash/treasuries | STRC (Strategy preferred stock) |
 
 ### How is BUCK different from sUSDe (Ethena)?
 
@@ -196,7 +203,7 @@ The Oracle Adapter uses RedStone for treasury asset price feeds with:
 |---------|-------|------|
 | Yield | \~5% (variable) | \~10% |
 | Can go negative | Yes | No |
-| Yield source | Funding rates | Dividends |
+| Yield source | Funding rates | STRC dividends |
 
 ### How is BUCK different from USDY (Ondo)?
 
@@ -223,7 +230,6 @@ The Oracle Adapter uses RedStone for treasury asset price feeds with:
 
 * [Whitepaper (PDF)](https://buck.io/documents/Buck_Token_MiCA_Whitepaper_-_Publication_date_12.16.25_Update_date_1.4.26.pdf)
 * [GitHub](https://github.com/buck-labs/buck-v1)
-* [Blog](https://buck.io/blog)
 
 ---
 

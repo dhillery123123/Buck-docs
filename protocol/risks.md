@@ -28,17 +28,17 @@ Buck's risk profile differs from traditional stablecoins and other yield-bearing
 
 | Risk | Likelihood | Potential Impact | Primary Mitigation |
 |------|------------|------------------|-------------------|
-| Treasury asset decline | Low-Medium | Medium | 100%+ overcollateralization, diversification |
-| Dividend suspension | Very Low | Medium | Contractual obligations, cash coverage |
+| STRC price decline | Low-Medium | Medium | 180%+ overcollateralization |
+| Dividend suspension | Very Low | Medium | $2.25B cash reserves, 77+ years coverage |
 | Smart contract exploit | Low | Critical | 3 independent audits |
 | Oracle manipulation | Low | Medium | NASDAQ-based pricing + TWAP |
-| Counterparty default | Extremely Low | High | Diversified treasury, preferred equity priority |
+| Strategy insolvency | Extremely Low | High | $60B+ BTC treasury, preferred creditor status |
 
 ### What BUCK Is Not
 
 - **Not a stablecoin:** BUCK price changes (upward) as yield accrues
 - **Not risk-free:** Smart contract, counterparty, and market risks exist
-- **Not guaranteed:** Yield depends on hard asset dividends continuing
+- **Not guaranteed:** Yield depends on STRC dividends continuing
 - **Not insured by FDIC:** This is DeFi, not a bank account
 
 ## Audits

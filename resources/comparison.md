@@ -12,20 +12,20 @@ Buck competes in the yield-bearing stablecoin market, but with fundamentally dif
 
 | Protocol | Token | Current Yield | Yield Source | Can Go Negative? |
 |----------|-------|---------------|--------------|------------------|
-| **Buck** | BUCK | ~10% | Hard asset dividends | ❌ No |
-| Ethena | sUSDe | ~5-15% | Funding rates | ✅ Yes |
-| Ondo | USDY | ~4.65% | T-Bills | ❌ No |
-| Mountain | USDM | ~5% | T-Bills | ❌ No |
-| Maker | sDAI | ~5-8% | DSR + RWA | ❌ No |
+| **Buck** | BUCK | \~10% | STRC dividends | ❌ No |
+| Ethena | sUSDe | \~5-15% | Funding rates | ✅ Yes |
+| Ondo | USDY | \~4.65% | T-Bills | ❌ No |
+| Mountain | USDM | \~5% | T-Bills | ❌ No |
+| Maker | sDAI | \~5-8% | DSR + RWA | ❌ No |
 
 ### Why Buck's Yield is Different
 
 | Factor | Buck | Ethena | Ondo |
 |--------|------|--------|------|
 | **Yield floor** | 0% (dividends can't go negative) | Can go negative in bear markets | 0% |
-| **Yield ceiling** | ~10% (fixed dividend rate) | Unlimited in bull markets | Treasury rate |
+| **Yield ceiling** | \~10% (fixed dividend rate) | Unlimited in bull markets | Treasury rate |
 | **Predictability** | High (quarterly dividends) | Low (daily funding varies) | High |
-| **Bitcoin exposure** | ✅ Via hard asset treasury | ✅ Via BTC collateral | ❌ None |
+| **Bitcoin exposure** | ✅ Via STRC (Strategy's $60B+ BTC) | ✅ Via BTC collateral | ❌ None |
 
 ## Feature Comparison
 
@@ -43,10 +43,10 @@ Buck competes in the yield-bearing stablecoin market, but with fundamentally dif
 
 | Risk Factor | Buck | Ethena | Ondo |
 |-------------|------|--------|------|
-| **Smart Contract** | Audited (Cyfrin, Spearbit, SSC) | Audited | Audited |
+| **Smart Contract** | Audited (Cyfrin, Halborn, Spearbit) | Audited | Audited |
 | **Custodial** | On-chain + Fireblocks | Off-exchange settlement | Centralized |
-| **Oracle** | RedStone (multiple) | Pyth (multiple) | N/A |
-| **Yield Sustainability** | Contractual dividends | Market dependent | Treasury dependent |
+| **Oracle** | RedStone | Pyth | N/A |
+| **Yield Sustainability** | Contractual STRC dividends | Market dependent | Treasury dependent |
 | **Regulatory** | MiCA compliant | Offshore | US regulated |
 
 ## Backing Comparison
@@ -55,7 +55,7 @@ Buck competes in the yield-bearing stablecoin market, but with fundamentally dif
 
 | Protocol | Primary Backing | Secondary | Overcollateralized? |
 |----------|-----------------|-----------|---------------------|
-| **Buck** | Hard assets (BTC, gold, T-bills, yield instruments) | USDC reserve | ✅ Yes (100%+) |
+| **Buck** | STRC (Strategy preferred stock) | USDC reserve | ✅ Yes (180%+) |
 | Ethena | ETH/BTC + short futures | Insurance fund | ✅ Yes |
 | Ondo | US Treasuries | Cash | ✅ Yes |
 | Mountain | US Treasuries | Cash | ✅ Yes |
@@ -65,7 +65,7 @@ Buck competes in the yield-bearing stablecoin market, but with fundamentally dif
 
 | Protocol | Reserve Verification | Frequency | Method |
 |----------|---------------------|-----------|--------|
-| **Buck** | Real-time | Continuous | On-chain oracle |
+| **Buck** | The Network Firm + on-chain | Monthly + real-time | Attestation + on-chain oracle |
 | Ethena | Real-time | Continuous | Dashboard |
 | Ondo | Monthly | Attestation | Third-party |
 | USDC | Monthly | Attestation | Accounting firm |
@@ -79,7 +79,7 @@ Buck competes in the yield-bearing stablecoin market, but with fundamentally dif
 | **Buck** | **25-30%** | 20% | 15% | **25% buybacks** |
 | Ethena (ENA) | 28% | 55% | 15% | TBD |
 | Falcon (FF) | 8.3% + 35% eco | 24.5% | 32.2% | TBD |
-| Maple (SYRUP) | ~24% | 41.5% | 30% | 25% buybacks |
+| Maple (SYRUP) | \~24% | 41.5% | 30% | 25% buybacks |
 | Ondo (ONDO) | Limited | Majority | — | 0% |
 
 Buck offers the highest direct community allocation with guaranteed revenue sharing from day one.
@@ -95,13 +95,13 @@ Buck offers the highest direct community allocation with guaranteed revenue shar
 
 ## TVL & Market Position
 
-### Current Landscape (January 2026)
+### Current Landscape
 
 | Protocol | TVL | Market Cap | Launch Date |
 |----------|-----|------------|-------------|
-| Ethena | ~$6B | ~$3B | Feb 2024 |
-| Ondo | ~$500M | ~$2B | Jan 2024 |
-| Mountain | ~$150M | N/A | Jul 2023 |
+| Ethena | \~$6B | \~$3B | Feb 2024 |
+| Ondo | \~$500M | \~$2B | Jan 2024 |
+| Mountain | \~$150M | N/A | Jul 2023 |
 | **Buck** | Growing | — | Dec 2025 |
 
 ## Why Choose Buck?
@@ -110,12 +110,12 @@ Buck offers the highest direct community allocation with guaranteed revenue shar
 
 | Advantage | Explanation |
 |-----------|-------------|
-| **Higher Yield** | ~10% vs 4-5% from T-bill backed alternatives |
-| **No Negative Yield** | Unlike funding-rate strategies, dividends can't go negative |
-| **Bitcoin Exposure** | Direct BTC in treasury + yield instrument backing |
+| **Higher Yield** | \~10% vs 4-5% from T-bill backed alternatives |
+| **No Negative Yield** | STRC dividends are contractual — can't go negative |
+| **Bitcoin Exposure** | STRC is backed by Strategy's $60B+ Bitcoin treasury |
 | **DeFi Native** | No KYC, full composability |
 | **Revenue Sharing** | 25% of fees to token holders from day one |
-| **Community First** | 25-30% allocation to community rewards |
+| **Monthly Distributions** | Claim yield in USDC on the 15th of each month |
 
 ### When Others Might Be Better
 
@@ -156,7 +156,7 @@ Buck's governance token is launching after Season 1. Earn Racks now through our 
 
 * **Season 1:** 8 weeks
 * **Dual Rewards:** Racks + $100K BUCK via Merkl
-* **Hold Multipliers:** Up to 20x for 180+ day holders
+* **Hold Multipliers:** Up to 5x for 30+ day holders
 * **LP/Morpho:** 3x multiplier for active DeFi participation
 
 ---

@@ -1,14 +1,14 @@
 ---
-description: Hard Money — A value-accruing savings coin
+description: A yield-bearing savings coin backed by STRC
 ---
 
 # Welcome
 
-Buck is a **value-accruing savings coin** backed by a diversified treasury of hard assets — Bitcoin, gold, U.S. treasuries, and institutional yield instruments — delivering **\~10% annualized value growth** through external dividends rather than token emissions or trading strategies.
+Buck is a **yield-bearing savings coin** backed by STRC — Strategy's Bitcoin-collateralized preferred stock — delivering **\~10% APY** through contractual dividends rather than token emissions or trading strategies.
 
 ## How BUCK Works
 
-Unlike traditional stablecoins that maintain a fixed $1.00 price, BUCK's price **steadily increases over time** as yield from hard asset backing accrues directly to the token's value.
+BUCK holders earn \~10% annualized yield from STRC dividends, distributed monthly. Your BUCK stays in your wallet, and you claim yield in USDC on the 15th of each month during the eligibility window.
 
 | Day | BUCK Price | Your 1,000 BUCK Value |
 | --- | ---------- | --------------------- |
@@ -17,28 +17,29 @@ Unlike traditional stablecoins that maintain a fixed $1.00 price, BUCK's price *
 | 180 | $1.05      | $1,050                |
 | 365 | $1.10      | $1,100                |
 
-**No claiming. No staking. Just hold BUCK and watch it grow.**
+**Hold BUCK. Claim yield monthly. It's that simple.**
 
 ## BUCK Token
 
-| Token    | Purpose      | Value Driver                                         |
-| -------- | ------------ | ---------------------------------------------------- |
-| **BUCK** | Savings coin | Price appreciates \~10% annually from hard asset yield |
+| Token    | Purpose      | Value Driver                                      |
+| -------- | ------------ | ------------------------------------------------- |
+| **BUCK** | Savings coin | \~10% APY from STRC's contractual preferred dividends |
 
 ## Why Buck?
 
 {% hint style="info" %}
 **External Yield, Not Emissions**
 
-Buck's yield comes from real dividends paid by institutional hard assets — not funding rate arbitrage or token inflation. It's real yield from real assets, backed by the hardest money in the world.
+Buck's yield comes from real dividends paid by STRC — Strategy's 10% preferred stock backed by $60B+ in Bitcoin. It's real yield from real assets.
 {% endhint %}
 
 ### Key Differentiators
 
-* **\~10% Annualized Growth** — BUCK price increases steadily, no action required
-* **Hard Asset Backing** — Bitcoin, gold, U.S. treasuries, and institutional yield instruments
-* **DeFi Native** — Full composability, no KYC required
-* **Zero Complexity** — No staking, no claiming, no rebasing
+* **\~10% APY** — From STRC's contractual quarterly dividends
+* **Can't go negative** — Preferred dividends are legally obligated
+* **180% over-collateralized** — $1.80+ in backing per $1 of BUCK
+* **DeFi native** — Full composability, no KYC required
+* **Monthly distributions** — Claim your yield on the 15th of each month
 
 ## Quick Links
 
@@ -64,6 +65,7 @@ Ready to earn 10% on your dollars?
 
 * [Why Buck? →](getting-started/why-buck.md) — Understand what makes Buck different
 * [Quick Start Guide →](getting-started/quickstart.md) — Mint your first BUCK in 5 minutes
+* [How Yield Works →](yield/overview.md) — Understand the monthly distribution model
 
 ***
 

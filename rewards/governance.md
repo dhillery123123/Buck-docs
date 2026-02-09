@@ -45,7 +45,7 @@ Your Allocation = (Your Racks ÷ Total Racks Earned) × Season 1 Pool
             ▼                 ▼                 ▼
      ┌─────────────┐   ┌─────────────┐   ┌─────────────┐
      │   Token     │   │  Treasury   │   │  Insurance  │
-     │  Buybacks   │   │ (Hard Asset │   │    Fund     │
+     │  Buybacks   │   │  (STRC      │   │    Fund     │
      │             │   │ Acquisition)│   │             │
      └─────────────┘   └─────────────┘   └─────────────┘
             │                                   
@@ -106,7 +106,7 @@ Token holders can vote on:
 * **Revenue Allocation** — Adjustments to buyback/treasury/insurance split
 * **Collateral Policy** — Approved collateral types and limits
 * **Integration Approvals** — New DeFi protocol partnerships
-* **Treasury Deployment** — Hard asset acquisition strategy
+* **Treasury Deployment** — STRC acquisition strategy
 * **Upgrade Proposals** — Smart contract upgrades
 * **Future Season Parameters** — Racks program adjustments
 

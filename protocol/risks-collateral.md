@@ -1,125 +1,114 @@
 ---
-description: Understanding treasury and collateralization risks
+description: Understanding STRC and collateralization risks
 ---
 
 # Treasury & Collateral Risk
 
 ## Overview
 
-Buck's yield comes from a diversified hard asset treasury. Understanding these assets and their risks is essential to understanding Buck risk.
+Buck's yield comes from STRC — Strategy's 10% perpetual preferred stock. Understanding STRC and its risks is essential to understanding Buck.
 
-## Dividend Risk
+## STRC Dividend Risk
 
 ### What if dividend payments stop?
 
-**Short answer:** Extremely unlikely given diversified backing, but if it happened, BUCK yield would decrease — your BUCK value would not decrease.
+**Short answer:** Extremely unlikely given Strategy's financial position, but if it happened, BUCK yield would decrease — your BUCK value would not decrease.
 
 #### Why It's Unlikely
 
 | Factor | Details |
 |--------|---------|
 | **Contractual obligation** | Dividends are preferred equity payments, not discretionary |
-| **Diversification** | Multiple hard asset classes reduce single-issuer risk |
+| **Cash coverage** | $2.25B in reserves = 77.4 years of dividend payments |
 | **Payment priority** | Preferred dividends must be paid before common dividends |
-| **Regulatory oversight** | Yield instruments are NASDAQ-listed, SEC-regulated |
+| **Regulatory oversight** | STRC is NASDAQ-listed, SEC-regulated |
+| **Bitcoin backing** | Strategy holds $60B+ in BTC (5x overcollateral) |
 
 #### If Dividends Were Reduced
 
 | Scenario | Impact on BUCK |
 |----------|----------------|
-| Dividend cut 50% | BUCK yield drops to ~5% APY |
-| Dividend suspended | BUCK yield drops to ~0% (no growth) |
-| Full default | BUCK backed by remaining treasury assets + reserves |
+| Dividend cut 50% | BUCK yield drops to \~5% APY |
+| Dividend suspended | BUCK yield drops to \~0% (no growth) |
+| Strategy default | BUCK backed by remaining treasury STRC value + USDC reserves |
 
 **Key point:** Reduced dividends affect *future yield*, not *current BUCK value*. You can still redeem BUCK at the current exchange rate.
 
-### What if a counterparty defaults?
+### Strategy Solvency Risk
 
-Buck's diversified treasury mitigates single-issuer risk. In a default scenario for any yield instrument, the treasury's remaining assets (BTC, gold, T-bills, other holdings) continue to back BUCK.
-
-For preferred equity instruments specifically, holders have claims before common stockholders in a liquidation:
+STRC is issued by Strategy (NASDAQ: MSTR). In a solvency scenario:
 
 ```
 1. Secured creditors
 2. Unsecured creditors
-3. Preferred shareholders ← Buck's yield instruments
+3. Preferred shareholders ← STRC holders (including Buck)
 4. Common shareholders
 ```
 
-#### Treasury Strength
+Preferred equity holders have priority over common stockholders in liquidation, providing additional downside protection.
 
-| Factor | Benefit |
+#### Strategy's Financial Position
+
+| Factor | Details |
 |--------|---------|
-| **Diversification** | No single asset failure can drain the treasury |
-| **Hard asset backing** | BTC, gold, and T-bills provide baseline value |
-| **Contractual yield** | Preferred equity dividends are legally obligated |
-| **Institutional custody** | All assets held via institutional-grade custody |
+| **Bitcoin Treasury** | $60B+ (largest corporate BTC holder) |
+| **Cash Reserves** | $2.25B |
+| **Dividend Coverage** | 77.4 years at current rates |
+| **Public Company** | NASDAQ-listed with SEC oversight |
 
-## Treasury Asset Price Risk
+## STRC Price Risk
 
-### What if treasury assets decline in value?
+### What if STRC declines in value?
 
-Treasury asset price movements affect Buck's collateralization ratio but not your ability to redeem. Diversification across multiple hard asset classes reduces the impact of any single asset decline.
+STRC price movements affect Buck's collateralization ratio. However, Buck maintains 180%+ overcollateralization as a buffer.
 
 #### Impact Scenarios
 
-| Treasury Decline | Collat. Ratio | Protocol Action |
-|------------------|---------------|-----------------|
-| -10% | ~90% | Monitor closely |
-| -20% | ~80% | Pause new mints |
-| -30% | ~70% | Redemption queue |
-| -50% | ~50% | Treasury recapitalization |
+| STRC Decline | Collat. Ratio | Protocol Action |
+|--------------|---------------|-----------------|
+| -10% | \~162% | Monitor closely |
+| -20% | \~144% | Increased monitoring |
+| -30% | \~126% | Pause new mints |
+| -50% | \~90% | Redemption queue, treasury action |
 
 #### Mitigations
 
 | Mitigation | How It Helps |
 |------------|--------------|
-| **Diversification** | BTC, gold, T-bills reduce correlation risk |
-| **100%+ overcollateralization** | Buffer absorbs price declines |
-| **Liquidity Reserve** | USDC reserve for redemptions |
+| **180%+ overcollateralization** | Large buffer absorbs price declines |
+| **USDC Liquidity Reserve** | Separate reserve for redemptions |
 | **Circuit breakers** | Pause operations during extreme volatility |
+| **Daily monitoring** | Automated alerts on ratio changes |
 
-### Diversification Benefit
+### Why 180% Overcollateralization?
 
-Buck's treasury holds multiple uncorrelated asset classes:
-
-- **Bitcoin** — Digital hard money, high growth potential
-- **Gold** — Traditional safe haven, low correlation to crypto
-- **U.S. Treasuries** — Risk-free rate, stable value
-- **Institutional yield instruments** — Contractual dividends with preferred equity protections
-
-A decline in one asset class is partially offset by stability in others.
+At 180%+, STRC would need to decline by more than 44% before the protocol approaches 100% collateralization. This provides substantial protection against market downturns while maintaining the \~10% yield pass-through.
 
 ## Collateralization Risk
 
 ### How is BUCK backed?
 
-| Asset | Purpose |
-|-------|---------|
-| **Institutional yield instruments** | Primary yield generation |
-| **Bitcoin** | Hard money reserve |
-| **Gold** | Safe haven diversification |
-| **U.S. Treasuries** | Risk-free baseline |
+| Component | Purpose |
+|-----------|---------|
+| **STRC** | Yield generation + primary collateral |
 | **USDC Reserve** | Instant redemptions |
 
 ### Collateralization Ratio
 
-The ratio is calculated as:
-
 ```
-Collateralization Ratio = (Treasury Value + Reserve Value) / (BUCK Supply × BUCK Price)
-```
+Collateralization Ratio = (STRC Value + USDC Reserve) / (BUCK Supply x BUCK Price)
 
-**Target:** 100%+ at all times
+Target: 180%+
+```
 
 ### What Happens if Ratio Drops Below 100%?
 
 | Stage | Trigger | Action |
 |-------|---------|--------|
-| **Watch** | Ratio < 110% | Increased monitoring |
-| **Caution** | Ratio < 105% | Pause new mints |
+| **Watch** | Ratio < 150% | Increased monitoring |
+| **Caution** | Ratio < 120% | Pause new mints |
 | **Critical** | Ratio < 100% | Redemption queue, treasury action |
-| **Recovery** | Ratio > 105% | Resume normal operations |
+| **Recovery** | Ratio > 120% | Resume normal operations |
 
 #### Redemption Queue
 
@@ -130,48 +119,35 @@ If a queue is implemented:
 3. All requests fulfilled at current exchange rate
 4. No haircut on redemption value
 
-## Market Correlation Risk
+## Concentration Risk
 
-### How Market Downturns Affect BUCK
+### Single-Asset Treasury
 
-```
-Hard Asset Prices Fall
-      ↓
-Treasury Value Decreases
-      ↓
-Collateralization Ratio Decreases
-      ↓
-Protocol takes defensive action if needed
-```
+Unlike diversified portfolios, Buck's treasury is concentrated in STRC. This means:
 
-### Why Diversification Helps
+**Advantages:**
+* Simpler to verify and audit
+* Single, transparent yield source
+* No complex rebalancing or asset selection risk
 
-| Factor | Effect |
-|--------|--------|
-| **Multiple asset classes** | No single point of failure |
-| **Gold as hedge** | Historically uncorrelated to crypto |
-| **T-bills as floor** | Risk-free value doesn't decline |
-| **Contractual dividends** | Yield continues regardless of price |
+**Risks:**
+* No diversification across asset classes
+* Dependent on Strategy's financial health
+* STRC price correlated to Bitcoin market
 
-### Bear Market Scenario
+### Why This Trade-Off Works
 
-Even in a severe market downturn:
-
-- Contractual dividends continue (legally obligated)
-- BUCK yield continues (dividends still paid)
-- Your BUCK remains redeemable
-- Gold and T-bills provide downside stability
-- Protocol may pause mints temporarily
+Strategy is the world's largest corporate Bitcoin holder with $60B+ in BTC and $2.25B in cash. STRC has the strongest preferred dividend coverage of any institutional yield instrument, with 77.4 years of reserves. The concentration risk is mitigated by the extraordinary financial strength of the underlying issuer.
 
 ## Risk Mitigation Summary
 
 | Risk | Likelihood | Impact | Mitigation |
 |------|------------|--------|------------|
-| Dividend reduction | Very Low | Medium | Contractual obligations, diversification |
-| Dividend suspension | Extremely Low | High | Preferred equity priority |
-| Treasury asset decline | Low-Medium | Medium | Overcollateralization, diversification |
-| Undercollateralization | Low | High | Circuit breakers, mint pause |
-| Counterparty default | Extremely Low | High | Multi-asset treasury, preferred creditor status |
+| Dividend reduction | Very Low | Medium | $2.25B cash reserves, 77+ years coverage |
+| Dividend suspension | Extremely Low | High | Preferred equity priority, SEC oversight |
+| STRC price decline | Low-Medium | Medium | 180%+ overcollateralization |
+| Strategy insolvency | Extremely Low | High | $60B+ BTC treasury, preferred creditor status |
+| Under-collateralization | Low | High | Circuit breakers, mint pause, 180% buffer |
 
 ---
 

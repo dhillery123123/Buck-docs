@@ -1,68 +1,40 @@
 ---
-description: Hard Money — Real yield from real assets
+description: Real yield from real assets — STRC dividends
 ---
 
 # Why Buck?
 
-## Hard Money
+## Real Yield from Real Assets
 
-Buck is a savings coin that pays you \~10% annually just for holding it. No staking. No claiming. No complexity. Your BUCK automatically increases in value every day.
+Buck is a savings coin that pays \~10% APY through STRC — Strategy's Bitcoin-collateralized preferred stock. STRC pays contractual quarterly dividends, and Buck passes this yield to holders via monthly distributions.
 
 ## What Makes Buck Different
 
-### Real Yield from Real Assets
+### Yield from STRC Dividends
 
-Buck's yield comes from a diversified treasury of hard assets — Bitcoin, gold, U.S. treasuries, and institutional yield instruments that pay contractual dividends. This isn't token inflation or trading strategies. It's real yield from the hardest money in the world.
+Buck's yield comes from **STRC**, Strategy's 10% perpetual preferred stock on NASDAQ. STRC dividends are contractually obligated — not trading profits, not token inflation, not funding rates. This is real yield from a publicly traded instrument backed by the world's largest corporate Bitcoin treasury.
 
-### Your BUCK Grows Automatically
-
-| Day | BUCK Price | 1,000 BUCK Value |
-| --- | ---------- | ---------------- |
-| 0   | $1.00      | $1,000           |
-| 90  | $1.025     | $1,025           |
-| 180 | $1.05      | $1,050           |
-| 365 | $1.10      | $1,100           |
-
-No gas costs. No reward claiming. Just hold.
+| Property | Details |
+|----------|---------|
+| **Yield Source** | STRC (Strategy's 10% preferred stock) |
+| **Dividend Rate** | 10% annual, paid quarterly |
+| **Cash Reserves** | $2.25B (77.4 years of coverage) |
+| **Bitcoin Backing** | Strategy holds $60B+ in BTC |
+| **Over-collateralization** | 180%+ protocol-level, 5x at Strategy level |
 
 ### Yield That Can't Go Negative
 
-Buck's yield comes from contractually obligated dividend payments. Unlike funding rates or trading strategies, these dividends don't reverse. Your BUCK will never be worth less tomorrow than it is today (absent a redemption).
+STRC dividends are contractually obligated preferred equity payments. Unlike funding rates or trading strategies, these dividends don't reverse. Your yield will never be negative.
 
 ### Bitcoin Exposure Without the Volatility
 
-Buck's treasury holds Bitcoin directly — giving you exposure to the hardest money ever created, wrapped in a yield-generating savings coin without holding volatile BTC directly.
+Buck's treasury holds STRC — backed by Strategy's $60B+ Bitcoin reserve. You get indirect exposure to the world's hardest digital asset, wrapped in a yield-generating savings coin.
 
-## The Hard Money Advantage
+### Monthly Distributions
 
-### What Backs Buck?
+On the **15th of each month**, STRC dividend yield is distributed to BUCK holders during the eligibility window (9:00 AM - 4:00 PM ET). Just hold BUCK and claim your USDC yield monthly.
 
-A diversified treasury of the world's hardest assets:
-
-| Asset                            | Role                           |
-| -------------------------------- | ------------------------------ |
-| **Institutional Yield Instruments** | Primary yield engine (\~10% annual dividends) |
-| **Bitcoin**                      | Hard money reserve             |
-| **Gold**                         | Traditional safe haven         |
-| **U.S. Treasuries**             | Risk-free baseline             |
-
-### Why This Matters for You
-
-```
-You hold BUCK
-      ↓
-Buck Protocol holds hard assets (BTC, gold, T-bills, yield instruments)
-      ↓
-Hard assets generate ~10% annual yield via dividends
-      ↓
-Dividends increase Buck treasury value
-      ↓
-BUCK exchange rate rises
-      ↓
-Your BUCK is worth more
-```
-
-Buck's treasury is diversified across multiple hard assets, reducing single-asset risk while maintaining high yield from institutional dividend instruments.
+[Learn about monthly distributions →](../yield/distribution.md)
 
 ## Full DeFi Composability
 
@@ -77,25 +49,27 @@ Buck's treasury is diversified across multiple hard assets, reducing single-asse
 
 ## Earn Even More with Season 1
 
-Right now, Buck holders earn three reward streams simultaneously:
+Right now, Buck holders earn multiple reward streams:
 
-| Reward           | What You Get        | How                          |
-| ---------------- | ------------------- | ---------------------------- |
-| **Native Yield** | \~10% APY           | Automatic (BUCK price rises) |
-| **Racks**        | Protocol Allocation | Hold $100+ BUCK              |
-| **Merkl BUCK**   | $12,500/week pool   | Hold or LP during Season 1   |
+| Reward           | What You Get        | How                            |
+| ---------------- | ------------------- | ------------------------------ |
+| **STRC Yield**   | \~10% APY           | Claim monthly on the 15th      |
+| **Racks**        | Protocol Allocation | Hold $100+ BUCK                |
+| **Merkl BUCK**   | $12,500/week pool   | Hold or LP during Season 1     |
 
 [Learn about Season 1 rewards →](../rewards/points-program.md)
 
 ## How Buck Compares
 
-|                     | USDC | sUSDe (Ethena) | USDY (Ondo) | **BUCK**          |
-| ------------------- | ---- | -------------- | ----------- | ----------------- |
-| **Yield**           | 0%   | \~5-15%        | \~4.65%     | **\~10%**         |
-| **Can go negative** | N/A  | ✅ Yes          | ❌ No        | **❌ No**          |
-| **Yield source**    | None | Funding rates  | T-Bills     | **Hard asset dividends** |
+|                     | USDC | sUSDe (Ethena) | USDY (Ondo) | **BUCK**               |
+| ------------------- | ---- | -------------- | ----------- | ---------------------- |
+| **Yield**           | 0%   | \~5-15%        | \~4.65%     | **\~10%**              |
+| **Can go negative** | N/A  | ✅ Yes          | ❌ No        | **❌ No**               |
+| **Yield source**    | None | Funding rates  | T-Bills     | **STRC dividends**     |
+| **KYC required**    | No   | No             | Yes         | **No**                 |
+| **BTC exposure**    | No   | No             | No          | **Yes (via STRC)**     |
 
-Buck combines the best of each: high yield like Ethena, can't go negative like Ondo, fully DeFi-native like USDC, plus hard money backing.
+Buck delivers the highest yield with the strongest backing: contractual preferred dividends from a $60B+ Bitcoin treasury, distributed monthly, no KYC required.
 
 ## Get Started
 
