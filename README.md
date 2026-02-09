@@ -8,7 +8,7 @@ Buck is a **yield-bearing savings coin** backed by STRC — Strategy's Bitcoin-c
 
 ## How BUCK Works
 
-BUCK holders earn \~10% annualized yield from STRC dividends, distributed monthly. Your BUCK stays in your wallet, and you claim yield in USDC on the 15th of each month during the eligibility window.
+BUCK holders earn \~10% annualized yield from STRC dividends, distributed monthly. Your BUCK stays in your wallet, and yield is distributed automatically in USDC on the 15th of each month during the eligibility window.
 
 | Day | BUCK Price | Your 1,000 BUCK Value |
 | --- | ---------- | --------------------- |
@@ -17,7 +17,7 @@ BUCK holders earn \~10% annualized yield from STRC dividends, distributed monthl
 | 180 | $1.05      | $1,050                |
 | 365 | $1.10      | $1,100                |
 
-**Hold BUCK. Claim yield monthly. It's that simple.**
+**Hold BUCK. Receive yield monthly. It's that simple.**
 
 ## BUCK Token
 
@@ -39,7 +39,7 @@ Buck's yield comes from real dividends paid by STRC — Strategy's 10% preferred
 * **Can't go negative** — Preferred dividends are legally obligated
 * **180% over-collateralized** — $1.80+ in backing per $1 of BUCK
 * **DeFi native** — Full composability, no KYC required
-* **Monthly distributions** — Claim your yield on the 15th of each month
+* **Monthly distributions** — Yield distributed automatically on the 15th of each month
 
 ## Quick Links
 

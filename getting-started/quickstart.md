@@ -8,9 +8,9 @@ description: Get started earning yield in 5 minutes
 
 | Path              | Difficulty | Rewards                       | Best For           |
 | ----------------- | ---------- | ----------------------------- | ------------------ |
-| **Hold BUCK**     | Easy       | STRC yield + Racks + Merkl    | Passive holders    |
-| **Provide LP**    | Medium     | 3x Racks + fees + Merkl       | Active DeFi users  |
-| **Refer Friends** | Easy       | 10% of referee's Racks        | Community builders |
+| **Hold BUCK**     | Easy       | STRC yield + Points + Merkl   | Passive holders    |
+| **Provide LP**    | Medium     | 3x Points + fees + Merkl      | Active DeFi users  |
+| **Refer Friends** | Easy       | 10% of referee's Points       | Community builders |
 
 ***
 
@@ -33,20 +33,20 @@ You need USDC on Ethereum mainnet. Bridge from other chains or buy on an exchang
 3. Click "Mint"
 4. Confirm the transaction in your wallet
 
-### Step 4: Claim Yield Monthly
+### Step 4: Receive Yield Monthly
 
-On the **15th of each month**, visit buck.io to claim your STRC yield during the eligibility window (9:00 AM - 4:00 PM ET). Yield is paid in USDC.
+On the **15th of each month**, STRC yield is distributed automatically to eligible holders during the eligibility window (9:00 AM - 4:00 PM ET). Just hold BUCK — yield arrives in your wallet as USDC.
 
 ### What You're Earning
 
 | Reward           | Type                         | How It Works                              |
 | ---------------- | ---------------------------- | ----------------------------------------- |
-| **STRC Yield**   | \~10% APY                    | Claim monthly on the 15th (9 AM - 4 PM ET) |
-| **Racks**        | Points → protocol allocation | Hold $100+ BUCK, tracked automatically    |
+| **STRC Yield**   | \~10% APY                    | Distributed automatically on the 15th (9 AM - 4 PM ET) |
+| **Points**       | Points → protocol allocation | Hold $100+ BUCK, tracked automatically    |
 | **Merkl BUCK**   | Weekly BUCK rewards          | $6,250/week pool for holders              |
 
 {% hint style="success" %}
-**Three reward streams.** Hold BUCK and earn STRC yield (monthly claim), Racks (automatic), and Merkl BUCK rewards (claim weekly at merkl.xyz).
+**Three reward streams.** Hold BUCK and earn STRC yield (distributed automatically), Points (automatic), and Merkl BUCK rewards (claim weekly at merkl.xyz).
 {% endhint %}
 
 ***
@@ -57,9 +57,9 @@ On the **15th of each month**, visit buck.io to claim your STRC yield during the
 
 | Benefit             | Details                                      |
 | ------------------- | -------------------------------------------- |
-| **3x Racks**        | LP positions earn 3x vs holding              |
+| **3x Points**       | LP positions earn 3x vs holding              |
 | **Trading Fees**    | \~1-2% APY from swaps                        |
-| **Merkl Rewards**   | $4,167/week (Curve) or $2,083/week (Uniswap) |
+| **Merkl Rewards**   | $4,167/week (Curve)                          |
 | **Protocol Impact** | Deep liquidity helps Buck grow               |
 
 ### Step 1: Get BUCK + USDC
@@ -68,9 +68,7 @@ You need roughly equal value of both tokens.
 
 **Example:** $5,000 BUCK + $5,000 USDC = $10,000 LP position
 
-### Step 2: Choose Your Pool
-
-#### Option A: Curve (Recommended)
+### Step 2: Add Liquidity on Curve
 
 Curve is optimized for stablecoin swaps with lower slippage.
 
@@ -80,23 +78,13 @@ Curve is optimized for stablecoin swaps with lower slippage.
 4. Enter your BUCK and USDC amounts
 5. Approve tokens and confirm deposit
 
-#### Option B: Uniswap V3
-
-Uniswap offers concentrated liquidity for capital efficiency.
-
-1. Go to [app.uniswap.org](https://app.uniswap.org)
-2. Click "Pool" → "New Position"
-3. Select BUCK and USDC
-4. Set your price range (recommend tight range around $1.00-$1.10)
-5. Enter amounts and confirm
-
 ### What You're Earning
 
 | Reward           | Type           | How It Works                         |
 | ---------------- | -------------- | ------------------------------------ |
 | **Trading Fees** | \~1-2% APY     | From users swapping                  |
-| **Racks**        | 3x multiplier  | Automatic for LP positions           |
-| **Merkl BUCK**   | Weekly rewards | Curve: $4,167/wk, Uniswap: $2,083/wk |
+| **Points**       | 3x multiplier  | Automatic for LP positions           |
+| **Merkl BUCK**   | Weekly rewards | Curve: $4,167/wk                     |
 
 ***
 
@@ -106,7 +94,7 @@ Uniswap offers concentrated liquidity for capital efficiency.
 
 1. Get your unique referral link from [buck.io](https://buck.io) (powered by Merkl)
 2. Share with friends
-3. When they mint $100+ BUCK, you earn **10% of their Racks** — forever
+3. When they mint $100+ BUCK, you earn **10% of their Points** — forever
 
 ### Requirements
 
@@ -120,19 +108,19 @@ Uniswap offers concentrated liquidity for capital efficiency.
 
 Your friend mints $10,000 BUCK and holds for 30+ days:
 
-* They earn 5,000 Racks/day (5x multiplier at 30+ days)
-* You earn 500 Racks/day (10% of theirs)
-* Over 8 weeks: They get 280,000 Racks, you get 28,000 Racks
+* They earn 5,000 Points/day (5x multiplier at 30+ days)
+* You earn 500 Points/day (10% of theirs)
+* Over 8 weeks: They get 280,000 Points, you get 28,000 Points
 
 ***
 
 ## Tracking Your Rewards
 
-### Racks Dashboard
+### Points Dashboard
 
-View your Racks at **buck.io/racks**:
+View your Points at **buck.io/points**:
 
-* Daily Racks earned
+* Daily Points earned
 * Current multiplier
 * Hold duration
 * Leaderboard position
@@ -148,11 +136,11 @@ Claim your BUCK rewards at [merkl.xyz](https://merkl.xyz):
 
 ### Monthly Yield
 
-Claim your STRC yield at [buck.io](https://buck.io):
+STRC yield is distributed automatically:
 
-* Available on the 15th of each month
+* Distributed on the 15th of each month
 * Eligibility window: 9:00 AM - 4:00 PM ET
-* Paid in USDC
+* Paid in USDC — no action required
 
 ***
 
@@ -175,7 +163,7 @@ Add BUCK to your wallet:
 
 ### Hold Duration Multipliers
 
-| Duration  | Multiplier | Daily Racks ($10K) |
+| Duration  | Multiplier | Daily Points ($10K) |
 | --------- | ---------- | ------------------ |
 | 0-29 days | 1x         | 1,000              |
 | 30+ days  | 5x         | 5,000              |
@@ -186,7 +174,6 @@ Add BUCK to your wallet:
 | -------------- | -------------------- |
 | Hold BUCK      | 1x (5x at 30+ days) |
 | Curve LP       | 3x                   |
-| Uniswap LP     | 3x                   |
 | Morpho Lending | 3x (coming soon)     |
 
 {% hint style="warning" %}
@@ -199,7 +186,7 @@ Add BUCK to your wallet:
 
 ### When do I receive yield?
 
-Monthly, on the 15th. Visit buck.io during the eligibility window (9:00 AM - 4:00 PM ET) to claim your USDC yield.
+Monthly, on the 15th. Yield is distributed automatically during the eligibility window (9:00 AM - 4:00 PM ET). Just hold BUCK.
 
 ### Can I redeem anytime?
 
@@ -207,12 +194,12 @@ Yes. Go to buck.io, click "Redeem," enter your BUCK amount, and receive USDC at 
 
 ### What's the minimum to participate?
 
-$100 BUCK minimum to earn Racks. No minimum for STRC yield — any amount of BUCK earns \~10% APY.
+$100 BUCK minimum to earn Points. No minimum for STRC yield — any amount of BUCK earns \~10% APY.
 
 ### Do I need to claim rewards?
 
-* **STRC yield:** Yes — claim monthly on the 15th at buck.io
-* **Racks:** No — tracked automatically, converts at TGE
+* **STRC yield:** No — distributed automatically on the 15th
+* **Points:** No — tracked automatically, converts at TGE
 * **Merkl BUCK:** Yes — claim weekly at merkl.xyz
 
 ***

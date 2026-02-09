@@ -40,7 +40,7 @@ Buck Protocol Treasury
          ▼
 Monthly Distribution (15th of each month)
          │
-         │  Eligible holders claim their share
+         │  Yield distributed automatically to eligible holders
          ▼
 Your Wallet (USDC)
 ```
@@ -51,7 +51,7 @@ Your Wallet (USDC)
 2. **Buck Protocol receives funds** — Dividends flow into the protocol treasury
 3. **Distribution calculated** — Your share is based on your BUCK balance
 4. **Eligibility window opens** — 9:00 AM - 4:00 PM ET on the 15th of each month
-5. **You claim your yield** — Claim via buck.io during the eligibility window
+5. **Yield distributed automatically** — Hold BUCK during the window to receive USDC
 
 [Learn about the eligibility window →](distribution.md)
 

@@ -6,7 +6,7 @@ description: Monthly yield distribution and the eligibility window
 
 ## How It Works
 
-BUCK yield is distributed monthly. On the **15th of each month**, an eligibility window opens during U.S. market hours. Holders who qualify can claim their share of that month's yield.
+BUCK yield is distributed automatically each month. On the **15th of each month**, the protocol takes a snapshot during U.S. market hours. Holders who have BUCK in their wallet during the eligibility window receive their share of that month's yield — no action required.
 
 {% hint style="success" %}
 **Eligibility Window**
@@ -15,7 +15,7 @@ BUCK yield is distributed monthly. On the **15th of each month**, an eligibility
 
 **Who:** All BUCK holders with a qualifying balance
 
-**What:** Claim your share of STRC dividend yield for the month
+**What:** Hold BUCK during this window to receive your share of STRC dividend yield
 {% endhint %}
 
 ## The Eligibility Window
@@ -36,9 +36,10 @@ STRC trades on NASDAQ during U.S. market hours. The eligibility window aligns wi
 
 To receive your monthly yield distribution:
 
-1. **Hold BUCK** — You must hold BUCK in your wallet at the time of distribution
+1. **Hold BUCK** — You must hold BUCK in your wallet during the eligibility window
 2. **Minimum balance** — $100 BUCK minimum
-3. **Claim during the window** — Visit buck.io between 9:00 AM - 4:00 PM ET on the 15th
+
+Just hold BUCK during the window. Yield is distributed automatically as USDC — no transaction needed on your end.
 
 ## How Your Share is Calculated
 
@@ -71,12 +72,12 @@ Distributions occur on the 15th of every month. If the 15th falls on a weekend o
 
 *Adjusted for weekends
 
-## What If I Miss the Window?
+## What If I Don't Hold During the Window?
 
 {% hint style="warning" %}
-**Don't Miss Your Distribution**
+**Hold During the Eligibility Window**
 
-If you miss the eligibility window on the 15th, your unclaimed yield rolls into the next month's distribution pool. Set a reminder for the 15th of each month.
+If you don't hold BUCK during the eligibility window on the 15th, you won't receive that month's yield. The unclaimed portion rolls into the next month's distribution pool. Set a reminder for the 15th of each month.
 {% endhint %}
 
 ## FAQ
@@ -85,22 +86,22 @@ If you miss the eligibility window on the 15th, your unclaimed yield rolls into 
 
 Yield is distributed in USDC.
 
-### Do I need to do anything before the 15th?
+### Do I need to do anything on the 15th?
 
-Just hold BUCK in your wallet. Your balance is tracked on-chain automatically.
+No. Just make sure you're holding BUCK in your wallet during the eligibility window. Yield is distributed automatically.
 
-### Can I claim from any wallet?
+### Does yield go to any wallet holding BUCK?
 
-Yes, as long as your wallet holds BUCK at the time of distribution.
+Yes, as long as your wallet holds BUCK during the eligibility window.
 
 ### What if the 15th is a holiday?
 
 Distribution moves to the next U.S. trading day.
 
-### Is there a gas fee to claim?
+### Is there a gas fee?
 
-Yes, claiming requires an Ethereum transaction. Gas costs vary by network conditions.
+No. Yield is distributed automatically — no transaction required on your end.
 
 ---
 
-*Next: [Claiming Your Yield →](claiming.md)*
+*Next: [BUCK Token →](../tokens/buck-token.md)*

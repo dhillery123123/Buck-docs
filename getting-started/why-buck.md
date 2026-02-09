@@ -32,7 +32,7 @@ Buck's treasury holds STRC — backed by Strategy's $60B+ Bitcoin reserve. You g
 
 ### Monthly Distributions
 
-On the **15th of each month**, STRC dividend yield is distributed to BUCK holders during the eligibility window (9:00 AM - 4:00 PM ET). Just hold BUCK and claim your USDC yield monthly.
+On the **15th of each month**, STRC dividend yield is distributed automatically to BUCK holders during the eligibility window (9:00 AM - 4:00 PM ET). Just hold BUCK — yield arrives in your wallet as USDC.
 
 [Learn about monthly distributions →](../yield/distribution.md)
 
@@ -53,8 +53,8 @@ Right now, Buck holders earn multiple reward streams:
 
 | Reward           | What You Get        | How                            |
 | ---------------- | ------------------- | ------------------------------ |
-| **STRC Yield**   | \~10% APY           | Claim monthly on the 15th      |
-| **Racks**        | Protocol Allocation | Hold $100+ BUCK                |
+| **STRC Yield**   | \~10% APY           | Distributed automatically on the 15th |
+| **Points**       | Protocol Allocation | Hold $100+ BUCK                       |
 | **Merkl BUCK**   | $12,500/week pool   | Hold or LP during Season 1     |
 
 [Learn about Season 1 rewards →](../rewards/points-program.md)

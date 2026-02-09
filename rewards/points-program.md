@@ -1,41 +1,41 @@
 ---
-description: Earn Racks toward Buck's protocol allocation
+description: Earn Points toward Buck's protocol allocation
 ---
 
-# Racks Program
+# Points Program
 
 ## Season 1 Overview
 
-Buck Racks rewards early participants with protocol allocation. Season 1 runs for **8 weeks** with rewards distributed based on participation across holding, liquidity provision, lending, and referrals.
+Buck Points rewards early participants with protocol allocation. Season 1 runs for **8 weeks** with rewards distributed based on participation across holding, liquidity provision, lending, and referrals.
 
 {% hint style="success" %}
-**Dual Rewards: Racks + BUCK**
+**Dual Rewards: Points + BUCK**
 
-During Season 1, earn both Racks (future protocol allocation) AND direct BUCK rewards through our Merkl campaign. This is the highest-reward period in Buck's history.
+During Season 1, earn both Points (future protocol allocation) AND direct BUCK rewards through our Merkl campaign. This is the highest-reward period in Buck's history.
 {% endhint %}
 
-## How Racks Work
+## How Points Work
 
-Racks are points that convert to protocol allocation at TGE. The longer you hold and the more you contribute to the protocol, the more Racks you earn.
+Points convert to protocol allocation at TGE. The longer you hold and the more you contribute to the protocol, the more Points you earn.
 
-**No staking required for Racks.** Racks multipliers are earned simply by holding longer — no lock contracts, no commitments. Just hold BUCK to accrue Racks automatically. (Note: STRC yield is claimed separately on the 15th of each month via buck.io.)
+**No staking required for Points.** Points multipliers are earned simply by holding longer — no lock contracts, no commitments. Just hold BUCK to accrue Points automatically. (Note: STRC yield is distributed automatically on the 15th of each month.)
 
 ## Earning Structure
 
 ### Base Rate
 
-**1 Rack per $10 BUCK per day**
+**1 Point per $10 BUCK per day**
 
-A $10,000 BUCK position earns 1,000 Racks per day at the base rate.
+A $10,000 BUCK position earns 1,000 Points per day at the base rate.
 
 ### Activity Weights
 
-Racks are distributed across four activities:
+Points are distributed across four activities:
 
 | Activity                | Weight | Description                               |
 | ----------------------- | ------ | ----------------------------------------- |
 | **Hold BUCK**           | 50%    | Simply hold BUCK in your wallet           |
-| **Liquidity Provision** | 30%    | Provide LP to Curve or Uniswap BUCK pools |
+| **Liquidity Provision** | 30%    | Provide LP to Curve BUCK pools            |
 | **Morpho Lending**      | 10%    | Supply BUCK to Morpho lending markets     |
 | **Referrals**           | 10%    | Refer new users who mint BUCK             |
 
@@ -45,10 +45,10 @@ Racks are distributed across four activities:
 
 The longer you hold continuously, the higher your multiplier:
 
-| Hold Duration | Multiplier | Daily Racks ($10K) |
-| ------------- | ---------- | ------------------ |
-| 0-29 days     | 1x         | 1,000              |
-| 30+ days      | 5x         | 5,000              |
+| Hold Duration | Multiplier | Daily Points ($10K) |
+| ------------- | ---------- | ------------------- |
+| 0-29 days     | 1x         | 1,000               |
+| 30+ days      | 5x         | 5,000               |
 
 **How it works:** Your multiplier increases automatically based on how long you've held continuously. If you sell or transfer, your timer resets to zero.
 
@@ -58,7 +58,6 @@ The longer you hold continuously, the higher your multiplier:
 | -------------- | --------------- |
 | Hold BUCK      | 1x              |
 | Curve LP       | 3x              |
-| Uniswap V3 LP  | 3x              |
 | Morpho Lending | 3x              |
 
 {% hint style="warning" %}
@@ -69,23 +68,23 @@ You earn either the hold duration multiplier OR the activity multiplier—whiche
 
 ## Earning Examples
 
-Based on 1 Rack per $10/day base rate:
+Based on 1 Point per $10/day base rate:
 
-| Scenario             | Multiplier | Daily Racks | 8-Week Total |
-| -------------------- | ---------- | ----------- | ------------ |
-| $10K BUCK, 0-29 days | 1x         | 1,000       | 56,000       |
-| $10K BUCK, 30+ days  | 5x         | 5,000       | 280,000      |
-| $10K in Curve LP     | 3x         | 3,000       | 168,000      |
-| $10K in Morpho       | 3x         | 3,000       | 168,000      |
+| Scenario             | Multiplier | Daily Points | 8-Week Total |
+| -------------------- | ---------- | ------------ | ------------ |
+| $10K BUCK, 0-29 days | 1x         | 1,000        | 56,000       |
+| $10K BUCK, 30+ days  | 5x         | 5,000        | 280,000      |
+| $10K in Curve LP     | 3x         | 3,000        | 168,000      |
+| $10K in Morpho       | 3x         | 3,000        | 168,000      |
 
 ## Referral Program
 
-Earn **10% of your referees' Racks** on an ongoing basis.
+Earn **10% of your referees' Points** on an ongoing basis.
 
 | Component             | Details                              |
 | --------------------- | ------------------------------------ |
 | **Platform**          | Merkl                                |
-| **Bonus**             | 10% of referee's Racks               |
+| **Bonus**             | 10% of referee's Points              |
 | **Qualifying Action** | Referee mints $100+ BUCK via buck.io |
 | **Duration**          | Ongoing (as long as referee earns)   |
 
@@ -93,14 +92,13 @@ Referrals only count for direct mints through buck.io—DEX purchases don't qual
 
 ## Merkl BUCK Rewards (Running Concurrently)
 
-Alongside Racks, Season 1 includes direct BUCK distributions via Merkl:
+Alongside Points, Season 1 includes direct BUCK distributions via Merkl:
 
 | Pool             | Weekly BUCK | 8-Week Total | Est. APY\* |
 | ---------------- | ----------- | ------------ | ---------- |
 | **BUCK Holders** | $6,250      | $50,000      | \~75%      |
 | **Curve LP**     | $4,167      | $33,333      | \~50%      |
-| **Uniswap LP**   | $2,083      | $16,667      | \~50%      |
-| **Total**        | $12,500     | $100,000     | —          |
+| **Total**        | $10,417     | $83,333      | —          |
 
 \*APY estimates at $500K TVL. Actual rates depend on total participation.
 
@@ -109,7 +107,7 @@ Alongside Racks, Season 1 includes direct BUCK distributions via Merkl:
 
 During Season 1, you earn BOTH:
 
-1. **Racks** → Convert to protocol allocation at TGE
+1. **Points** → Convert to protocol allocation at TGE
 2. **BUCK** → Immediate value via Merkl, claimable weekly
 {% endhint %}
 
@@ -119,18 +117,18 @@ During Season 1, you earn BOTH:
 | ------------------------- | ------------------------- |
 | **Duration**              | 8 weeks                   |
 | **Minimum Participation** | $100 BUCK                 |
-| **Base Rate**             | 1 Rack per $10/day        |
-| **Referral Bonus**        | 10% of referee's Racks    |
+| **Base Rate**             | 1 Point per $10/day       |
+| **Referral Bonus**        | 10% of referee's Points   |
 | **Tracking**              | Daily snapshots via Merkl |
 
-## Converting Racks to Protocol Allocation
+## Converting Points to Protocol Allocation
 
 ### Pro-Rata Distribution
 
 Your protocol allocation is calculated as:
 
 ```
-Your Allocation = (Your Racks ÷ Total Racks Earned) × Season 1 Pool
+Your Allocation = (Your Points ÷ Total Points Earned) × Season 1 Pool
 ```
 
 ### Why Pro-Rata?
@@ -145,7 +143,7 @@ Pro-rata distribution ensures:
 
 ### Daily Snapshots
 
-Racks are calculated using daily balance snapshots. This prevents:
+Points are calculated using daily balance snapshots. This prevents:
 
 * Last-minute deposits before snapshots
 * Flash loan manipulation
@@ -153,7 +151,7 @@ Racks are calculated using daily balance snapshots. This prevents:
 
 ### Minimum Balance
 
-$100 minimum BUCK balance required to earn Racks. Filters dust wallets and reduces sybil attacks.
+$100 minimum BUCK balance required to earn Points. Filters dust wallets and reduces sybil attacks.
 
 ### Continuous Holding
 
@@ -168,55 +166,55 @@ Hold duration multipliers require **continuous** holding. Any break (selling, tr
 2. Connect wallet
 3. Mint BUCK with USDC
    —or—
-   Buy on Curve/Uniswap
+   Buy on Curve
 ```
 
 ### Step 2: Choose Your Strategy
 
 | Strategy           | Risk   | Reward                 | Best For           |
 | ------------------ | ------ | ---------------------- | ------------------ |
-| **Hold BUCK**      | Low    | Up to 5x (at 30+ days) | Patient holders    |
-| **Curve LP**       | Medium | 3x + trading fees      | Active DeFi users  |
-| **Morpho Lending** | Medium | 3x + lending yield     | Yield optimizers   |
-| **Refer Friends**  | None   | 10% of referee's Racks | Community builders |
+| **Hold BUCK**      | Low    | Up to 5x (at 30+ days)  | Patient holders    |
+| **Curve LP**       | Medium | 3x + trading fees       | Active DeFi users  |
+| **Morpho Lending** | Medium | 3x + lending yield      | Yield optimizers   |
+| **Refer Friends**  | None   | 10% of referee's Points | Community builders |
 
 ### Step 3: Track Progress
 
-Racks dashboard at buck.io/racks. Your position is tracked on-chain via daily snapshots.
+Points dashboard at buck.io/points. Your position is tracked on-chain via daily snapshots.
 
 ## Infrastructure
 
 | Component          | Platform                   | Purpose                                 |
 | ------------------ | -------------------------- | --------------------------------------- |
-| **Racks Tracking** | [Merkl](https://merkl.xyz) | On-chain activity tracking, leaderboard |
-| **Referrals**      | [Merkl](https://merkl.xyz) | Referral links, 10% bonus tracking      |
+| **Points Tracking** | [Merkl](https://merkl.xyz) | On-chain activity tracking, leaderboard |
+| **Referrals**       | [Merkl](https://merkl.xyz) | Referral links, 10% bonus tracking      |
 | **BUCK Rewards**   | [Merkl](https://merkl.xyz) | Direct BUCK distributions               |
 
 ## Season Timeline
 
 ```
 SEASON 1: 8 WEEKS
-├── Racks:  Earn based on holding, LP, Morpho, referrals
-├── Merkl:  $12,500/week BUCK rewards
+├── Points: Earn based on holding, LP, Morpho, referrals
+├── Merkl:  $10,417/week BUCK rewards
 └── Goal:   Bootstrap TVL + liquidity for Morpho approval
 
 TGE: Following Season 1
-├── Racks convert to protocol allocation
+├── Points convert to protocol allocation
 ├── Conversion ratio announced pre-TGE
 └── Season 2 begins
 ```
 
 ## Competitive Context
 
-Buck Racks draws from proven models:
+Buck Points draws from proven models:
 
-| Protocol   | Program | Duration  | Model                       |
-| ---------- | ------- | --------- | --------------------------- |
-| **Ethena** | Shards  | \~6 weeks | Shards → ENA                |
-| **Falcon** | Miles   | Ongoing   | Miles → FF                  |
-| **Buck**   | Racks   | 8 weeks   | Racks → Protocol Allocation |
+| Protocol   | Program | Duration  | Model                        |
+| ---------- | ------- | --------- | ---------------------------- |
+| **Ethena** | Shards  | \~6 weeks | Shards → ENA                 |
+| **Falcon** | Miles   | Ongoing   | Miles → FF                   |
+| **Buck**   | Points  | 8 weeks   | Points → Protocol Allocation |
 
-We designed Racks with strategic ambiguity on token details (following Ethena's playbook) while providing clear earning mechanics.
+We designed Points with strategic ambiguity on token details (following Ethena's playbook) while providing clear earning mechanics.
 
 ## Contract Addresses
 
@@ -227,4 +225,4 @@ We designed Racks with strategic ambiguity on token details (following Ethena's 
 
 ***
 
-*Next: [Yield Mechanics →](../protocol/yield-mechanics.md)*
+*Next: [Yield Overview →](../yield/overview.md)*

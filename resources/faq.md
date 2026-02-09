@@ -16,7 +16,7 @@ Buck Protocol holds STRC — Strategy's 10% perpetual preferred stock on NASDAQ.
 
 ### Do I need to claim my yield?
 
-**Yes.** Yield is distributed monthly. On the 15th of each month, visit buck.io during the eligibility window (9:00 AM - 4:00 PM ET) to claim your USDC yield. Your BUCK balance stays the same — yield is paid as a separate USDC payment.
+**No.** Yield is distributed automatically. On the 15th of each month, eligible holders receive their USDC yield during the eligibility window (9:00 AM - 4:00 PM ET). Just hold BUCK — no action needed. Your BUCK balance stays the same; yield is paid as a separate USDC payment.
 
 ### What tokens does Buck Protocol have?
 
@@ -24,7 +24,7 @@ Buck Protocol holds STRC — Strategy's 10% perpetual preferred stock on NASDAQ.
 |-------|------|---------|
 | **BUCK** | Savings coin | Hold to earn \~10% APY from STRC dividends |
 
-A governance token is launching after Season 1. Earn Racks through the [Racks Program](../rewards/points-program.md) to maximize your allocation.
+A governance token is launching after Season 1. Earn Points through the [Points Program](../rewards/points-program.md) to maximize your allocation.
 
 ## Yield & Distribution
 
@@ -36,9 +36,9 @@ On the **15th of each month** during the eligibility window: **9:00 AM - 4:00 PM
 
 STRC trades on NASDAQ during U.S. market hours. The eligibility window aligns with these hours so that STRC pricing is live and accurate during distribution.
 
-### What if I miss the eligibility window?
+### What if I don't hold during the eligibility window?
 
-Unclaimed yield rolls into the next month's distribution pool.
+Your portion rolls into the next month's distribution pool.
 
 ### Is the 10% yield guaranteed?
 
@@ -102,31 +102,31 @@ STRC dividends are contractually obligated preferred equity payments. If they we
 
 Buck maintains 180%+ overcollateralization. STRC would need to decline by more than 44% before the protocol approaches 100% collateralization. Circuit breakers and mint pauses activate at defined thresholds.
 
-## Racks Program & Governance Token
+## Points Program & Governance Token
 
-### How does the Racks Program work?
+### How does the Points Program work?
 
-Season 1 runs for **8 weeks**. Earn Racks based on your activity:
+Season 1 runs for **8 weeks**. Earn Points based on your activity:
 
 | Activity | Weight | Multiplier |
 |----------|--------|------------|
 | Hold BUCK | 50% | 1x (5x at 30+ days) |
-| Curve/Uniswap LP | 30% | 3x |
+| Curve LP | 30% | 3x |
 | Morpho Lending | 10% | 3x |
-| Referrals | 10% | 10% of referee's Racks |
+| Referrals | 10% | 10% of referee's Points |
 
-Base rate: 1 Rack per $10 BUCK per day. Minimum $100 to participate.
+Base rate: 1 Point per $10 BUCK per day. Minimum $100 to participate.
 
 ### What percentage of tokens go to Season 1?
 
 The exact allocation will be announced closer to TGE. We're following Ethena's playbook of strategic ambiguity on token details while providing clear earning mechanics.
 
-### How do Racks convert to tokens?
+### How do Points convert to tokens?
 
 Pro-rata distribution:
 
 ```
-Your Tokens = (Your Racks / Total Racks) x Season 1 Pool
+Your Tokens = (Your Points / Total Points) x Season 1 Pool
 ```
 
 ### When does the governance token launch?
@@ -148,7 +148,7 @@ TGE (Token Generation Event) follows Season 1 completion. Token name, supply, an
 
 ### Do large wallets have vesting?
 
-Yes. Top 2,000 wallets by Racks receive:
+Yes. Top 2,000 wallets by Points receive:
 - 50% at TGE
 - 50% vested over 6 months (requires continued participation)
 
@@ -156,7 +156,7 @@ Wallets outside top 2,000 receive full allocation at TGE.
 
 ### Do early participants get benefits in future seasons?
 
-Yes. Season 1 participants receive a **10% Racks boost** in Season 2.
+Yes. Season 1 participants receive a **10% Points boost** in Season 2.
 
 ## Technical
 

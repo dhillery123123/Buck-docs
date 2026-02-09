@@ -9,9 +9,9 @@ description: The yield-bearing savings coin backed by STRC
 BUCK is a **yield-bearing savings coin** that delivers \~10% APY from STRC dividends. Unlike stablecoins that maintain a fixed $1.00 price, BUCK holders earn monthly yield distributions from Strategy's contractual preferred stock dividends.
 
 {% hint style="success" %}
-**Hold BUCK, Claim Monthly**
+**Hold BUCK, Earn Automatically**
 
-Hold BUCK in your wallet. On the 15th of each month, claim your share of STRC dividend yield in USDC during the eligibility window (9:00 AM - 4:00 PM ET).
+Hold BUCK in your wallet. On the 15th of each month, your share of STRC dividend yield is distributed automatically in USDC during the eligibility window (9:00 AM - 4:00 PM ET).
 {% endhint %}
 
 ## Token Specifications
@@ -28,39 +28,6 @@ Hold BUCK in your wallet. On the 15th of each month, claim your share of STRC di
 | **Starting Price** | $1.00 (at launch)                            |
 | **Yield**          | \~10% APY from STRC dividends               |
 | **Max Supply**     | Unlimited (mint/burn model)                  |
-
-## How Yield Works
-
-### The Monthly Cycle
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    BUCK YIELD MODEL                              │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                  │
-│  1. Buck Protocol holds STRC (Strategy's 10% preferred stock)    │
-│                         ↓                                        │
-│  2. STRC pays quarterly dividends                                │
-│                         ↓                                        │
-│  3. Buck passes yield to holders monthly                         │
-│                         ↓                                        │
-│  4. On the 15th, claim your share in USDC (9 AM - 4 PM ET)      │
-│                         ↓                                        │
-│  5. Your BUCK balance stays the same — yield is paid separately  │
-│                                                                  │
-└─────────────────────────────────────────────────────────────────┘
-```
-
-### Growth Example
-
-| Time    | BUCK Value (from $1,000) | Annual Yield Earned |
-| ------- | ------------------------ | ------------------- |
-| Day 0   | $1,000.00                | —                   |
-| Day 90  | $1,000.00                | \~$25 claimed       |
-| Day 180 | $1,000.00                | \~$50 claimed       |
-| Day 365 | $1,000.00                | \~$100 claimed      |
-
-*Your BUCK balance stays constant. Yield is received as USDC monthly.*
 
 ## Minting BUCK
 
@@ -102,29 +69,6 @@ Burn 1,000 BUCK → Receive ~1,047 USDC (after 30 bps fee)
 | --------- | --- |
 | Standard  | 30 bps (0.3%) |
 
-## Collateralization
-
-### Backing Structure
-
-BUCK is backed by two components:
-
-| Component | Purpose | Composition |
-| --------- | ------- | ----------- |
-| **STRC Treasury** | Yield generation + collateral | STRC (Strategy preferred stock) |
-| **Liquidity Reserve** | Instant redemptions | USDC |
-
-### 180% Over-Collateralized
-
-```
-Collateralization Ratio = (STRC Treasury Value + USDC Reserve) / (BUCK Supply x BUCK Price)
-
-Current Target: 180%+
-```
-
-The protocol maintains 180%+ overcollateralization at all times, providing significant downside protection.
-
-[Learn more about collateralization →](../protocol/collateralization.md)
-
 ## DeFi Use Cases
 
 ### As Collateral
@@ -144,7 +88,7 @@ Day 365: You've earned ~$1,000 in yield
 Provide BUCK liquidity and earn:
 
 * Trading fees from swaps
-* Racks through the [Racks Program](../rewards/points-program.md)
+* Points through the [Points Program](../rewards/points-program.md)
 * BUCK rewards via Merkl (during Season 1)
 
 ### Integrations
@@ -181,4 +125,4 @@ STRC trades during U.S. market hours only (Mon-Fri, 9:30 AM - 4:00 PM ET). The o
 
 ***
 
-_Next:_ [_Racks Program →_](../rewards/points-program.md)
+_Next:_ [_Points Program →_](../rewards/points-program.md)

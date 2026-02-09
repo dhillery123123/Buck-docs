@@ -11,16 +11,14 @@
 
 * [Yield Overview](yield/overview.md)
 * [Monthly Distribution](yield/distribution.md)
-* [Claiming Your Yield](yield/claiming.md)
 
 ## BUCK Token
 
 * [BUCK](tokens/buck-token.md)
 
-## Racks Program
+## Points Program
 
 * [Season 1](rewards/points-program.md)
-* [Governance Token](rewards/governance.md)
 
 ## Safety & Risk
 
