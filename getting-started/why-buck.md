@@ -14,13 +14,13 @@ Buck is a savings coin that pays \~10% APY through STRC — Strategy's Bitcoin-c
 
 Buck's yield comes from **STRC**, Strategy's 10% perpetual preferred stock on NASDAQ. STRC dividends are contractually obligated — not trading profits, not token inflation, not funding rates. This is real yield from a publicly traded instrument backed by the world's largest corporate Bitcoin treasury.
 
-| Property | Details |
-|----------|---------|
-| **Yield Source** | STRC (Strategy's 10% preferred stock) |
-| **Dividend Rate** | 10% annual, paid quarterly |
-| **Cash Reserves** | $2.25B (77.4 years of coverage) |
-| **Bitcoin Backing** | Strategy holds $60B+ in BTC |
-| **Over-collateralization** | 180%+ protocol-level, 5x at Strategy level |
+| Property                   | Details                                    |
+| -------------------------- | ------------------------------------------ |
+| **Yield Source**           | STRC (Strategy's 10% preferred stock)      |
+| **Dividend Rate**          | 10% annual, paid quarterly                 |
+| **Cash Reserves**          | $2.25B (77.4 years of coverage)            |
+| **Bitcoin Backing**        | Strategy holds $60B+ in BTC                |
+| **Over-collateralization** | 100%+ protocol-level, 5x at Strategy level |
 
 ### Yield That Can't Go Negative
 
@@ -51,23 +51,23 @@ On the **15th of each month**, STRC dividend yield is distributed automatically 
 
 Right now, Buck holders earn multiple reward streams:
 
-| Reward           | What You Get        | How                            |
-| ---------------- | ------------------- | ------------------------------ |
-| **STRC Yield**   | \~10% APY           | Distributed automatically on the 15th |
-| **Points**       | Protocol Allocation | Hold $100+ BUCK                       |
-| **Merkl BUCK**   | $12,500/week pool   | Hold or LP during Season 1     |
+| Reward         | What You Get        | How                                   |
+| -------------- | ------------------- | ------------------------------------- |
+| **STRC Yield** | \~10% APY           | Distributed automatically on the 15th |
+| **Points**     | Protocol Allocation | Hold $100+ BUCK                       |
+| **Merkl BUCK** | $12,500/week pool   | Hold or LP during Season 1            |
 
 [Learn about Season 1 rewards →](../rewards/points-program.md)
 
 ## How Buck Compares
 
-|                     | USDC | sUSDe (Ethena) | USDY (Ondo) | **BUCK**               |
-| ------------------- | ---- | -------------- | ----------- | ---------------------- |
-| **Yield**           | 0%   | \~5-15%        | \~4.65%     | **\~10%**              |
-| **Can go negative** | N/A  | ✅ Yes          | ❌ No        | **❌ No**               |
-| **Yield source**    | None | Funding rates  | T-Bills     | **STRC dividends**     |
-| **KYC required**    | No   | No             | Yes         | **No**                 |
-| **BTC exposure**    | No   | No             | No          | **Yes (via STRC)**     |
+|                     | USDC | sUSDe (Ethena) | USDY (Ondo) | **BUCK**           |
+| ------------------- | ---- | -------------- | ----------- | ------------------ |
+| **Yield**           | 0%   | \~5-15%        | \~4.65%     | **\~10%**          |
+| **Can go negative** | N/A  | ✅ Yes          | ❌ No        | **❌ No**           |
+| **Yield source**    | None | Funding rates  | T-Bills     | **STRC dividends** |
+| **KYC required**    | No   | No             | Yes         | **No**             |
+| **BTC exposure**    | No   | No             | No          | **Yes (via STRC)** |
 
 Buck delivers the highest yield with the strongest backing: contractual preferred dividends from a $60B+ Bitcoin treasury, distributed monthly, no KYC required.
 
