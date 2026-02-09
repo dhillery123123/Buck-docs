@@ -6,11 +6,11 @@ description: Get started earning yield in 5 minutes
 
 ## Choose Your Path
 
-| Path              | Difficulty | Rewards                       | Best For           |
-| ----------------- | ---------- | ----------------------------- | ------------------ |
-| **Hold BUCK**     | Easy       | STRC yield + Points + Merkl   | Passive holders    |
-| **Provide LP**    | Medium     | 3x Points + fees + Merkl      | Active DeFi users  |
-| **Refer Friends** | Easy       | 10% of referee's Points       | Community builders |
+| Path              | Difficulty | Rewards                     | Best For           |
+| ----------------- | ---------- | --------------------------- | ------------------ |
+| **Hold BUCK**     | Easy       | STRC yield + Points + Merkl | Passive holders    |
+| **Provide LP**    | Medium     | 3x Points + fees + Merkl    | Active DeFi users  |
+| **Refer Friends** | Easy       | 10% of referee's Points     | Community builders |
 
 ***
 
@@ -39,11 +39,11 @@ On the **15th of each month**, STRC yield is distributed automatically to eligib
 
 ### What You're Earning
 
-| Reward           | Type                         | How It Works                              |
-| ---------------- | ---------------------------- | ----------------------------------------- |
-| **STRC Yield**   | \~10% APY                    | Distributed automatically on the 15th (9 AM - 4 PM ET) |
-| **Points**       | Points → protocol allocation | Hold $100+ BUCK, tracked automatically    |
-| **Merkl BUCK**   | Weekly BUCK rewards          | $6,250/week pool for holders              |
+| Reward         | Type                         | How It Works                                           |
+| -------------- | ---------------------------- | ------------------------------------------------------ |
+| **STRC Yield** | \~10% APY                    | Distributed automatically on the 15th (9 AM - 4 PM ET) |
+| **Points**     | Points → protocol allocation | Hold $100+ BUCK, tracked automatically                 |
+| **Merkl BUCK** | Weekly BUCK rewards          | $6,250/week pool for holders                           |
 
 {% hint style="success" %}
 **Three reward streams.** Hold BUCK and earn STRC yield (distributed automatically), Points (automatic), and Merkl BUCK rewards (claim weekly at merkl.xyz).
@@ -55,12 +55,12 @@ On the **15th of each month**, STRC yield is distributed automatically to eligib
 
 ### Why Provide Liquidity?
 
-| Benefit             | Details                                      |
-| ------------------- | -------------------------------------------- |
-| **3x Points**       | LP positions earn 3x vs holding              |
-| **Trading Fees**    | \~1-2% APY from swaps                        |
-| **Merkl Rewards**   | $4,167/week (Curve)                          |
-| **Protocol Impact** | Deep liquidity helps Buck grow               |
+| Benefit             | Details                         |
+| ------------------- | ------------------------------- |
+| **3x Points**       | LP positions earn 3x vs holding |
+| **Trading Fees**    | \~1-2% APY from swaps           |
+| **Merkl Rewards**   | $4,167/week (Curve)             |
+| **Protocol Impact** | Deep liquidity helps Buck grow  |
 
 ### Step 1: Get BUCK + USDC
 
@@ -80,11 +80,11 @@ Curve is optimized for stablecoin swaps with lower slippage.
 
 ### What You're Earning
 
-| Reward           | Type           | How It Works                         |
-| ---------------- | -------------- | ------------------------------------ |
-| **Trading Fees** | \~1-2% APY     | From users swapping                  |
-| **Points**       | 3x multiplier  | Automatic for LP positions           |
-| **Merkl BUCK**   | Weekly rewards | Curve: $4,167/wk                     |
+| Reward           | Type           | How It Works               |
+| ---------------- | -------------- | -------------------------- |
+| **Trading Fees** | \~1-2% APY     | From users swapping        |
+| **Points**       | 3x multiplier  | Automatic for LP positions |
+| **Merkl BUCK**   | Weekly rewards | Curve: $4,167/wk           |
 
 ***
 
@@ -164,17 +164,17 @@ Add BUCK to your wallet:
 ### Hold Duration Multipliers
 
 | Duration  | Multiplier | Daily Points ($10K) |
-| --------- | ---------- | ------------------ |
-| 0-29 days | 1x         | 1,000              |
-| 30+ days  | 5x         | 5,000              |
+| --------- | ---------- | ------------------- |
+| 0-29 days | 1x         | 1,000               |
+| 30+ days  | 5x         | 5,000               |
 
 ### Activity Multipliers
 
-| Activity       | Multiplier           |
-| -------------- | -------------------- |
+| Activity       | Multiplier          |
+| -------------- | ------------------- |
 | Hold BUCK      | 1x (5x at 30+ days) |
-| Curve LP       | 3x                   |
-| Morpho Lending | 3x (coming soon)     |
+| Curve LP       | 3x                  |
+| Morpho Lending | 3x (coming soon)    |
 
 {% hint style="warning" %}
 **Multipliers don't stack.** LP positions earn the 3x activity multiplier, not 3x × hold duration.
@@ -186,7 +186,7 @@ Add BUCK to your wallet:
 
 ### When do I receive yield?
 
-Monthly, on the 15th. Yield is distributed automatically during the eligibility window (9:00 AM - 4:00 PM ET). Just hold BUCK.
+Monthly, at the beginning of the following month. Yield is distributed automatically for those who held during the eligibility window (9:00 AM - 4:00 PM ET). Just hold BUCK.
 
 ### Can I redeem anytime?
 
