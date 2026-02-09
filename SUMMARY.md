@@ -31,7 +31,6 @@
 
 ## Resources
 
-* [Competitive Landscape](resources/comparison.md)
 * [FAQ](resources/faq.md)
 
 ## Technical
