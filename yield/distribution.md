@@ -84,7 +84,7 @@ If you don't hold BUCK during the eligibility window on the 15th, you won't rece
 
 ### What currency is yield paid in?
 
-Yield is distributed in USDC.
+Yield is distributed in additional Buck tokens.
 
 ### Do I need to do anything on the 15th?
 
