@@ -26,7 +26,7 @@ Hold BUCK in your wallet. On the 15th of each month, your share of STRC dividend
 | **Chain**          | Ethereum                                     |
 | **Contract**       | `0xdb13997f4D83EF343845d0bAEb27d1173dF8c224` |
 | **Starting Price** | $1.00 (at launch)                            |
-| **Yield**          | \~10% APY from STRC dividends               |
+| **Yield**          | \~10% APY from STRC dividends                |
 | **Max Supply**     | Unlimited (mint/burn model)                  |
 
 ## Minting BUCK
@@ -45,8 +45,8 @@ Deposit 1,050 USDC → Receive 1,000 BUCK
 
 ### Minting Fees
 
-| Condition | Fee |
-| --------- | --- |
+| Condition | Fee           |
+| --------- | ------------- |
 | Standard  | 10 bps (0.1%) |
 
 ## Redeeming BUCK
@@ -65,8 +65,8 @@ Burn 1,000 BUCK → Receive ~1,047 USDC (after 30 bps fee)
 
 ### Redemption Fees
 
-| Condition | Fee |
-| --------- | --- |
+| Condition | Fee           |
+| --------- | ------------- |
 | Standard  | 30 bps (0.3%) |
 
 ## DeFi Use Cases
@@ -93,12 +93,12 @@ Provide BUCK liquidity and earn:
 
 ### Integrations
 
-| Protocol   | Type    | Status      | Benefit                |
-| ---------- | ------- | ----------- | ---------------------- |
-| Curve      | DEX     | ✅ Live      | Deep liquidity         |
-| Uniswap V3 | DEX     | ✅ Live      | Concentrated liquidity |
-| Morpho     | Lending | 🔄 Pending  | Borrow against BUCK    |
-| Pendle     | Yield   | 🎯 Target   | Yield tokenization     |
+| Protocol   | Type    | Status     | Benefit                |
+| ---------- | ------- | ---------- | ---------------------- |
+| Curve      | DEX     | ✅ Live     | Deep liquidity         |
+| Uniswap V3 | DEX     | ✅ Live     | Concentrated liquidity |
+| Morpho     | Lending | 🔄 Pending | Borrow against BUCK    |
+| Pendle     | Yield   | 🎯 Target  | Yield tokenization     |
 
 ## Exchange Rate Oracle
 
@@ -108,11 +108,11 @@ The Oracle Adapter contract calculates the BUCK exchange rate using STRC price d
 
 ### Price Feed Components
 
-| Component        | Source          | Purpose                    |
-| ---------------- | --------------- | -------------------------- |
-| STRC Value       | RedStone oracle | Value STRC treasury holdings |
-| Reserve Balance  | On-chain        | Value USDC reserves        |
-| BUCK Supply      | On-chain        | Calculate exchange rate    |
+| Component       | Source          | Purpose                      |
+| --------------- | --------------- | ---------------------------- |
+| STRC Value      | RedStone oracle | Value STRC treasury holdings |
+| Reserve Balance | On-chain        | Value USDC reserves          |
+| BUCK Supply     | On-chain        | Calculate exchange rate      |
 
 ### Market Hours Handling
 
@@ -120,7 +120,6 @@ STRC trades during U.S. market hours only (Mon-Fri, 9:30 AM - 4:00 PM ET). The o
 
 * Uses live pricing during market hours
 * Uses most recent market close price during off-hours
-* Applies 30-minute TWAP smoothing
 * Circuit breakers for >15% moves
 
 ***
