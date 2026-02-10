@@ -84,7 +84,7 @@ Day 365: You've earned ~$1,000 in yield
 Provide BUCK liquidity and earn:
 
 * Trading fees from swaps
-* Points through the [Points Program](../rewards/points-program.md)
+* Buck Points through the [Buck Points Program](../rewards/points-program.md)
 * BUCK rewards via Merkl (during Season 1)
 
 For current DeFi integrations, see [Why Buck](../getting-started/why-buck.md#works-everywhere).

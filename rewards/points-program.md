@@ -1,21 +1,21 @@
-# Racks Program
+# Buck Points Program
 
-Season 1 of the Buck Racks Program rewards early adopters across holding, liquidity provision, lending, and referrals.
+Season 1 of the Buck Points Program rewards early adopters across holding, liquidity provision, lending, and referrals.
 
 ## Overview
 
 | Detail | Value |
 |--------|-------|
 | Duration | 8 weeks |
-| Base rate | 1 Rack per $10 BUCK per day |
+| Base rate | 1 Buck Point per $10 BUCK per day |
 | Minimum | $100 BUCK equivalent |
-| Conversion | Racks convert to governance token allocation at TGE |
+| Conversion | Buck Points convert to governance token allocation at TGE |
 | Infrastructure | Merkl |
 | BUCK Rewards | $25K per 2-week batch ($100K total) |
 
-Racks are earned by participating in the Buck ecosystem. At TGE (Token Generation Event), Racks convert to a share of the protocol's governance token allocation. The exact conversion ratio and allocation percentage will be announced 4-6 weeks before TGE.
+Buck Points are earned by participating in the Buck ecosystem. At TGE (Token Generation Event), Buck Points convert to a share of the protocol's governance token allocation. The exact conversion ratio and allocation percentage will be announced 4-6 weeks before TGE.
 
-## How to Earn Racks
+## How to Earn Buck Points
 
 ### Activity Weights
 
@@ -28,7 +28,7 @@ Racks are earned by participating in the Buck ecosystem. At TGE (Token Generatio
 
 ### Multipliers
 
-Multipliers boost your Rack earning rate. They **do not stack** — the highest applicable multiplier is used.
+Multipliers boost your Buck Point earning rate. They **do not stack** — the highest applicable multiplier is used.
 
 #### Hold Duration Multiplier
 
@@ -52,7 +52,7 @@ Multipliers boost your Rack earning rate. They **do not stack** — the highest 
 
 ### Example 1: Hold $10,000 BUCK for 8 weeks
 
-| Period | Rate | Daily Racks | Total |
+| Period | Rate | Daily Buck Points | Total |
 |--------|------|-------------|-------|
 | Days 1-29 | 1x | 1,000 | 29,000 |
 | Days 30-56 | 3x | 3,000 | 81,000 |
@@ -60,7 +60,7 @@ Multipliers boost your Rack earning rate. They **do not stack** — the highest 
 
 ### Example 2: $10,000 in Curve LP for 8 weeks
 
-| Period | Rate | Daily Racks | Total |
+| Period | Rate | Daily Buck Points | Total |
 |--------|------|-------------|-------|
 | Days 1-56 | 3x | 3,000 | 168,000 |
 | **Total** | | | **168,000** |
@@ -69,7 +69,7 @@ Multipliers boost your Rack earning rate. They **do not stack** — the highest 
 
 ## Concurrent BUCK Rewards
 
-In addition to Racks, Merkl distributes BUCK tokens directly during Season 1 in **2-week batches**:
+In addition to Buck Points, Merkl distributes BUCK tokens directly during Season 1 in **2-week batches**:
 
 | Pool | Per Batch | 8-Week Total |
 |------|-----------|--------------|
@@ -78,12 +78,12 @@ In addition to Racks, Merkl distributes BUCK tokens directly during Season 1 in 
 | Uniswap V3 LP | $4,167 | $16,667 |
 | **Total** | **$25,000** | **$100,000** |
 
-These BUCK rewards are earned alongside Racks — they're separate reward streams.
+These BUCK rewards are earned alongside Buck Points — they're separate reward streams.
 
 ## Anti-Gaming Measures
 
 - **Daily snapshots** — Balances are captured daily, not at a single point in time
-- **Minimum threshold** — $100 BUCK equivalent required to earn Racks
+- **Minimum threshold** — $100 BUCK equivalent required to earn Buck Points
 - **Continuous holding** — Moving tokens resets your hold duration multiplier
 
 ## Season Timeline
@@ -100,7 +100,7 @@ These BUCK rewards are earned alongside Racks — they're separate reward stream
 The following details will be announced 4-6 weeks before TGE:
 - Token name and ticker
 - Total supply
-- Racks-to-token conversion ratio
+- Buck Points-to-token conversion ratio
 - Allocation percentages
 
 This approach mirrors successful launches like Ethena's, maintaining engagement through the full program duration.

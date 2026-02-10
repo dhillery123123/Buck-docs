@@ -24,7 +24,7 @@ Through STRC's contractual quarterly dividends, distributed monthly to BUCK hold
 | -------- | ------------ | ------------------------------------------ |
 | **BUCK** | Savings coin | Hold to earn \~10% APY from STRC dividends |
 
-A governance token is launching after Season 1. Earn Points through the [Points Program](../rewards/points-program.md) to maximize your allocation.
+A governance token is launching after Season 1. Earn Buck Points through the [Buck Points Program](../rewards/points-program.md) to maximize your allocation.
 
 ## Yield & Distribution
 
@@ -99,11 +99,11 @@ STRC dividends are contractually obligated preferred equity payments. If they we
 * You can still redeem at the current exchange rate
 * Strategy's $2.25B cash reserves cover 77.4 years of dividends
 
-## Points Program & Governance Token
+## Buck Points & Governance Token
 
-### How does the Points Program work?
+### How does the Buck Points Program work?
 
-Season 1 runs for 8 weeks with points earned across holding, LP, lending, and referrals. See [Points Program](../rewards/points-program.md) for full details on weights, multipliers, and earning mechanics.
+Season 1 runs for 8 weeks with Buck Points earned across holding, LP, lending, and referrals. See [Buck Points Program](../rewards/points-program.md) for full details on weights, multipliers, and earning mechanics.
 
 ### When does the governance token launch?
 

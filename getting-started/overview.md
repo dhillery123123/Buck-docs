@@ -152,7 +152,7 @@ For DAOs and protocols:
 3. Points accrue automatically based on daily snapshots
 4. Convert to protocol allocation at TGE
 
-[Learn more about the Points Program →](../rewards/points-program.md)
+[Learn more about Buck Points →](../rewards/points-program.md)
 
 ## Quick Links
 

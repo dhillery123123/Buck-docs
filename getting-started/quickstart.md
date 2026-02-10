@@ -38,7 +38,7 @@ You need USDC on Ethereum mainnet. Bridge from other chains or buy on an exchang
 Yield is distributed automatically in BUCK each month. See [Monthly Distribution](../yield/distribution.md) for eligibility details.
 
 {% hint style="success" %}
-**Three reward streams.** Hold BUCK and earn STRC yield (distributed automatically), Points (automatic), and Merkl BUCK rewards (claim weekly at merkl.xyz). See [Points Program](../rewards/points-program.md) for details.
+**Three reward streams.** Hold BUCK and earn STRC yield (distributed automatically), Points (automatic), and Merkl BUCK rewards (claim weekly at merkl.xyz). See [Buck Points Program](../rewards/points-program.md) for details.
 {% endhint %}
 
 ***
@@ -70,7 +70,7 @@ Curve is optimized for stablecoin swaps with lower slippage.
 4. Enter your BUCK and USDC amounts
 5. Approve tokens and confirm deposit
 
-LP positions earn 3x Points multiplier, trading fees, and Merkl BUCK rewards. See [Points Program](../rewards/points-program.md) for multiplier details.
+LP positions earn 3x Points multiplier, trading fees, and Merkl BUCK rewards. See [Buck Points Program](../rewards/points-program.md) for multiplier details.
 
 ***
 
@@ -124,7 +124,7 @@ Claim your BUCK rewards at [merkl.xyz](https://merkl.xyz):
 
 STRC yield is distributed automatically in BUCK each month — no action required. See [Monthly Distribution](../yield/distribution.md) for eligibility details.
 
-For contract addresses, see [Smart Contracts](../technical/contracts.md). For multiplier details, see [Points Program](../rewards/points-program.md). For common questions, see [FAQ](../resources/faq.md).
+For contract addresses, see [Smart Contracts](../technical/contracts.md). For multiplier details, see [Buck Points Program](../rewards/points-program.md). For common questions, see [FAQ](../resources/faq.md).
 
 ***
 

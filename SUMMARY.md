@@ -16,7 +16,7 @@
 
 * [BUCK](tokens/buck-token.md)
 
-## Points Program
+## Buck Points Program
 
 * [Season 1](rewards/points-program.md)
 
