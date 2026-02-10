@@ -35,15 +35,15 @@ You need USDC on Ethereum mainnet. Bridge from other chains or buy on an exchang
 
 ### Step 4: Receive Yield Monthly
 
-On the **15th of each month**, a snapshot determines eligible holders during the eligibility window (9:00 AM - 4:00 PM ET). Yield is then distributed automatically in USDC on the first business day of the following month.
+On the **15th of each month**, a snapshot determines eligible holders during the eligibility window (9:00 AM - 4:00 PM ET). Yield is then distributed automatically in BUCK on the first business day of the following month.
 
 ### What You're Earning
 
-| Reward           | Type                         | How It Works                                          |
-| ---------------- | ---------------------------- | ----------------------------------------------------- |
-| **STRC Yield**   | \~10% APY                    | Hold on 15th, distributed 1st business day next month |
-| **Points**       | Points → protocol allocation | Hold $100+ BUCK, tracked automatically                |
-| **Merkl BUCK**   | Weekly BUCK rewards          | $6,250/week pool for holders                          |
+| Reward         | Type                         | How It Works                                          |
+| -------------- | ---------------------------- | ----------------------------------------------------- |
+| **STRC Yield** | \~10% APY                    | Hold on 15th, distributed 1st business day next month |
+| **Points**     | Points → protocol allocation | Hold $100+ BUCK, tracked automatically                |
+| **Merkl BUCK** | Weekly BUCK rewards          | $6,250/week pool for holders                          |
 
 {% hint style="success" %}
 **Three reward streams.** Hold BUCK and earn STRC yield (distributed automatically), Points (automatic), and Merkl BUCK rewards (claim weekly at merkl.xyz).
@@ -209,7 +209,7 @@ $100 BUCK minimum to earn Points. No minimum for STRC yield — any amount of BU
 * [How Yield Works →](../yield/overview.md)
 * [Monthly Distribution Details →](../yield/distribution.md)
 * [Understand the risks →](../protocol/risks.md)
-* [See how BUCK compares to alternatives →](../resources/comparison.md)
+* [See how BUCK compares to alternatives →](/broken/pages/nBKzCt7HzFnZyAYbj9qy)
 
 ***
 
