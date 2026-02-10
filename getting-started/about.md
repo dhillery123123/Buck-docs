@@ -4,7 +4,7 @@ description: Team, brand, and contact information
 
 # About Buck
 
-## Founding Team
+## Founding DevCo Team (Buck Labs Inc.)
 
 ### Travis VanderZanden
 

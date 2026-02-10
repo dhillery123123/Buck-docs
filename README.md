@@ -6,6 +6,14 @@ description: A yield-bearing savings coin backed by STRC
 
 Buck is a **yield-bearing savings coin** backed by STRC — Strategy's Bitcoin-collateralized preferred stock — delivering **\~10% APY** through contractual dividends rather than token emissions or trading strategies.
 
+
+
+BUCK is not the same as a fiat stablecoin like USDC or USDT.&#x20;
+
+This means that the risks implicated by interacting with BUCK are inherently different.
+
+BUCK is not an offer of securities or financial advice. Buck is not available for US persons. [Terms](http://buck.io/terms) Apply. Please refer to our extensive[ ](https://docs.ethena.fi/solution-overview/risks)Safety & Risks section for additional information.
+
 ## How BUCK Works
 
 BUCK holders earn \~10% annualized yield from STRC dividends, distributed monthly. Your BUCK stays in your wallet, and yield is distributed automatically in BUCK on the fourth business day of each month.

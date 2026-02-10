@@ -6,7 +6,7 @@ description: How BUCK delivers ~10% APY through STRC dividends
 
 ## The Yield Engine: STRC
 
-BUCK's yield comes from **STRC** — Strategy's 10% perpetual preferred stock traded on NASDAQ. STRC pays contractual quarterly dividends, and Buck Protocol passes this yield through to BUCK holders via monthly distributions.
+BUCK's yield comes from its holdings of **STRC** — Strategy's 10% perpetual preferred stock traded on NASDAQ. STRC pays contractual quarterly dividends to the Buck Treasury, and Buck Protocol passes this yield through to BUCK holders via monthly distributions.
 
 {% hint style="success" %}
 **Real Yield from Real Assets**

@@ -6,7 +6,7 @@ description: Monthly yield distribution and the eligibility window
 
 ## How It Works
 
-BUCK yield is distributed automatically each month. On the **15th of each month**, the protocol takes a snapshot during U.S. market hours to determine eligible holders. Yield is then distributed in BUCK on the **first business day of the following month** — no action required.
+BUCK yield is distributed automatically each month. On the **15th of each month**, the protocol takes a snapshot during U.S. market hours to determine eligible holders. Yield is then distributed in BUCK on the **first business day of the month following STRC dividend payment** — no action required.
 
 {% hint style="success" %}
 **Eligibility Window**
@@ -40,36 +40,18 @@ To receive your monthly yield distribution:
 
 Just hold BUCK during the window. Yield is distributed automatically — no transaction needed on your end.
 
-## How Your Share is Calculated
-
-Your monthly yield is based on your BUCK balance relative to the total supply:
-
-```
-Your Monthly Yield = (Your BUCK Balance / Total BUCK Supply) x Monthly Distribution Pool
-```
-
-### Example
-
-```
-Total BUCK Supply:     1,000,000 BUCK
-Your Balance:          10,000 BUCK (1% of supply)
-Monthly Yield Pool:    $83,333 (~10% annual / 12 months on $10M TVL)
-
-Your Share:            $83,333 x 1% = $833.33
-```
-
 ## Distribution Schedule
 
 Eligibility is determined on the 15th of each month. Yield is then distributed on the **first business day of the following month**.
 
-| Month | Eligibility Date | Distribution Date |
-|-------|------------------|-------------------|
-| February 2026 | Feb 15 (Sun)* | Mar 2 (Mon) |
-| March 2026 | Mar 15 (Sun)* | Apr 1 (Wed) |
-| April 2026 | Apr 15 (Wed) | May 1 (Fri) |
-| May 2026 | May 15 (Fri) | Jun 1 (Mon) |
+| Month         | Eligibility Date | Distribution Date |
+| ------------- | ---------------- | ----------------- |
+| February 2026 | Feb 15 (Sun)\*   | Mar 2 (Mon)       |
+| March 2026    | Mar 15 (Sun)\*   | Apr 1 (Wed)       |
+| April 2026    | Apr 15 (Wed)     | May 1 (Fri)       |
+| May 2026      | May 15 (Fri)     | Jun 1 (Mon)       |
 
-*When the 15th falls on a weekend, eligibility is based on the last trading day before the 15th.
+\*When the 15th falls on a weekend, eligibility is based on the last trading day before the 15th.
 
 ## What If I Don't Hold During the Window?
 
@@ -92,10 +74,6 @@ No. Just make sure you're holding BUCK in your wallet during the eligibility win
 ### Does yield go to any wallet holding BUCK?
 
 Yes, as long as your wallet holds BUCK during the eligibility window.
-
-### What if the 15th is a holiday?
-
-Distribution moves to the next U.S. trading day.
 
 ### Is there a gas fee?
 

@@ -12,7 +12,7 @@ BUCK is a **yield-bearing savings coin** backed by STRC (Strategy's Bitcoin-coll
 
 ### How does BUCK generate yield?
 
-Through STRC's contractual quarterly dividends, distributed monthly to BUCK holders. See [Yield Overview](../yield/overview.md) for full details.
+Through STRC's monthly dividends, paid to Buck's treasury, distributed monthly to BUCK holders. See [Yield Overview](../yield/overview.md) for full details.
 
 ### Do I need to claim my yield?
 
@@ -32,7 +32,7 @@ A governance token is launching after Season 1. Earn Buck Points through the [Bu
 
 On the **1st of each month** following the most recent eligibility window. If the 1st falls on a weekend or market holiday, distribution moves to the next trading day.
 
-### Why is the eligibility window 9 AM - 4 PM ET?
+### Why is the eligibility window the 15th from 9 AM - 4 PM ET?
 
 STRC trades on NASDAQ during U.S. market hours. The eligibility window aligns with these hours so that STRC pricing is live and accurate during distribution.
 
@@ -40,23 +40,13 @@ STRC trades on NASDAQ during U.S. market hours. The eligibility window aligns wi
 
 Your portion rolls into the next month's distribution pool.
 
-### Is the 10% yield guaranteed?
-
-The yield comes from STRC's contractual preferred equity dividends. While these are contractually obligated (not discretionary), they are not guaranteed in the strictest sense. Strategy has $2.25B in cash reserves covering 77.4 years of dividend payments, making them highly reliable.
-
 ### Can BUCK's yield go negative?
 
 **No.** STRC dividends are contractual preferred equity payments — they are always positive or zero, never negative. Unlike funding-rate-based yields (Ethena), you will never owe yield back.
 
 ### What currency is yield paid in?
 
-BUCK. Your BUCK balance stays the same; yield is a separate new token allocation.
-
-### How is my share calculated?
-
-```
-Your Monthly Yield = (Your BUCK Balance / Total BUCK Supply) x Monthly Distribution Pool
-```
+BUCK. Your BUCK balance increases with additional Buck tokens.
 
 ## Minting & Redemption
 
@@ -69,14 +59,14 @@ Your Monthly Yield = (Your BUCK Balance / Total BUCK Supply) x Monthly Distribut
 
 ### Can I always redeem BUCK?
 
-Yes. BUCK is redeemable for USDC at the current exchange rate through the Liquidity Window. No waiting period.
+BUCK is redeemable for USDC at the current exchange rate through the Liquidity Window, subject to BUCK's discretion and market conditions.
 
 ### Are there fees?
 
 | Action | Fee           |
 | ------ | ------------- |
 | Mint   | 10 bps (0.1%) |
-| Redeem | 30 bps (0.3%) |
+| Redeem | 10 bps (0.1%) |
 
 ## Safety & Risk
 
@@ -86,8 +76,8 @@ Yes. Multiple audits completed by Cyfrin, Halborn, and Spearbit.
 
 ### What backs BUCK?
 
-* **STRC** — Strategy's 10% preferred stock ($60B+ BTC backing, $2.25B cash reserves)
-* **USDC Liquidity Reserve** — For instant redemptions
+* **STRC** — Strategy's preferred stock ($60B+ BTC backing, $2.25B cash reserves)
+* **USDC Liquidity Reserve** — For redemptions
 * **100%+ Overcollateralization** — $1.00+ of backing per $1 of BUCK
 
 ### What if STRC dividends stop?
@@ -98,24 +88,6 @@ STRC dividends are contractually obligated preferred equity payments. If they we
 * Yield rate would decrease proportionally
 * You can still redeem at the current exchange rate
 * Strategy's $2.25B cash reserves cover 77.4 years of dividends
-
-## Buck Points & Governance Token
-
-### How does the Buck Points Program work?
-
-Season 1 runs for 8 weeks with Buck Points earned across holding, LP, lending, and referrals. See [Buck Points Program](../rewards/points-program.md) for full details on weights, multipliers, and earning mechanics.
-
-### When does the governance token launch?
-
-TGE (Token Generation Event) follows Season 1 completion. Token name, supply, and conversion ratio will be announced 2-4 weeks before TGE. Follow [@BuckHardMoney](https://x.com/BuckHardMoney) for announcements.
-
-### What will the governance token do?
-
-Revenue share (protocol fees fund buybacks distributed to holders) and governance rights (vote on protocol parameters). No staking required.
-
-### Do large wallets have vesting?
-
-Yes. Top 2,000 wallets by Points receive 50% at TGE and 50% vested over 6 months. Wallets outside top 2,000 receive full allocation at TGE.
 
 ## Technical
 

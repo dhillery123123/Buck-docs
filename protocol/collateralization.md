@@ -1,12 +1,12 @@
 ---
-description: How BUCK is backed by STRC with 180% over-collateralization
+description: How BUCK is backed by STRC
 ---
 
 # How Buck is Backed
 
 ## STRC: The Sole Collateral
 
-BUCK is backed by **STRC** — Strategy's 10% perpetual preferred stock (NASDAQ: STRC). The protocol holds STRC in its treasury and maintains a USDC liquidity reserve for instant redemptions.
+BUCK is backed by **STRC** — Strategy's perpetual preferred stock (NASDAQ: STRC). The protocol holds STRC in its treasury and maintains a USDC liquidity reserve for instant redemptions, when approved.&#x20;
 
 ## Backing Structure
 
@@ -34,7 +34,7 @@ Layer 2: Strategy has $2.25B cash to cover 77+ years of dividends
          ↓
 Layer 3: Strategy holds $60B+ in Bitcoin (5x overcollateral for STRC)
          ↓
-Layer 4: Buck Protocol maintains 180%+ collateral ratio on top of all this
+Layer 4: Buck Protocol maintains 100%+ collateral ratio on top of all this
 ```
 
 ## Independent Verification
