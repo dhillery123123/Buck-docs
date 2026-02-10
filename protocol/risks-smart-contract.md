@@ -34,4 +34,4 @@ Treasury assets are held via Fireblocks (institutional MPC custody, SOC 2 Type I
 
 ***
 
-_Next:_ [_Reserve Attestations →_](reserve-attestations.md)
+_Next:_ [_Independent Reserve Attestations →_](reserve-attestations.md)

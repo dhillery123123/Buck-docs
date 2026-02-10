@@ -2,7 +2,7 @@
 description: Independent verification of Buck's reserves
 ---
 
-# Reserve Attestations
+# Independent Reserve Attestations
 
 ## Overview
 

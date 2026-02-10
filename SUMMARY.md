@@ -23,7 +23,7 @@
 ## Safety & Risk
 
 * [How Buck is Backed](protocol/collateralization.md)
-* [Reserve Attestations](protocol/reserve-attestations.md)
+* [Independent Reserve Attestations](protocol/reserve-attestations.md)
 * [Risk Framework](protocol/risks.md)
   * [Treasury & Collateral Risk](protocol/risks-collateral.md)
   * [Oracle & Market Hours Risk](protocol/risks-oracle.md)

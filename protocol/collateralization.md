@@ -50,7 +50,7 @@ Buck's reserves are independently verified monthly by The Network Firm:
 | **BUCK Supply**      | Total outstanding tokens  |
 | **Collateral Ratio** | Calculated and confirmed  |
 
-For on-chain verification and key addresses, see [Reserve Attestations](reserve-attestations.md) and [Smart Contracts](../technical/contracts.md).
+For on-chain verification and key addresses, see [Independent Reserve Attestations](reserve-attestations.md) and [Smart Contracts](../technical/contracts.md).
 
 ## Security
 
