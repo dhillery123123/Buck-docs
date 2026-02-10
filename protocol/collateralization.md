@@ -23,7 +23,7 @@ Collateralization Ratio = (STRC Treasury Value + USDC Reserve) / (BUCK Supply x 
 Current Target: 100%+
 ```
 
-STRC is Strategy's 10% perpetual preferred stock — SEC-regulated, NASDAQ-listed, with $2.25B in cash reserves covering 77+ years of dividends. For full STRC details, see [Yield Overview](../yield/overview.md#what-is-strc).
+STRC is Strategy's perpetual preferred stock — SEC-regulated, NASDAQ-listed, with $2.25B in cash reserves covering 77+ years of dividends. For full STRC details, see [Yield Overview](../yield/overview.md#what-is-strc).
 
 ### Layered Protection
 

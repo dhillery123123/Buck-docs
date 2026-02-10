@@ -28,6 +28,7 @@
   * [Treasury & Collateral Risk](protocol/risks-collateral.md)
   * [Oracle & Market Hours Risk](protocol/risks-oracle.md)
   * [Smart Contract Risk](protocol/risks-smart-contract.md)
+  * [Disclaimer](protocol/risks-disclaimer.md)
 
 ## Resources
 
@@ -43,4 +44,3 @@
 * [GitHub](https://github.com/buck-labs/buck-v1)
 * [Twitter](https://x.com/BuckToken)
 * [Telegram](https://t.me/buck_discussions)
-* [Whitepaper](https://buck.io/documents/Buck_Token_MiCA_Whitepaper_-_Publication_date_12.16.25_Update_date_1.4.26.pdf)

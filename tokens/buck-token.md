@@ -56,7 +56,7 @@ Deposit 1,050 USDC → Receive 1,000 BUCK
 
 ```
 Example (assuming BUCK price is $1.05):
-Burn 1,000 BUCK → Receive ~1,047 USDC (after 30 bps fee)
+Burn 1,000 BUCK → Receive ~1,049 USDC (after 10 bps fee)
 ```
 
 ### Redemption Fees

@@ -38,7 +38,7 @@ BUCK holders earn \~10% annualized yield from STRC dividends, distributed monthl
 {% hint style="info" %}
 **External Yield, Not Emissions**
 
-Buck's yield comes from real dividends paid by STRC — Strategy's 10% preferred stock backed by $60B+ in Bitcoin. It's real yield from real assets.
+Buck's yield comes from real dividends paid by STRC — Strategy's preferred stock backed by $60B+ in Bitcoin. It's real yield from real assets.
 {% endhint %}
 
 * **\~10% APY** — From STRC's contractual quarterly dividends

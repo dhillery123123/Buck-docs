@@ -25,9 +25,9 @@ Unlike USDC or USDT that maintain a fixed $1.00 price, BUCK's value grows over t
 │                                                                  │
 │  1. You deposit USDC, receive BUCK at the current exchange rate  │
 │                         ↓                                        │
-│  2. Protocol holds STRC (Strategy's 10% preferred stock)         │
+│  2. Protocol holds STRC (Strategy's preferred stock)         │
 │                         ↓                                        │
-│  3. STRC generates ~10% annual yield via quarterly dividends     │
+│  3. STRC generates yield via quarterly dividends                  │
 │                         ↓                                        │
 │  4. Yield passed through to holders monthly                      │
 │                         ↓                                        │
@@ -59,7 +59,7 @@ Buck's yield comes from a fundamentally different source than other yield-bearin
 
 ### What Backs Buck?
 
-Buck is backed by **STRC** — Strategy's 10% perpetual preferred stock:
+Buck is backed by **STRC** — Strategy's perpetual preferred stock:
 
 * **$60B+ Bitcoin treasury** — Strategy holds more Bitcoin than any other public company
 * **$2.25B cash reserves** — 77.4 years of dividend coverage at current rates
@@ -159,7 +159,6 @@ For DAOs and protocols:
 | Resource   | Link                                                                                                                       |
 | ---------- | -------------------------------------------------------------------------------------------------------------------------- |
 | Website    | [buck.io](https://buck.io)                                                                                                 |
-| Whitepaper | [MiCA Whitepaper](https://buck.io/documents/Buck_Token_MiCA_Whitepaper_-_Publication_date_12.16.25_Update_date_1.4.26.pdf) |
 | GitHub     | [github.com/buck-labs](https://github.com/buck-labs/buck-v1)                                                               |
 | Twitter    | [@BuckHardMoney](https://x.com/BuckHardMoney)                                                                                      |
 | Telegram   | [buck\_discussions](https://t.me/buck_discussions)                                                                         |

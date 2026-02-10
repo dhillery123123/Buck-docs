@@ -12,7 +12,7 @@ Buck is a savings coin that pays \~10% APY through STRC — Strategy's Bitcoin-c
 
 ### Yield from STRC Dividends
 
-Buck's yield comes from **STRC**, Strategy's 10% perpetual preferred stock on NASDAQ. STRC dividends are contractually obligated — not trading profits, not token inflation, not funding rates. This is real yield from a publicly traded instrument backed by the world's largest corporate Bitcoin treasury.
+Buck's yield comes from **STRC**, Strategy's perpetual preferred stock on NASDAQ. STRC dividends are contractually obligated — not trading profits, not token inflation, not funding rates. This is real yield from a publicly traded instrument backed by the world's largest corporate Bitcoin treasury.
 
 For full STRC details, see [Yield Overview](../yield/overview.md#what-is-strc).
 

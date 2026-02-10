@@ -126,7 +126,6 @@ See [How Buck Compares](../getting-started/why-buck.md#how-buck-compares) for a 
 
 ### Where can I learn more?
 
-* [Whitepaper (PDF)](https://buck.io/documents/Buck_Token_MiCA_Whitepaper_-_Publication_date_12.16.25_Update_date_1.4.26.pdf)
 * [GitHub](https://github.com/buck-labs/buck-v1)
 
 ***

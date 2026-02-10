@@ -21,6 +21,7 @@ Buck's risk profile differs from traditional stablecoins and other yield-bearing
 | **Treasury & Collateral**        | [Read →](risks-collateral.md)     | Dividend risk, asset price volatility, collateralization |
 | **Oracle & Market Hours**        | [Read →](risks-oracle.md)         | Price gaps, oracle manipulation, liquidation protection  |
 | **Smart Contract & Operational** | [Read →](risks-smart-contract.md) | Code security, upgradeability, custody, access control   |
+| **Disclaimer**                   | [Read →](risks-disclaimer.md)     | Token classification, legal disclosures                  |
 
 ## Quick Risk Summary
 
@@ -52,6 +53,7 @@ For comprehensive risk analysis, see:
 * [Treasury & Collateral Risk →](risks-collateral.md)
 * [Oracle & Market Hours Risk →](risks-oracle.md)
 * [Smart Contract & Operational Risk →](risks-smart-contract.md)
+* [Disclaimer →](risks-disclaimer.md)
 
 ***
 
