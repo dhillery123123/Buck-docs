@@ -21,7 +21,6 @@ description: Team, brand, and contact information
 **VP of Engineering**
 
 * Senior Blockchain Engineer at Binance
-* Member of Binance Listing Committee
 * Smart Contract Engineer at CoinFlip
 * [LinkedIn](https://www.linkedin.com/in/mr-brett-potter/)
 * Telegram: [@CornBrother](https://t.me/CornBrother)

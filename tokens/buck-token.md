@@ -63,21 +63,9 @@ Burn 1,000 BUCK → Receive ~1,047 USDC (after 30 bps fee)
 
 | Condition | Fee           |
 | --------- | ------------- |
-| Standard  | 30 bps (0.3%) |
+| Standard  | 10 bps (0.1%) |
 
 ## DeFi Use Cases
-
-### As Collateral
-
-BUCK's yield makes it ideal collateral:
-
-```
-Day 0:   Deposit 10,000 BUCK as collateral
-         Borrow 7,000 USDC (70% LTV)
-
-Day 365: You've earned ~$1,000 in yield
-         Same debt, plus $1,000 in yield earned
-```
 
 ### In Liquidity Pools
 

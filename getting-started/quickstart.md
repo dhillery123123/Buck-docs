@@ -122,6 +122,8 @@ Claim your BUCK rewards at [merkl.xyz](https://merkl.xyz):
 
 ### Monthly Yield
 
+### What's the minimum to participate in the points campaign?
+
 STRC yield is distributed automatically in BUCK each month — no action required. See [Monthly Distribution](../yield/distribution.md) for eligibility details.
 
 For contract addresses, see [Smart Contracts](../technical/contracts.md). For multiplier details, see [Buck Points Program](../rewards/points-program.md). For common questions, see [FAQ](../resources/faq.md).

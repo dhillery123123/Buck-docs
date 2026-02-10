@@ -54,13 +54,13 @@ For on-chain verification and key addresses, see [Independent Reserve Attestatio
 
 ## Security
 
-| Measure             | Details                                       |
-| ------------------- | --------------------------------------------- |
-| **Custody**         | Fireblocks institutional custody              |
-| **Multi-sig**       | Treasury controlled by multi-signature wallet |
-| **Audits**          | Cyfrin, Halborn, Spearbit                     |
-| **Attestations**    | Monthly by The Network Firm                   |
-| **Smart contracts** | UUPS proxy with 48-hour timelock              |
+| Measure             | Details                                           |
+| ------------------- | ------------------------------------------------- |
+| **Custody**         | Fireblocks institutional custody                  |
+| **Multi-sig**       | Treasury controlled by multi-signature MPC wallet |
+| **Audits**          | Cyfrin, Halborn, Spearbit                         |
+| **Attestations**    | Monthly by The Network Firm                       |
+| **Smart contracts** | UUPS proxy with 48-hour timelock                  |
 
 ***
 
