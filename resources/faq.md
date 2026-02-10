@@ -20,8 +20,8 @@ Buck Protocol holds STRC — Strategy's 10% perpetual preferred stock on NASDAQ.
 
 ### What tokens does Buck Protocol have?
 
-| Token | Type | Purpose |
-|-------|------|---------|
+| Token    | Type         | Purpose                                    |
+| -------- | ------------ | ------------------------------------------ |
 | **BUCK** | Savings coin | Hold to earn \~10% APY from STRC dividends |
 
 A governance token is launching after Season 1. Earn Points through the [Points Program](../rewards/points-program.md) to maximize your allocation.
@@ -30,7 +30,7 @@ A governance token is launching after Season 1. Earn Points through the [Points 
 
 ### When do I receive yield?
 
-On the **15th of each month** during the eligibility window: **9:00 AM - 4:00 PM ET**. If the 15th falls on a weekend or market holiday, distribution moves to the next trading day.
+On the **1st of each month** following the most recent eligibility window. If the 1st falls on a weekend or market holiday, distribution moves to the next trading day.
 
 ### Why is the eligibility window 9 AM - 4 PM ET?
 
@@ -50,7 +50,7 @@ The yield comes from STRC's contractual preferred equity dividends. While these 
 
 ### What currency is yield paid in?
 
-USDC. Your BUCK balance stays the same; yield is a separate USDC payment.
+BUCK. Your BUCK balance stays the same; yield is a separate new token allocation.
 
 ### How is my share calculated?
 
@@ -73,9 +73,9 @@ Yes. BUCK is redeemable for USDC at the current exchange rate through the Liquid
 
 ### Are there fees?
 
-| Action | Fee |
-|--------|-----|
-| Mint | 10 bps (0.1%) |
+| Action | Fee           |
+| ------ | ------------- |
+| Mint   | 10 bps (0.1%) |
 | Redeem | 30 bps (0.3%) |
 
 ## Safety & Risk
@@ -88,19 +88,16 @@ Yes. Multiple audits completed by Cyfrin, Halborn, and Spearbit.
 
 * **STRC** — Strategy's 10% preferred stock ($60B+ BTC backing, $2.25B cash reserves)
 * **USDC Liquidity Reserve** — For instant redemptions
-* **180%+ Overcollateralization** — $1.80+ of backing per $1 of BUCK
+* **100%+ Overcollateralization** — $1.00+ of backing per $1 of BUCK
 
 ### What if STRC dividends stop?
 
 STRC dividends are contractually obligated preferred equity payments. If they were reduced or suspended:
-- Your BUCK remains backed by the STRC treasury value and USDC reserves
-- Yield rate would decrease proportionally
-- You can still redeem at the current exchange rate
-- Strategy's $2.25B cash reserves cover 77.4 years of dividends
 
-### What happens if STRC price declines?
-
-Buck maintains 180%+ overcollateralization. STRC would need to decline by more than 44% before the protocol approaches 100% collateralization. Circuit breakers and mint pauses activate at defined thresholds.
+* Your BUCK remains backed by the STRC treasury value and USDC reserves
+* Yield rate would decrease proportionally
+* You can still redeem at the current exchange rate
+* Strategy's $2.25B cash reserves cover 77.4 years of dividends
 
 ## Points Program & Governance Token
 
@@ -108,12 +105,12 @@ Buck maintains 180%+ overcollateralization. STRC would need to decline by more t
 
 Season 1 runs for **8 weeks**. Earn Points based on your activity:
 
-| Activity | Weight | Multiplier |
-|----------|--------|------------|
-| Hold BUCK | 50% | 1x (5x at 30+ days) |
-| Curve LP | 30% | 3x |
-| Morpho Lending | 10% | 3x |
-| Referrals | 10% | 10% of referee's Points |
+| Activity       | Weight | Multiplier              |
+| -------------- | ------ | ----------------------- |
+| Hold BUCK      | 50%    | 1x (5x at 30+ days)     |
+| Curve LP       | 30%    | 3x                      |
+| Morpho Lending | 10%    | 3x                      |
+| Referrals      | 10%    | 10% of referee's Points |
 
 Base rate: 1 Point per $10 BUCK per day. Minimum $100 to participate.
 
@@ -129,34 +126,21 @@ Pro-rata distribution:
 Your Tokens = (Your Points / Total Points) x Season 1 Pool
 ```
 
-### When does the governance token launch?
-
-TGE (Token Generation Event) follows Season 1 completion. Token name, supply, and conversion ratio will be announced 2-4 weeks before TGE. Follow [@BuckToken](https://x.com/BuckToken) for announcements.
-
-### What will the governance token do?
-
-| Benefit | Details |
-|---------|---------|
-| **Revenue share** | Protocol fees fund buybacks distributed to holders |
-| **Governance rights** | Vote on protocol parameters |
-
 ### Do I need to stake the governance token?
 
 **No.** Unlike other protocols, Buck does not require staking. Just hold the governance token in your wallet to:
-- Receive your share of buyback distributions
-- Vote on proposals
+
+* Receive your share of buyback distributions
+* Vote on proposals
 
 ### Do large wallets have vesting?
 
 Yes. Top 2,000 wallets by Points receive:
-- 50% at TGE
-- 50% vested over 6 months (requires continued participation)
+
+* 50% at TGE
+* 50% vested over 6 months (requires continued participation)
 
 Wallets outside top 2,000 receive full allocation at TGE.
-
-### Do early participants get benefits in future seasons?
-
-Yes. Season 1 participants receive a **10% Points boost** in Season 2.
 
 ## Technical
 
@@ -166,9 +150,9 @@ Ethereum mainnet.
 
 ### What's the contract address?
 
-| Contract | Address |
-|----------|---------|
-| BUCK Token | `0xdb13997f4D83EF343845d0bAEb27d1173dF8c224` |
+| Contract         | Address                                      |
+| ---------------- | -------------------------------------------- |
+| BUCK Token       | `0xdb13997f4D83EF343845d0bAEb27d1173dF8c224` |
 | Liquidity Window | `0x6E87adb23ac0e150Ca9F76C33Df2AdCae508548E` |
 
 ### Is BUCK composable with DeFi?
@@ -191,34 +175,35 @@ The Oracle Adapter uses RedStone for STRC price feeds with:
 
 ### How is BUCK different from USDC?
 
-| Feature | USDC | BUCK |
-|---------|------|------|
-| Yield | 0% | \~10% APY |
-| Price | Fixed $1.00 | Exchange rate + monthly yield |
+| Feature | USDC            | BUCK                            |
+| ------- | --------------- | ------------------------------- |
+| Yield   | 0%              | \~10% APY                       |
+| Price   | Fixed $1.00     | Exchange rate + monthly yield   |
 | Backing | Cash/treasuries | STRC (Strategy preferred stock) |
 
 ### How is BUCK different from sUSDe (Ethena)?
 
-| Feature | sUSDe | BUCK |
-|---------|-------|------|
-| Yield | \~5% (variable) | \~10% |
-| Can go negative | Yes | No |
-| Yield source | Funding rates | STRC dividends |
+| Feature         | sUSDe           | BUCK           |
+| --------------- | --------------- | -------------- |
+| Yield           | \~5% (variable) | \~10%          |
+| Can go negative | Yes             | No             |
+| Yield source    | Funding rates   | STRC dividends |
 
 ### How is BUCK different from USDY (Ondo)?
 
-| Feature | USDY | BUCK |
-|---------|------|------|
-| Yield | \~4.65% | \~10% |
-| KYC | Required | Not required |
-| DeFi | Limited | Full composability |
+| Feature | USDY     | BUCK               |
+| ------- | -------- | ------------------ |
+| Yield   | \~4.65%  | \~10%              |
+| KYC     | Required | Not required       |
+| DeFi    | Limited  | Full composability |
 
 ## Support
 
 ### Where can I get help?
 
 * **Telegram:** [t.me/buck\_discussions](https://t.me/buck_discussions)
-* **Twitter:** [@BuckToken](https://x.com/BuckToken)
+* **Twitter:** [@BuckH](https://x.com/BuckToken)ardMoney
+*
 * **Email:** admin@buck.io
 
 ### How do I report a bug or security issue?
@@ -231,6 +216,6 @@ The Oracle Adapter uses RedStone for STRC price feeds with:
 * [Whitepaper (PDF)](https://buck.io/documents/Buck_Token_MiCA_Whitepaper_-_Publication_date_12.16.25_Update_date_1.4.26.pdf)
 * [GitHub](https://github.com/buck-labs/buck-v1)
 
----
+***
 
-*Have more questions? Join our [Telegram](https://t.me/buck_discussions)*
+_Have more questions? Join our_ [_Telegram_](https://t.me/buck_discussions)
