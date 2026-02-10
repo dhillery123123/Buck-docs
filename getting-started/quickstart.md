@@ -140,7 +140,7 @@ STRC yield is distributed automatically:
 
 * Eligibility on the 15th, distributed 1st business day of the following month
 * Eligibility window: 9:00 AM - 4:00 PM ET
-* Paid in USDC — no action required
+* Paid in BUCK — no action required
 
 ***
 
