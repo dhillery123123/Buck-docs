@@ -43,12 +43,13 @@ Buck's yield comes from real dividends paid by STRC — Strategy's 10% preferred
 
 ## Quick Links
 
-| Resource | Link                                                         |
-| -------- | ------------------------------------------------------------ |
-| Website  | [buck.io](https://buck.io)                                   |
-| GitHub   | [github.com/buck-labs](https://github.com/buck-labs/buck-v1) |
-| Twitter  | [@BuckToken](https://x.com/BuckToken)                        |
-| Telegram | [buck\_discussions](https://t.me/buck_discussions)           |
+| Resource   | Link                                                                                                                             |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| Website    | [buck.io](https://buck.io)                                                                                                       |
+| Whitepaper | [MiCA Whitepaper (PDF)](https://buck.io/documents/Buck_Token_MiCA_Whitepaper_-_Publication_date_12.16.25_Update_date_1.4.26.pdf) |
+| GitHub     | [github.com/buck-labs](https://github.com/buck-labs/buck-v1)                                                                     |
+| Twitter    | [@BuckHardMoney](https://x.com/BuckHardMoney)                                                                                            |
+| Telegram   | [buck\_discussions](https://t.me/buck_discussions)                                                                               |
 
 ## Contract Addresses
 
@@ -68,4 +69,4 @@ Ready to earn 10% on your dollars?
 
 ***
 
-_buck.io •_ [_@BuckToken_](https://x.com/BuckToken)
+_buck.io •_ [_@BuckHardMoney_](https://x.com/BuckHardMoney)

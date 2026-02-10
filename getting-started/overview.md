@@ -161,7 +161,7 @@ For DAOs and protocols:
 | Website    | [buck.io](https://buck.io)                                                                                                 |
 | Whitepaper | [MiCA Whitepaper](https://buck.io/documents/Buck_Token_MiCA_Whitepaper_-_Publication_date_12.16.25_Update_date_1.4.26.pdf) |
 | GitHub     | [github.com/buck-labs](https://github.com/buck-labs/buck-v1)                                                               |
-| Twitter    | [@BuckToken](https://x.com/BuckToken)                                                                                      |
+| Twitter    | [@BuckHardMoney](https://x.com/BuckHardMoney)                                                                                      |
 | Telegram   | [buck\_discussions](https://t.me/buck_discussions)                                                                         |
 
 ***

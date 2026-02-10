@@ -126,6 +126,17 @@ Pro-rata distribution:
 Your Tokens = (Your Points / Total Points) x Season 1 Pool
 ```
 
+### When does the governance token launch?
+
+TGE (Token Generation Event) follows Season 1 completion. Token name, supply, and conversion ratio will be announced 2-4 weeks before TGE. Follow [@BuckHardMoney](https://x.com/BuckHardMoney) for announcements.
+
+### What will the governance token do?
+
+| Benefit | Details |
+|---------|---------|
+| **Revenue share** | Protocol fees fund buybacks distributed to holders |
+| **Governance rights** | Vote on protocol parameters |
+
 ### Do I need to stake the governance token?
 
 **No.** Unlike other protocols, Buck does not require staking. Just hold the governance token in your wallet to:
@@ -202,6 +213,7 @@ The Oracle Adapter uses RedStone for STRC price feeds with:
 ### Where can I get help?
 
 * **Telegram:** [t.me/buck\_discussions](https://t.me/buck_discussions)
+* **Twitter:** [@BuckHardMoney](https://x.com/BuckHardMoney)
 * **Email:** admin@buck.io
 
 ### How do I report a bug or security issue?

@@ -1,228 +1,111 @@
----
-description: Earn Points toward Buck's protocol allocation
----
+# Racks Program
 
-# Season 1
+Season 1 of the Buck Racks Program rewards early adopters across holding, liquidity provision, lending, and referrals.
 
-## Season 1 Overview
+## Overview
 
-Buck Points rewards early participants with protocol allocation. Season 1 runs for **8 weeks** with rewards distributed based on participation across holding, liquidity provision, lending, and referrals.
+| Detail | Value |
+|--------|-------|
+| Duration | 8 weeks |
+| Base rate | 1 Rack per $10 BUCK per day |
+| Minimum | $100 BUCK equivalent |
+| Conversion | Racks convert to governance token allocation at TGE |
+| Infrastructure | Merkl |
+| BUCK Rewards | $25K per 2-week batch ($100K total) |
 
-{% hint style="success" %}
-**Dual Rewards: Points + BUCK**
+Racks are earned by participating in the Buck ecosystem. At TGE (Token Generation Event), Racks convert to a share of the protocol's governance token allocation. The exact conversion ratio and allocation percentage will be announced 4-6 weeks before TGE.
 
-During Season 1, earn both Points (future protocol allocation) AND direct BUCK rewards through our Merkl campaign. This is the highest-reward period in Buck's history.
-{% endhint %}
-
-## How Points Work
-
-Points convert to protocol allocation at TGE. The longer you hold and the more you contribute to the protocol, the more Points you earn.
-
-**No staking required for Points.** Points multipliers are earned simply by holding longer — no lock contracts, no commitments. Just hold BUCK to accrue Points automatically. (Note: STRC yield is distributed automatically on the first business day of each month.)
-
-## Earning Structure
-
-### Base Rate
-
-**10 Point per $10 BUCK per day**
-
-A $1,000 BUCK position earns 1,000 Points per day at the base rate.
+## How to Earn Racks
 
 ### Activity Weights
 
-Points are distributed across four activities:
-
-| Activity                | Weight | Description                           |
-| ----------------------- | ------ | ------------------------------------- |
-| **Hold BUCK**           | 50%    | Simply hold BUCK in your wallet       |
-| **Liquidity Provision** | 30%    | Provide LP to Curve BUCK pools        |
-| **Morpho Lending**      | 10%    | Supply BUCK to Morpho lending markets |
-| **Referrals**           | 10%    | Refer new users who mint BUCK         |
+| Activity | Weight | Description |
+|----------|--------|-------------|
+| Holding | 50% | Hold BUCK in your wallet |
+| LP (Curve/Uniswap) | 30% | Provide BUCK liquidity |
+| Morpho Lending | 10% | Lend on Morpho markets |
+| Referrals | 10% | Refer new users |
 
 ### Multipliers
 
-#### Hold Duration Multipliers
+Multipliers boost your Rack earning rate. They **do not stack** — the highest applicable multiplier is used.
 
-The longer you hold continuously, the higher your multiplier:
+#### Hold Duration Multiplier
 
-| Hold Duration | Multiplier | Daily Points ($10K) |
-| ------------- | ---------- | ------------------- |
-| 0-29 days     | 1x         | 1,000               |
-| 30+ days      | 5x         | 5,000               |
-
-**How it works:** Your multiplier increases automatically based on how long you've held continuously. If you sell or transfer, your timer resets to zero.
+| Duration | Multiplier |
+|----------|------------|
+| 0-29 days | 1x |
+| 30+ days | 3x |
 
 #### Activity Multipliers
 
-| Activity       | Base Multiplier |
-| -------------- | --------------- |
-| Hold BUCK      | 1x              |
-| Curve LP       | 3x              |
-| Morpho Lending | 3x              |
+| Activity | Multiplier |
+|----------|------------|
+| Hold BUCK | 1x |
+| Curve LP | 3x |
+| Uniswap V3 LP | 3x |
+| Morpho Lending | 3x |
 
-{% hint style="warning" %}
-**Multipliers Do NOT Stack**
-
-You earn either the hold duration multiplier OR the activity multiplier—whichever applies to that position. A Curve LP position earns 3x, not 3x × hold duration.
-{% endhint %}
+> Multipliers don't stack. If you're an LP with 30+ days of holding, you get max(3x, 3x) = 3x, not 9x.
 
 ## Earning Examples
 
-Based on 1 Point per $10/day base rate:
+### Example 1: Hold $10,000 BUCK for 8 weeks
 
-| Scenario             | Multiplier | Daily Points | 8-Week Total |
-| -------------------- | ---------- | ------------ | ------------ |
-| $10K BUCK, 0-29 days | 1x         | 1,000        | 56,000       |
-| $10K BUCK, 30+ days  | 5x         | 5,000        | 280,000      |
-| $10K in Curve LP     | 3x         | 3,000        | 168,000      |
-| $10K in Morpho       | 3x         | 3,000        | 168,000      |
+| Period | Rate | Daily Racks | Total |
+|--------|------|-------------|-------|
+| Days 1-29 | 1x | 1,000 | 29,000 |
+| Days 30-56 | 3x | 3,000 | 81,000 |
+| **Total** | | | **110,000** |
 
-## Referral Program
+### Example 2: $10,000 in Curve LP for 8 weeks
 
-Earn **10% of your referees' Points** on an ongoing basis.
+| Period | Rate | Daily Racks | Total |
+|--------|------|-------------|-------|
+| Days 1-56 | 3x | 3,000 | 168,000 |
+| **Total** | | | **168,000** |
 
-| Component             | Details                              |
-| --------------------- | ------------------------------------ |
-| **Platform**          | Merkl                                |
-| **Bonus**             | 10% of referee's Points              |
-| **Qualifying Action** | Referee mints $100+ BUCK via buck.io |
-| **Duration**          | Ongoing (as long as referee earns)   |
+> LP multiplier (3x) applies from day 1. After 30+ days, the hold duration multiplier matches at 3x — no additional benefit.
 
-Referrals only count for direct mints through buck.io—DEX purchases don't qualify.
+## Concurrent BUCK Rewards
 
-## Merkl BUCK Rewards (Running Concurrently)
+In addition to Racks, Merkl distributes BUCK tokens directly during Season 1 in **2-week batches**:
 
-Alongside Points, Season 1 includes direct BUCK distributions via Merkl:
+| Pool | Per Batch | 8-Week Total |
+|------|-----------|--------------|
+| Holders | $12,500 | $50,000 |
+| Curve LP | $8,333 | $33,333 |
+| Uniswap V3 LP | $4,167 | $16,667 |
+| **Total** | **$25,000** | **$100,000** |
 
-| Pool             | Weekly BUCK | 8-Week Total | Est. APY\* |
-| ---------------- | ----------- | ------------ | ---------- |
-| **BUCK Holders** | $6,250      | $50,000      | \~75%      |
-| **Curve LP**     | $4,167      | $33,333      | \~50%      |
-| **Total**        | $10,417     | $83,333      | —          |
-
-\*APY estimates at $500K TVL. Actual rates depend on total participation.
-
-{% hint style="info" %}
-**Two Reward Streams**
-
-During Season 1, you earn BOTH:
-
-1. **Points** → Convert to protocol allocation at TGE
-2. **BUCK** → Immediate value via Merkl, claimable weekly
-{% endhint %}
-
-## Season 1 Parameters
-
-| Parameter                 | Value                     |
-| ------------------------- | ------------------------- |
-| **Duration**              | 8 weeks                   |
-| **Minimum Participation** | $100 BUCK                 |
-| **Base Rate**             | 1 Point per $10/day       |
-| **Referral Bonus**        | 10% of referee's Points   |
-| **Tracking**              | Daily snapshots via Merkl |
-
-## Converting Points to Protocol Allocation
-
-### Pro-Rata Distribution
-
-Your protocol allocation is calculated as:
-
-```
-Your Allocation = (Your Points ÷ Total Points Earned) × Season 1 Pool
-```
-
-### Why Pro-Rata?
-
-Pro-rata distribution ensures:
-
-* Predictable total dilution
-* Rewards relative contribution fairly
-* No gaming through last-minute deposits
+These BUCK rewards are earned alongside Racks — they're separate reward streams.
 
 ## Anti-Gaming Measures
 
-### Daily Snapshots
-
-Points are calculated using daily balance snapshots. This prevents:
-
-* Last-minute deposits before snapshots
-* Flash loan manipulation
-* Cross-protocol arbitrage
-
-### Minimum Balance
-
-$100 minimum BUCK balance required to earn Points. Filters dust wallets and reduces sybil attacks.
-
-### Continuous Holding
-
-Hold duration multipliers require **continuous** holding. Any break (selling, transferring out) resets your timer to zero.
-
-## How to Participate
-
-### Step 1: Get BUCK
-
-```
-1. Go to buck.io
-2. Connect wallet
-3. Mint BUCK with USDC
-   —or—
-   Buy on Curve
-```
-
-### Step 2: Choose Your Strategy
-
-| Strategy           | Risk   | Reward                  | Best For           |
-| ------------------ | ------ | ----------------------- | ------------------ |
-| **Hold BUCK**      | Low    | Up to 5x (at 30+ days)  | Patient holders    |
-| **Curve LP**       | Medium | 3x + trading fees       | Active DeFi users  |
-| **Morpho Lending** | Medium | 3x + lending yield      | Yield optimizers   |
-| **Refer Friends**  | None   | 10% of referee's Points | Community builders |
-
-### Step 3: Track Progress
-
-Points dashboard at buck.io/points. Your position is tracked on-chain via daily snapshots.
-
-## Infrastructure
-
-| Component           | Platform                   | Purpose                                 |
-| ------------------- | -------------------------- | --------------------------------------- |
-| **Points Tracking** | [Merkl](https://merkl.xyz) | On-chain activity tracking, leaderboard |
-| **Referrals**       | [Merkl](https://merkl.xyz) | Referral links, 10% bonus tracking      |
-| **BUCK Rewards**    | [Merkl](https://merkl.xyz) | Direct BUCK distributions               |
+- **Daily snapshots** — Balances are captured daily, not at a single point in time
+- **Minimum threshold** — $100 BUCK equivalent required to earn Racks
+- **Continuous holding** — Moving tokens resets your hold duration multiplier
 
 ## Season Timeline
 
-```
-SEASON 1: 8 WEEKS
-├── Points: Earn based on holding, LP, Morpho, referrals
-├── Merkl:  $10,417/week BUCK rewards
-└── Goal:   Bootstrap TVL + liquidity for Morpho approval
+| Milestone | Date |
+|-----------|------|
+| Season 1 Start | TBD |
+| Season 1 End | TBD (8 weeks after start) |
+| Season 2 | TBD |
+| TGE | TBD |
 
-TGE: Following Season 1
-├── Points convert to protocol allocation
-├── Conversion ratio announced pre-TGE
-└── Season 2 begins
-```
+## Strategic Ambiguity
 
-## Competitive Context
+The following details will be announced 4-6 weeks before TGE:
+- Token name and ticker
+- Total supply
+- Racks-to-token conversion ratio
+- Allocation percentages
 
-Buck Points draws from proven models:
+This approach mirrors successful launches like Ethena's, maintaining engagement through the full program duration.
 
-| Protocol   | Program | Duration  | Model                        |
-| ---------- | ------- | --------- | ---------------------------- |
-| **Ethena** | Shards  | \~6 weeks | Shards → ENA                 |
-| **Falcon** | Miles   | Ongoing   | Miles → FF                   |
-| **Buck**   | Points  | 8 weeks   | Points → Protocol Allocation |
+## Related
 
-We designed Points with strategic ambiguity on token details (following Ethena's playbook) while providing clear earning mechanics.
-
-## Contract Addresses
-
-| Contract                    | Address                                      |
-| --------------------------- | -------------------------------------------- |
-| **BUCK Token**              | `0xdb13997f4D83EF343845d0bAEb27d1173dF8c224` |
-| **Liquidity Window (Mint)** | `0x6E87adb23ac0e150Ca9F76C33Df2AdCae508548E` |
-
-***
-
-_Next:_ [_Yield Overview →_](../yield/overview.md)
+- [Referrals](referrals.md)
+- [Quickstart](../getting-started/quickstart.md)
