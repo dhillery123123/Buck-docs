@@ -202,8 +202,6 @@ The Oracle Adapter uses RedStone for STRC price feeds with:
 ### Where can I get help?
 
 * **Telegram:** [t.me/buck\_discussions](https://t.me/buck_discussions)
-* **Twitter:** [@BuckH](https://x.com/BuckToken)ardMoney
-*
 * **Email:** admin@buck.io
 
 ### How do I report a bug or security issue?
