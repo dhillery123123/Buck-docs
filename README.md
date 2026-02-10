@@ -8,7 +8,7 @@ Buck is a **yield-bearing savings coin** backed by STRC — Strategy's Bitcoin-c
 
 ## How BUCK Works
 
-BUCK holders earn \~10% annualized yield from STRC dividends, distributed monthly. Your BUCK stays in your wallet, and yield is distributed automatically in USDC on the first business day of each month.
+BUCK holders earn \~10% annualized yield from STRC dividends, distributed monthly. Your BUCK stays in your wallet, and yield is distributed automatically in BUCK on the first business day of each month.
 
 | Day | BUCK Price | Your 1,000 BUCK Value |
 | --- | ---------- | --------------------- |
@@ -33,14 +33,6 @@ BUCK holders earn \~10% annualized yield from STRC dividends, distributed monthl
 Buck's yield comes from real dividends paid by STRC — Strategy's 10% preferred stock backed by $60B+ in Bitcoin. It's real yield from real assets.
 {% endhint %}
 
-### Key Differentiators
-
-* **\~10% APY** — From STRC's contractual quarterly dividends
-* **Can't go negative** — Preferred dividends are legally obligated
-* **100% over-collateralized** — $1.80+ in backing per $1 of BUCK
-* **DeFi native** — Full composability, no KYC required
-* **Monthly distributions** — Yield distributed automatically on the 1st business day of each month
-
 ## Quick Links
 
 | Resource   | Link                                                                                                                             |
@@ -51,13 +43,7 @@ Buck's yield comes from real dividends paid by STRC — Strategy's 10% preferred
 | Twitter    | [@BuckHardMoney](https://x.com/BuckHardMoney)                                                                                            |
 | Telegram   | [buck\_discussions](https://t.me/buck_discussions)                                                                               |
 
-## Contract Addresses
-
-| Contract          | Address                                      |
-| ----------------- | -------------------------------------------- |
-| BUCK Token        | `0xdb13997f4D83EF343845d0bAEb27d1173dF8c224` |
-| Liquidity Window  | `0x6E87adb23ac0e150Ca9F76C33Df2AdCae508548E` |
-| Liquidity Reserve | `0x1A426E3a87368a4851f7443Ff656A054Af872f66` |
+For contract addresses, see [Smart Contracts](technical/contracts.md).
 
 ## Get Started
 

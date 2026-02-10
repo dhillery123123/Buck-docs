@@ -35,18 +35,10 @@ You need USDC on Ethereum mainnet. Bridge from other chains or buy on an exchang
 
 ### Step 4: Receive Yield Monthly
 
-On the **15th of each month**, a snapshot determines eligible holders during the eligibility window (9:00 AM - 4:00 PM ET). Yield is then distributed automatically in BUCK on the first business day of the following month.
-
-### What You're Earning
-
-| Reward         | Type                         | How It Works                                          |
-| -------------- | ---------------------------- | ----------------------------------------------------- |
-| **STRC Yield** | \~10% APY                    | Hold on 15th, distributed 1st business day next month |
-| **Points**     | Points → protocol allocation | Hold $100+ BUCK, tracked automatically                |
-| **Merkl BUCK** | Weekly BUCK rewards          | $6,250/week pool for holders                          |
+Yield is distributed automatically in BUCK each month. See [Monthly Distribution](../yield/distribution.md) for eligibility details.
 
 {% hint style="success" %}
-**Three reward streams.** Hold BUCK and earn STRC yield (distributed automatically), Points (automatic), and Merkl BUCK rewards (claim weekly at merkl.xyz).
+**Three reward streams.** Hold BUCK and earn STRC yield (distributed automatically), Points (automatic), and Merkl BUCK rewards (claim weekly at merkl.xyz). See [Points Program](../rewards/points-program.md) for details.
 {% endhint %}
 
 ***
@@ -78,13 +70,7 @@ Curve is optimized for stablecoin swaps with lower slippage.
 4. Enter your BUCK and USDC amounts
 5. Approve tokens and confirm deposit
 
-### What You're Earning
-
-| Reward           | Type           | How It Works               |
-| ---------------- | -------------- | -------------------------- |
-| **Trading Fees** | \~1-2% APY     | From users swapping        |
-| **Points**       | 3x multiplier  | Automatic for LP positions |
-| **Merkl BUCK**   | Weekly rewards | Curve: $4,167/wk           |
+LP positions earn 3x Points multiplier, trading fees, and Merkl BUCK rewards. See [Points Program](../rewards/points-program.md) for multiplier details.
 
 ***
 
@@ -136,71 +122,9 @@ Claim your BUCK rewards at [merkl.xyz](https://merkl.xyz):
 
 ### Monthly Yield
 
-STRC yield is distributed automatically:
+STRC yield is distributed automatically in BUCK each month — no action required. See [Monthly Distribution](../yield/distribution.md) for eligibility details.
 
-* Eligibility on the 15th, distributed 1st business day of the following month
-* Eligibility window: 9:00 AM - 4:00 PM ET
-* Paid in BUCK — no action required
-
-***
-
-## Contract Addresses
-
-Add BUCK to your wallet:
-
-| Contract        | Address                                      |
-| --------------- | -------------------------------------------- |
-| **BUCK Token**  | `0xdb13997f4D83EF343845d0bAEb27d1173dF8c224` |
-| **Mint/Redeem** | `0x6E87adb23ac0e150Ca9F76C33Df2AdCae508548E` |
-
-{% hint style="info" %}
-**Add to MetaMask:** Click the BUCK token address above, then "Add to MetaMask" on Etherscan.
-{% endhint %}
-
-***
-
-## Multiplier Reference
-
-### Hold Duration Multipliers
-
-| Duration  | Multiplier | Daily Points ($10K) |
-| --------- | ---------- | ------------------- |
-| 0-29 days | 1x         | 1,000               |
-| 30+ days  | 5x         | 5,000               |
-
-### Activity Multipliers
-
-| Activity       | Multiplier          |
-| -------------- | ------------------- |
-| Hold BUCK      | 1x (5x at 30+ days) |
-| Curve LP       | 3x                  |
-| Morpho Lending | 3x (coming soon)    |
-
-{% hint style="warning" %}
-**Multipliers don't stack.** LP positions earn the 3x activity multiplier, not 3x × hold duration.
-{% endhint %}
-
-***
-
-## FAQ
-
-### When do I receive yield?
-
-Hold BUCK during the eligibility window on the 15th (9:00 AM - 4:00 PM ET). Yield is distributed automatically on the first business day of the following month.
-
-### Can I redeem anytime?
-
-Yes. Go to buck.io, click "Redeem," enter your BUCK amount, and receive USDC at the current exchange rate.
-
-### What's the minimum to participate?
-
-$100 BUCK minimum to earn Points. No minimum for STRC yield — any amount of BUCK earns \~10% APY.
-
-### Do I need to claim rewards?
-
-* **STRC yield:** No — distributed automatically on the 1st business day of the following month
-* **Points:** No — tracked automatically, converts at TGE
-* **Merkl BUCK:** Yes — claim weekly at merkl.xyz
+For contract addresses, see [Smart Contracts](../technical/contracts.md). For multiplier details, see [Points Program](../rewards/points-program.md). For common questions, see [FAQ](../resources/faq.md).
 
 ***
 
@@ -209,7 +133,7 @@ $100 BUCK minimum to earn Points. No minimum for STRC yield — any amount of BU
 * [How Yield Works →](../yield/overview.md)
 * [Monthly Distribution Details →](../yield/distribution.md)
 * [Understand the risks →](../protocol/risks.md)
-* [See how BUCK compares to alternatives →](/broken/pages/nBKzCt7HzFnZyAYbj9qy)
+* [See how BUCK compares to alternatives →](why-buck.md#how-buck-compares)
 
 ***
 

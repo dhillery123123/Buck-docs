@@ -8,11 +8,7 @@ description: The yield-bearing savings coin backed by STRC
 
 BUCK is a **yield-bearing savings coin** that delivers \~10% APY from STRC dividends. Unlike stablecoins that maintain a fixed $1.00 price, BUCK holders earn monthly yield distributions from Strategy's contractual preferred stock dividends.
 
-{% hint style="success" %}
-**Hold BUCK, Earn Automatically**
-
-Hold BUCK in your wallet during the eligibility window on the 15th (9:00 AM - 4:00 PM ET). Your share of STRC dividend yield is distributed automatically in USDC on the first business day of the following month.
-{% endhint %}
+Yield is distributed automatically in BUCK each month. See [Monthly Distribution](../yield/distribution.md) for eligibility details.
 
 ## Token Specifications
 
@@ -91,14 +87,7 @@ Provide BUCK liquidity and earn:
 * Points through the [Points Program](../rewards/points-program.md)
 * BUCK rewards via Merkl (during Season 1)
 
-### Integrations
-
-| Protocol   | Type    | Status     | Benefit                |
-| ---------- | ------- | ---------- | ---------------------- |
-| Curve      | DEX     | ✅ Live     | Deep liquidity         |
-| Uniswap V3 | DEX     | ✅ Live     | Concentrated liquidity |
-| Morpho     | Lending | 🔄 Pending | Borrow against BUCK    |
-| Pendle     | Yield   | 🎯 Target  | Yield tokenization     |
+For current DeFi integrations, see [Why Buck](../getting-started/why-buck.md#works-everywhere).
 
 ## Exchange Rate Oracle
 

@@ -117,13 +117,7 @@ Monitor Buck's backing in real-time:
 | **Reserve Balance** | [Liquidity Reserve Contract](https://etherscan.io/address/0x1A426E3A87368a4851f7443Ff656A054Af872f66) |
 | **Exchange Rate** | buck.io |
 
-### Key Addresses to Monitor
-
-| Wallet | Purpose | Etherscan |
-|--------|---------|-----------|
-| **Treasury** | STRC holdings | `0x5d105791469064cA0764cfaCfc577c286351CFAD` |
-| **Liquidity Reserve** | USDC buffer | `0x1A426E3A87368a4851f7443Ff656A054Af872f66` |
-| **BUCK Token** | Supply tracking | `0xdb13997f4D83EF343845d0bAEb27d1173dF8c224` |
+For all contract and wallet addresses, see [Smart Contracts](../technical/contracts.md).
 
 ## Attestation vs. Audit
 

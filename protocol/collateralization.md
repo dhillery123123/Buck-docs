@@ -23,17 +23,7 @@ Collateralization Ratio = (STRC Treasury Value + USDC Reserve) / (BUCK Supply x 
 Current Target: 100%+
 ```
 
-## Why STRC?
-
-| Property                  | Details                                                    |
-| ------------------------- | ---------------------------------------------------------- |
-| **Issuer**                | Strategy (NASDAQ: MSTR)                                    |
-| **Type**                  | Series A Perpetual Preferred Stock                         |
-| **Dividend**              | 10% annual, paid quarterly                                 |
-| **Cash Reserves**         | $2.25B (77.4 years of dividend coverage)                   |
-| **BTC Treasury**          | $60B+ in Bitcoin holdings                                  |
-| **Overcollateralization** | STRC itself is 5x overcollateralized by Strategy's Bitcoin |
-| **Regulation**            | SEC-regulated, NASDAQ-listed                               |
+STRC is Strategy's 10% perpetual preferred stock — SEC-regulated, NASDAQ-listed, with $2.25B in cash reserves covering 77+ years of dividends. For full STRC details, see [Yield Overview](../yield/overview.md#what-is-strc).
 
 ### Layered Protection
 
@@ -60,23 +50,7 @@ Buck's reserves are independently verified monthly by The Network Firm:
 | **BUCK Supply**      | Total outstanding tokens  |
 | **Collateral Ratio** | Calculated and confirmed  |
 
-### On-Chain Verification
-
-You can verify Buck's collateral anytime via the CollateralAttestation contract:
-
-**Contract:** `0x1aEEEf99704258947A9ea77eF021d5e0551c0428`
-
-1. Go to [Etherscan](https://etherscan.io/address/0x1aEEEf99704258947A9ea77eF021d5e0551c0428#readContract)
-2. Click "Read Contract"
-3. Call `getLatestAttestation()`
-
-### Key Addresses
-
-| Wallet                | Purpose         | Address                                      |
-| --------------------- | --------------- | -------------------------------------------- |
-| **Treasury**          | STRC holdings   | `0x5d105791469064cA0764cfaCfc577c286351CFAD` |
-| **Liquidity Reserve** | USDC buffer     | `0x1A426E3A87368a4851f7443Ff656A054Af872f66` |
-| **BUCK Token**        | Supply tracking | `0xdb13997f4D83EF343845d0bAEb27d1173dF8c224` |
+For on-chain verification and key addresses, see [Reserve Attestations](reserve-attestations.md) and [Smart Contracts](../technical/contracts.md).
 
 ## Security
 

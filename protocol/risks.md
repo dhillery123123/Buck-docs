@@ -43,15 +43,7 @@ Buck's risk profile differs from traditional stablecoins and other yield-bearing
 
 ## Audits
 
-Three independent security firms have audited Buck's smart contracts:
-
-| Auditor      | Scope         | Status     | Report                                                                                                              |
-| ------------ | ------------- | ---------- | ------------------------------------------------------------------------------------------------------------------- |
-| **Cyfrin**   | Full protocol | ✅ Complete | [View](https://github.com/buck-labs/buck-v1/blob/master/docs/audits/2025-12-19-cyfrin-strong-v2.0.pdf)              |
-| **Spearbit** | Full protocol | ✅ Complete | [View](https://github.com/buck-labs/buck-v1/blob/master/docs/audits/spearbit-buck-1219.pdf)                         |
-| **SSC**      | Full protocol | ✅ Complete | [View](https://github.com/buck-labs/buck-v1/blob/master/docs/audits/Strong%20DAO%20Smart%20Contracts%20_%20SSC.pdf) |
-
-All critical and high-severity findings have been resolved.
+Three independent security firms have audited Buck's smart contracts. See [Smart Contract Risk](risks-smart-contract.md#audits) for audit details and report links.
 
 ## Detailed Risk Documentation
 

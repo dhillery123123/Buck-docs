@@ -42,7 +42,7 @@ Monthly Distribution (15th of each month)
          │
          │  Yield distributed automatically to eligible holders
          ▼
-Your Wallet (USDC)
+Your Wallet (BUCK)
 ```
 
 ### The Monthly Cycle
@@ -85,17 +85,7 @@ STRC dividends are:
 
 _Compound growth at 10% annually_
 
-## Yield Comparison
-
-| Protocol | Token | Yield   | Yield Source       | Can Go Negative? |
-| -------- | ----- | ------- | ------------------ | ---------------- |
-| **Buck** | BUCK  | \~10%   | STRC dividends     | No               |
-| Ethena   | sUSDe | \~5-15% | Funding rates      | Yes              |
-| Falcon   | sUSDf | \~8.5%  | Trading strategies | Market-dependent |
-| Ondo     | USDY  | \~4.65% | T-Bills            | No               |
-| Sky      | sUSDS | \~4.5%  | RWAs + lending     | No               |
-
-Buck combines the highest yield with the strongest guarantee: contractual dividends that cannot go negative, backed by the world's largest corporate Bitcoin treasury.
+For a full comparison with other yield-bearing tokens, see [How Buck Compares](../getting-started/why-buck.md#how-buck-compares).
 
 ***
 

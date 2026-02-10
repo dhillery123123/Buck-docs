@@ -12,11 +12,11 @@ BUCK is a **yield-bearing savings coin** backed by STRC (Strategy's Bitcoin-coll
 
 ### How does BUCK generate yield?
 
-Buck Protocol holds STRC — Strategy's 10% perpetual preferred stock on NASDAQ. STRC pays contractual quarterly dividends. Buck passes this yield to holders via monthly distributions on the 15th of each month.
+Through STRC's contractual quarterly dividends, distributed monthly to BUCK holders. See [Yield Overview](../yield/overview.md) for full details.
 
 ### Do I need to claim my yield?
 
-**No.** Yield is distributed automatically. Hold BUCK during the eligibility window on the 15th (9:00 AM - 4:00 PM ET), and your USDC yield is distributed on the first business day of the following month. No action needed. Your BUCK balance stays the same; yield is paid as a separate USDC payment.
+**No.** Yield is distributed automatically as additional BUCK tokens. Hold BUCK during the eligibility window on the 15th, and yield is distributed on the first business day of the following month. See [Monthly Distribution](../yield/distribution.md) for details.
 
 ### What tokens does Buck Protocol have?
 
@@ -103,28 +103,7 @@ STRC dividends are contractually obligated preferred equity payments. If they we
 
 ### How does the Points Program work?
 
-Season 1 runs for **8 weeks**. Earn Points based on your activity:
-
-| Activity       | Weight | Multiplier              |
-| -------------- | ------ | ----------------------- |
-| Hold BUCK      | 50%    | 1x (5x at 30+ days)     |
-| Curve LP       | 30%    | 3x                      |
-| Morpho Lending | 10%    | 3x                      |
-| Referrals      | 10%    | 10% of referee's Points |
-
-Base rate: 1 Point per $10 BUCK per day. Minimum $100 to participate.
-
-### What percentage of tokens go to Season 1?
-
-The exact allocation will be announced closer to TGE. We're following Ethena's playbook of strategic ambiguity on token details while providing clear earning mechanics.
-
-### How do Points convert to tokens?
-
-Pro-rata distribution:
-
-```
-Your Tokens = (Your Points / Total Points) x Season 1 Pool
-```
+Season 1 runs for 8 weeks with points earned across holding, LP, lending, and referrals. See [Points Program](../rewards/points-program.md) for full details on weights, multipliers, and earning mechanics.
 
 ### When does the governance token launch?
 
@@ -132,26 +111,11 @@ TGE (Token Generation Event) follows Season 1 completion. Token name, supply, an
 
 ### What will the governance token do?
 
-| Benefit | Details |
-|---------|---------|
-| **Revenue share** | Protocol fees fund buybacks distributed to holders |
-| **Governance rights** | Vote on protocol parameters |
-
-### Do I need to stake the governance token?
-
-**No.** Unlike other protocols, Buck does not require staking. Just hold the governance token in your wallet to:
-
-* Receive your share of buyback distributions
-* Vote on proposals
+Revenue share (protocol fees fund buybacks distributed to holders) and governance rights (vote on protocol parameters). No staking required.
 
 ### Do large wallets have vesting?
 
-Yes. Top 2,000 wallets by Points receive:
-
-* 50% at TGE
-* 50% vested over 6 months (requires continued participation)
-
-Wallets outside top 2,000 receive full allocation at TGE.
+Yes. Top 2,000 wallets by Points receive 50% at TGE and 50% vested over 6 months. Wallets outside top 2,000 receive full allocation at TGE.
 
 ## Technical
 
@@ -161,52 +125,19 @@ Ethereum mainnet.
 
 ### What's the contract address?
 
-| Contract         | Address                                      |
-| ---------------- | -------------------------------------------- |
-| BUCK Token       | `0xdb13997f4D83EF343845d0bAEb27d1173dF8c224` |
-| Liquidity Window | `0x6E87adb23ac0e150Ca9F76C33Df2AdCae508548E` |
+See [Smart Contracts](../technical/contracts.md) for all contract addresses.
 
 ### Is BUCK composable with DeFi?
 
-Yes. BUCK works with:
-
-* **DEXs** — Curve, Uniswap
-* **Lending** — Morpho (coming soon)
-* **Yield** — Pendle (planned)
+Yes — Curve, Uniswap, Morpho (coming soon), and Pendle (planned). See [BUCK Token](../tokens/buck-token.md) for details.
 
 ### How does the oracle work?
 
-The Oracle Adapter uses RedStone for STRC price feeds with:
-
-* 30-minute TWAP smoothing
-* Market hours detection (STRC trades Mon-Fri 9:30 AM - 4 PM ET)
-* Circuit breakers for >15% moves
+See [Oracle Risk](../protocol/risks-oracle.md) for details on RedStone price feeds, TWAP smoothing, and market hours handling.
 
 ## Comparisons
 
-### How is BUCK different from USDC?
-
-| Feature | USDC            | BUCK                            |
-| ------- | --------------- | ------------------------------- |
-| Yield   | 0%              | \~10% APY                       |
-| Price   | Fixed $1.00     | Exchange rate + monthly yield   |
-| Backing | Cash/treasuries | STRC (Strategy preferred stock) |
-
-### How is BUCK different from sUSDe (Ethena)?
-
-| Feature         | sUSDe           | BUCK           |
-| --------------- | --------------- | -------------- |
-| Yield           | \~5% (variable) | \~10%          |
-| Can go negative | Yes             | No             |
-| Yield source    | Funding rates   | STRC dividends |
-
-### How is BUCK different from USDY (Ondo)?
-
-| Feature | USDY     | BUCK               |
-| ------- | -------- | ------------------ |
-| Yield   | \~4.65%  | \~10%              |
-| KYC     | Required | Not required       |
-| DeFi    | Limited  | Full composability |
+See [How Buck Compares](../getting-started/why-buck.md#how-buck-compares) for a full comparison with USDC, Ethena (sUSDe), and Ondo (USDY).
 
 ## Support
 

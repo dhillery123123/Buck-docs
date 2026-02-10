@@ -6,7 +6,7 @@ description: Monthly yield distribution and the eligibility window
 
 ## How It Works
 
-BUCK yield is distributed automatically each month. On the **15th of each month**, the protocol takes a snapshot during U.S. market hours to determine eligible holders. Yield is then distributed in USDC on the **first business day of the following month** — no action required.
+BUCK yield is distributed automatically each month. On the **15th of each month**, the protocol takes a snapshot during U.S. market hours to determine eligible holders. Yield is then distributed in BUCK on the **first business day of the following month** — no action required.
 
 {% hint style="success" %}
 **Eligibility Window**
@@ -37,9 +37,8 @@ STRC trades on NASDAQ during U.S. market hours. The eligibility window aligns wi
 To receive your monthly yield distribution:
 
 1. **Hold BUCK** — You must hold BUCK in your wallet during the eligibility window
-2. **Minimum balance** — $100 BUCK minimum
 
-Just hold BUCK during the window. Yield is distributed automatically as USDC — no transaction needed on your end.
+Just hold BUCK during the window. Yield is distributed automatically — no transaction needed on your end.
 
 ## How Your Share is Calculated
 

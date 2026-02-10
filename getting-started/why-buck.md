@@ -14,13 +14,7 @@ Buck is a savings coin that pays \~10% APY through STRC — Strategy's Bitcoin-c
 
 Buck's yield comes from **STRC**, Strategy's 10% perpetual preferred stock on NASDAQ. STRC dividends are contractually obligated — not trading profits, not token inflation, not funding rates. This is real yield from a publicly traded instrument backed by the world's largest corporate Bitcoin treasury.
 
-| Property                   | Details                                    |
-| -------------------------- | ------------------------------------------ |
-| **Yield Source**           | STRC (Strategy's 10% preferred stock)      |
-| **Dividend Rate**          | 10% annual, paid quarterly                 |
-| **Cash Reserves**          | $2.25B (77.4 years of coverage)            |
-| **Bitcoin Backing**        | Strategy holds $60B+ in BTC                |
-| **Over-collateralization** | 100%+ protocol-level, 5x at Strategy level |
+For full STRC details, see [Yield Overview](../yield/overview.md#what-is-strc).
 
 ### Yield That Can't Go Negative
 
@@ -28,9 +22,7 @@ STRC dividends are contractually obligated preferred equity payments. Unlike fun
 
 ### Monthly Distributions
 
-On the **15th of each month**, the protocol snapshots eligible BUCK holders during the eligibility window (9:00 AM - 4:00 PM ET). Yield is then distributed automatically in BUCK on the first business day of the following month.
-
-[Learn about monthly distributions →](../yield/distribution.md)
+Yield is distributed automatically in BUCK each month. [Learn about monthly distributions →](../yield/distribution.md)
 
 ## Full DeFi Composability
 
