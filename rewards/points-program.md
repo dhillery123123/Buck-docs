@@ -2,7 +2,7 @@
 description: Earn Points toward Buck's protocol allocation
 ---
 
-# Points Program
+# Season 1
 
 ## Season 1 Overview
 
@@ -24,20 +24,20 @@ Points convert to protocol allocation at TGE. The longer you hold and the more y
 
 ### Base Rate
 
-**1 Point per $10 BUCK per day**
+**10 Point per $10 BUCK per day**
 
-A $10,000 BUCK position earns 1,000 Points per day at the base rate.
+A $1,000 BUCK position earns 1,000 Points per day at the base rate.
 
 ### Activity Weights
 
 Points are distributed across four activities:
 
-| Activity                | Weight | Description                               |
-| ----------------------- | ------ | ----------------------------------------- |
-| **Hold BUCK**           | 50%    | Simply hold BUCK in your wallet           |
-| **Liquidity Provision** | 30%    | Provide LP to Curve BUCK pools            |
-| **Morpho Lending**      | 10%    | Supply BUCK to Morpho lending markets     |
-| **Referrals**           | 10%    | Refer new users who mint BUCK             |
+| Activity                | Weight | Description                           |
+| ----------------------- | ------ | ------------------------------------- |
+| **Hold BUCK**           | 50%    | Simply hold BUCK in your wallet       |
+| **Liquidity Provision** | 30%    | Provide LP to Curve BUCK pools        |
+| **Morpho Lending**      | 10%    | Supply BUCK to Morpho lending markets |
+| **Referrals**           | 10%    | Refer new users who mint BUCK         |
 
 ### Multipliers
 
@@ -171,8 +171,8 @@ Hold duration multipliers require **continuous** holding. Any break (selling, tr
 
 ### Step 2: Choose Your Strategy
 
-| Strategy           | Risk   | Reward                 | Best For           |
-| ------------------ | ------ | ---------------------- | ------------------ |
+| Strategy           | Risk   | Reward                  | Best For           |
+| ------------------ | ------ | ----------------------- | ------------------ |
 | **Hold BUCK**      | Low    | Up to 5x (at 30+ days)  | Patient holders    |
 | **Curve LP**       | Medium | 3x + trading fees       | Active DeFi users  |
 | **Morpho Lending** | Medium | 3x + lending yield      | Yield optimizers   |
@@ -184,11 +184,11 @@ Points dashboard at buck.io/points. Your position is tracked on-chain via daily 
 
 ## Infrastructure
 
-| Component          | Platform                   | Purpose                                 |
-| ------------------ | -------------------------- | --------------------------------------- |
+| Component           | Platform                   | Purpose                                 |
+| ------------------- | -------------------------- | --------------------------------------- |
 | **Points Tracking** | [Merkl](https://merkl.xyz) | On-chain activity tracking, leaderboard |
 | **Referrals**       | [Merkl](https://merkl.xyz) | Referral links, 10% bonus tracking      |
-| **BUCK Rewards**   | [Merkl](https://merkl.xyz) | Direct BUCK distributions               |
+| **BUCK Rewards**    | [Merkl](https://merkl.xyz) | Direct BUCK distributions               |
 
 ## Season Timeline
 
@@ -225,4 +225,4 @@ We designed Points with strategic ambiguity on token details (following Ethena's
 
 ***
 
-*Next: [Yield Overview →](../yield/overview.md)*
+_Next:_ [_Yield Overview →_](../yield/overview.md)
