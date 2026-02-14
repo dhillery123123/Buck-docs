@@ -14,6 +14,10 @@ This means that the risks implicated by interacting with BUCK are inherently dif
 
 BUCK is not an offer of securities or financial advice. Buck is not available for US persons. [Terms](http://buck.io/terms) Apply. Please refer to our extensive[ ](https://docs.ethena.fi/solution-overview/risks)Safety & Risks section for additional information.
 
+{% hint style="warning" %}
+You could lose some or all of your funds. Holding BUCK is not risk-free. Yield is not guaranteed and depends on the continued payment of STRC dividends. BUCK is not insured by the FDIC or any other government agency. Past performance and projected returns are not indicative of future results.
+{% endhint %}
+
 ## How BUCK Works
 
 BUCK holders earn \~10% annualized yield from STRC dividends, distributed monthly. Your BUCK stays in your wallet, and yield is distributed automatically in BUCK on the fourth business day of each month.
