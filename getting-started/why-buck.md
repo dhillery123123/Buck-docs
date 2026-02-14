@@ -16,10 +16,6 @@ Buck's yield comes from **STRC**, Strategy's perpetual preferred stock on NASDAQ
 
 For full STRC details, see [Yield Overview](../yield/overview.md#what-is-strc).
 
-### Yield That Can't Go Negative
-
-STRC dividends are contractually obligated preferred equity payments. Unlike funding rates or trading strategies, these dividends don't reverse. Your yield will never be negative.
-
 ### Monthly Distributions
 
 Yield is distributed automatically in BUCK each month. [Learn about monthly distributions →](../yield/distribution.md)
@@ -52,7 +48,6 @@ Right now, Buck holders earn multiple reward streams:
 |                     | USDC | sUSDe (Ethena) | USDY (Ondo) | **BUCK**           |
 | ------------------- | ---- | -------------- | ----------- | ------------------ |
 | **Yield**           | 0%   | \~5-15%        | \~4.65%     | **\~10%**          |
-| **Can go negative** | N/A  | ✅ Yes          | ❌ No        | **❌ No**           |
 | **Yield source**    | None | Funding rates  | T-Bills     | **STRC dividends** |
 | **KYC required**    | No   | No             | Yes         | **No**             |
 | **BTC exposure**    | No   | No             | No          | **Yes (via STRC)** |

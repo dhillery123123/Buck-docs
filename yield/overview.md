@@ -57,20 +57,19 @@ Your Wallet (BUCK)
 
 ## Why STRC Dividends?
 
-| Yield Type         | Source                     | Can Go Negative? | Dependency        |
-| ------------------ | -------------------------- | ---------------- | ----------------- |
-| **STRC Dividends** | Corporate preferred equity | No               | Strategy solvency |
-| Funding Rates      | Perpetual futures          | Yes              | Market sentiment  |
-| Staking Yield      | Proof of stake             | No               | Network activity  |
-| Lending Yield      | Borrower interest          | No               | Credit demand     |
-| T-Bill Yield       | Government bonds           | No               | Fed rates         |
+| Yield Type         | Source                     | Dependency        |
+| ------------------ | -------------------------- | ----------------- |
+| **STRC Dividends** | Corporate preferred equity | Strategy solvency |
+| Funding Rates      | Perpetual futures          | Market sentiment  |
+| Staking Yield      | Proof of stake             | Network activity  |
+| Lending Yield      | Borrower interest          | Credit demand     |
+| T-Bill Yield       | Government bonds           | Fed rates         |
 
 STRC dividends are:
 
 * **Contractually obligated** — Preferred equity has senior legal claim to dividends
 * **Paid regardless of market** — Not dependent on crypto market conditions
 * **Long-term sustainable** — 77+ years of coverage at current reserves
-* **Cannot go negative** — You will never owe yield back
 
 ## Growth Projections
 

@@ -40,10 +40,6 @@ STRC trades on NASDAQ during U.S. market hours. The eligibility window aligns wi
 
 Your portion rolls into the next month's distribution pool.
 
-### Can BUCK's yield go negative?
-
-**No.** STRC dividends are contractual preferred equity payments — they are always positive or zero, never negative. Unlike funding-rate-based yields (Ethena), you will never owe yield back.
-
 ### What currency is yield paid in?
 
 BUCK. Your BUCK balance increases with additional Buck tokens.

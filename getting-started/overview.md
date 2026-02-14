@@ -50,12 +50,12 @@ Unlike USDC or USDT that maintain a fixed $1.00 price, BUCK's value grows over t
 
 Buck's yield comes from a fundamentally different source than other yield-bearing tokens:
 
-| Protocol            | Yield Source         | Can Go Negative? | Sustainability      |
-| ------------------- | -------------------- | ---------------- | ------------------- |
-| **Buck**            | STRC dividends       | ❌ No             | Contractual backing |
-| Ethena (sUSDe)      | Funding rates        | ✅ Yes            | Market dependent    |
-| Ondo (USDY)         | T-Bills              | ❌ No             | \~4.65% (lower)     |
-| Traditional stables | None                 | N/A              | 0%                  |
+| Protocol            | Yield Source         | Sustainability      |
+| ------------------- | -------------------- | ------------------- |
+| **Buck**            | STRC dividends       | Contractual backing |
+| Ethena (sUSDe)      | Funding rates        | Market dependent    |
+| Ondo (USDY)         | T-Bills              | \~4.65% (lower)     |
+| Traditional stables | None                 | 0%                  |
 
 ### What Backs Buck?
 

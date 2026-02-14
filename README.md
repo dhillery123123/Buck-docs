@@ -42,7 +42,6 @@ Buck's yield comes from real dividends paid by STRC — Strategy's preferred sto
 {% endhint %}
 
 * **\~10% APY** — From STRC's contractual quarterly dividends
-* **Can't go negative** — Preferred dividends are legally obligated
 * **Over-collateralized** — More than $1 backing per $1 of BUCK
 * **Monthly distributions** — Yield distributed automatically on the 4th business day of each month
 
