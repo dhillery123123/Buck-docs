@@ -20,14 +20,14 @@ You could lose some or all of your funds. Holding BUCK is not risk-free. Yield i
 
 ## How BUCK Works
 
-BUCK holders earn \~10% annualized yield from STRC dividends, distributed monthly. Your BUCK stays in your wallet, and yield is distributed automatically in BUCK on the fourth business day of each month.
+BUCK holders earn \~10% annualized yield from STRC dividends, distributed monthly. Your BUCK stays in your wallet, and yield is distributed automatically as **additional BUCK tokens** on the fourth business day of each month. The BUCK price stays at $1.00 — your balance grows.
 
-| Day | BUCK Price | Your 1,000 BUCK Value |
-| --- | ---------- | --------------------- |
-| 0   | $1.00      | $1,000                |
-| 90  | $1.025     | $1,025                |
-| 180 | $1.05      | $1,050                |
-| 365 | $1.10      | $1,100                |
+| Month | BUCK Balance | BUCK Price | Your Value |
+| ----- | ------------ | ---------- | ---------- |
+| 0     | 1,000        | $1.00      | $1,000     |
+| 3     | \~1,025      | $1.00      | \~$1,025   |
+| 6     | \~1,051      | $1.00      | \~$1,051   |
+| 12    | \~1,105      | $1.00      | \~$1,105   |
 
 **Hold BUCK. Receive 10% yield monthly. It's that simple.**
 
