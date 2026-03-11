@@ -38,9 +38,13 @@ Buck Protocol Treasury
          │
          │  Passes yield through to holders
          ▼
-Monthly Distribution (15th of each month)
+Eligibility Snapshot (15th of each month)
          │
-         │  Yield distributed automatically to eligible holders
+         │  Protocol measures holder balances during snapshot window
+         ▼
+Payout (4th business day of following month)
+         │
+         │  New BUCK minted and distributed to eligible holders
          ▼
 Your Wallet (BUCK)
 ```
@@ -49,9 +53,9 @@ Your Wallet (BUCK)
 
 1. **STRC pays dividends** — Strategy pays quarterly dividends on STRC
 2. **Buck Protocol receives funds** — Dividends flow into the protocol treasury
-3. **Distribution calculated** — Your share is based on your BUCK balance
-4. **Eligibility window opens** — 9:00 AM - 4:00 PM ET on the 15th of each month
-5. **Yield distributed automatically** — Hold BUCK during the window to receive Buck distribution
+3. **Eligibility snapshot** — On the 15th of each month (9:00 AM – 4:00 PM ET), the protocol snapshots holder balances to determine who is eligible. This is when your balance is measured, not when you get paid.
+4. **Distribution calculated** — Your share is based on your BUCK balance during the snapshot window
+5. **Yield distributed** — New BUCK tokens are minted and distributed automatically on the 4th business day of the following month
 
 [Learn about the eligibility window →](distribution.md)
 

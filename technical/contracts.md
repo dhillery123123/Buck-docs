@@ -28,7 +28,41 @@ description: Contract addresses
 
 ## Security
 
-All contracts use UUPS proxy pattern with 48-hour timelock and multi-sig for upgrades. Three independent audits completed (Cyfrin, Spearbit, SSC).
+All contracts use the UUPS upgradeable proxy pattern and have been audited by Cyfrin, Spearbit, and SSC.
+
+Admin wallet operations — including contract upgrades and configuration adjustments — are secured by a **Fireblocks 4/4 MPC approval system** with a TAP (Transaction Authorization Policy) and function-level whitelist. Every admin action requires approval from all 4 MPC key holders before it can execute, and only pre-approved contract functions can be called.
+
+Treasury and Liquidity Reserve withdrawals/operations are also under a separate **4/4 MPC multisig** in Fireblocks. No single individual can unilaterally upgrade contracts, change protocol parameters, or move funds.
+
+## Collateral Attestation
+
+An off-chain attestor periodically publishes two values to the CollateralAttestation contract ([`0x1aEEEf99704258947A9ea77eF021d5e0551c0428`](https://etherscan.io/address/0x1aEEEf99704258947A9ea77eF021d5e0551c0428)):
+
+- **Portfolio value (V)** — The current value of protocol-held STRC and other collateral
+- **Haircut coefficient (HC)** — A conservative discount applied to the portfolio value
+
+The contract computes the collateral ratio as:
+
+```
+CR = (USDC in Liquidity Reserve + haircutted portfolio value) / BUCK total supply
+```
+
+The protocol currently maintains a CR of **~1.6x**, meaning there's $1.60+ backing every $1 of BUCK. If the attestation becomes stale (exceeds a configurable freshness window), mints and refunds are paused automatically until a fresh attestation is published.
+
+For monthly attestation reports, see [Independent Reserve Attestations](../protocol/reserve-attestations.md).
+
+## Fees
+
+| Action | Fee | Applied When |
+|--------|-----|-------------|
+| **Mint** | 10 bps (0.10%) | Minting BUCK from USDC via the Liquidity Window |
+| **Refund** | 10 bps (0.10%) | Redeeming BUCK back to USDC via the Liquidity Window |
+| **DEX Buy** | 15 bps (0.15%) | Buying BUCK on Curve or Uniswap |
+| **DEX Sell** | 15 bps (0.15%) | Selling BUCK on Curve or Uniswap |
+
+All fees are sent to the protocol Treasury (`0x5d105791469064cA0764cfaCfc577c286351CFAD`). Fee rates are configurable by the admin via the PolicyManager contract ([`0x79f86b9E0ac84C7580575089E453431D77905E36`](https://etherscan.io/address/0x79f86b9E0ac84C7580575089E453431D77905E36)) and may change based on protocol health band.
+
+## Resources
 
 | Resource | Link |
 |----------|------|

@@ -6,31 +6,28 @@ description: Monthly yield distribution and the eligibility window
 
 ## How It Works
 
-BUCK yield is distributed automatically each month. On the **15th of each month**, the protocol takes a snapshot during U.S. market hours to determine eligible holders. Yield is then distributed in BUCK on the **first business day of the month following STRC dividend payment** — no action required.
+BUCK yield follows a two-step process each month: a **snapshot** to measure who is eligible, and a **payout** when new BUCK tokens are distributed.
 
 {% hint style="success" %}
-**Eligibility Window**
+**Eligibility Snapshot**
 
-**When:** 15th of each month, 9:00 AM - 4:00 PM Eastern Time
+**When:** 15th of each month, 9:00 AM – 4:00 PM Eastern Time
 
-**Who:** All BUCK holders with a qualifying balance
+**What happens:** The protocol snapshots holder balances to determine who is eligible for that month's distribution. This is when your balance is measured — not when you get paid.
 
-**What:** Hold BUCK during this window to receive your share of STRC dividend yield
+**Payout:** New BUCK tokens are distributed on the **4th business day of the following month**.
 {% endhint %}
 
-## The Eligibility Window
+## Snapshot vs. Payout
 
-| Parameter             | Details                            |
-| --------------------- | ---------------------------------- |
-| **Date**              | 15th of each month                 |
-| **Opens**             | 9:00 AM ET                         |
-| **Closes**            | 4:00 PM ET                         |
-| **Duration**          | 7 hours                            |
-| **Why market hours?** | Aligns with STRC trading on NASDAQ |
+| Step | When | What Happens |
+| ---- | ---- | ------------ |
+| **Eligibility snapshot** | 15th of each month, 9:00 AM – 4:00 PM ET | Protocol measures your BUCK balance |
+| **Payout** | 4th business day of the following month | New BUCK minted and sent to eligible holders |
 
-### Why 9 AM - 4 PM ET?
+### Why 9 AM – 4 PM ET?
 
-STRC trades on NASDAQ during U.S. market hours. The eligibility window aligns with these hours so that STRC pricing is live and accurate during distribution. This ensures fair, real-time valuation of the protocol's collateral.
+STRC trades on NASDAQ during U.S. market hours. The snapshot window aligns with these hours so that STRC pricing is live and accurate. This ensures fair, real-time valuation of the protocol's collateral.
 
 ## Eligibility Requirements
 
@@ -42,24 +39,39 @@ Just hold BUCK during the window. Yield is distributed automatically — no tran
 
 ## Distribution Schedule
 
-Eligibility is determined on the 15th of each month. Yield is then distributed on the **first business day of the following month**.
+The snapshot is taken on the 15th. Yield is distributed on the **4th business day of the following month**.
 
-| Month         | Eligibility Date | Distribution Date |
-| ------------- | ---------------- | ----------------- |
-| February 2026 | Feb 15 (Sun)\*   | Mar 2 (Mon)       |
-| March 2026    | Mar 15 (Sun)\*   | Apr 1 (Wed)       |
-| April 2026    | Apr 15 (Wed)     | May 1 (Fri)       |
-| May 2026      | May 15 (Fri)     | Jun 1 (Mon)       |
+| Month         | Snapshot Date    | Payout Date          |
+| ------------- | ---------------- | -------------------- |
+| February 2026 | Feb 15 (Sun)\*   | Mar 5 (Thu)          |
+| March 2026    | Mar 15 (Sun)\*   | Apr 6 (Mon)          |
+| April 2026    | Apr 15 (Wed)     | May 6 (Wed)          |
+| May 2026      | May 15 (Fri)     | Jun 4 (Thu)          |
 
-\*When the 15th falls on a weekend, eligibility is based on the last trading day before the 15th.
+\*When the 15th falls on a weekend, the snapshot is taken on the last trading day before the 15th.
 
 ## What If I Don't Hold During the Window?
 
 {% hint style="warning" %}
-**Hold During the Eligibility Window**
+**Hold During the Snapshot Window**
 
-If you don't hold BUCK during the eligibility window on the 15th, you won't receive that month's yield. Set a reminder for the 15th of each month.
+If you don't hold BUCK during the snapshot window on the 15th, you won't be included in that month's distribution. The payout happens later (4th business day of the following month), but eligibility is locked in during the snapshot. Set a reminder for the 15th of each month.
 {% endhint %}
+
+## How It Works On-Chain
+
+Yield distribution runs in monthly epochs managed by the RewardsEngine contract ([`0x159c1C0F796a02111334cC280eE001b091a9580C`](https://etherscan.io/address/0x159c1C0F796a02111334cC280eE001b091a9580C)).
+
+Each epoch has a start date, end date, and a checkpoint window. During the checkpoint window (the 15th), the protocol snapshots all holder balances to calculate eligible **balance-time** units — how much BUCK you held and for how long during the epoch.
+
+After the checkpoint closes, the admin triggers distribution, which mints new BUCK tokens proportional to each holder's share of total eligible balance-time. Holders don't need to claim — the new BUCK appears in their wallet automatically.
+
+The following are excluded from eligibility:
+- DEX LP positions (yield is for holders, not AMM pools)
+- Excluded addresses (treasury, reserve, protocol contracts)
+- Wallets that held below minimum thresholds
+
+For contract details, see [Smart Contracts](../technical/contracts.md).
 
 ## FAQ
 
@@ -69,11 +81,11 @@ Yield is distributed in additional Buck tokens.
 
 ### Do I need to do anything on the 15th?
 
-No. Just make sure you're holding BUCK in your wallet during the eligibility window. Yield is distributed automatically.
+No. Just make sure you're holding BUCK in your wallet during the snapshot window (9 AM – 4 PM ET). Your balance is measured then, and yield is paid out automatically on the 4th business day of the following month.
 
 ### Does yield go to any wallet holding BUCK?
 
-Yes, as long as your wallet holds BUCK during the eligibility window.
+Yes, as long as your wallet holds BUCK during the snapshot window on the 15th.
 
 ### Is there a gas fee?
 

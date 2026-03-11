@@ -4,6 +4,12 @@ description: Get started earning yield in 5 minutes
 
 # Quick Start Guide
 
+{% hint style="warning" %}
+**Geographic Restriction**
+
+BUCK is not available for US persons. By using the protocol you represent that you are not a US person as defined in applicable law. See [Terms](https://buck.io/terms).
+{% endhint %}
+
 ## Choose Your Path
 
 | Path              | Difficulty | Rewards                     | Best For           |
@@ -51,7 +57,7 @@ Yield is distributed automatically in BUCK each month. See [Monthly Distribution
 | ------------------- | ------------------------------- |
 | **3x Points**       | LP positions earn 3x vs holding |
 | **Trading Fees**    | \~1-2% APY from swaps           |
-| **Merkl Rewards**   | $4,167/week (Curve)             |
+| **Merkl Rewards**   | Claim at merkl.xyz              |
 | **Protocol Impact** | Deep liquidity helps Buck grow  |
 
 ### Step 1: Get BUCK + USDC
