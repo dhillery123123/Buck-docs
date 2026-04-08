@@ -10,7 +10,7 @@
 ## How Yield Works
 
 * [Yield Overview](yield/overview.md)
-* [Monthly Distribution](yield/distribution.md)
+* [Yield Streaming](yield/distribution.md)
 
 ## BUCK Token
 

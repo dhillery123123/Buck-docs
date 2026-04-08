@@ -10,29 +10,39 @@ Buck's reserves are independently verified by The Network Firm through monthly a
 
 ## What Gets Attested
 
-### Monthly Verification Includes
+### Agreed-Upon Procedures Include
 
 | Item | Description |
 |------|-------------|
-| **STRC Holdings** | Quantity and value of STRC treasury holdings |
-| **USDC Reserve** | Stablecoin balance in Liquidity Reserve |
-| **Total BUCK Supply** | Outstanding BUCK tokens |
-| **Collateralization Ratio** | (Treasury + Reserve) / (BUCK Supply × Price) |
-| **Exchange Rate Accuracy** | Calculated vs. reported rate |
+| **STRC Holdings** | Quantity and fair value of STRC equity shares in brokerage account |
+| **USD Cash** | Cash balance in brokerage account (dividend proceeds + uninvested funds) |
+| **USDC Reserve** | Stablecoin balance in on-chain Liquidity Reserve contract |
+| **Custodial Control** | Verification of entity titling and admin role on-chain |
+| **Total Buck Assets** | Sum of all in-scope assets in USD |
 
 ### Attestation Process
 
 ```
-1. The Network Firm receives read access to treasury wallets
+1. Obtain listing of in-scope on-chain and off-chain Buck Assets from Management
          ↓
-2. Independent verification of STRC holdings via custody provider
+2. Observe Management access brokerage account, document STRC + cash balances
          ↓
-3. On-chain verification of BUCK supply and reserve balances
+3. Verify entity titling (Buck Assets Ltd.) via certificates of name change
          ↓
-4. Calculation of collateralization ratio
+4. Demonstrate on-chain control via ADMIN_ROLE hasRole verification on Etherscan
          ↓
-5. Signed attestation published
+5. Query blockchain for USDC balance in Liquidity Reserve contract
+         ↓
+6. Calculate total Buck Assets value and publish signed report
 ```
+
+### Custodial Arrangements
+
+| Buck Asset | Custodian | Description |
+|------------|-----------|-------------|
+| **STRC (Equity Shares)** | Alpaca (Brokerage Account) | STRC equity shares held in brokerage account |
+| **USD Cash** | Alpaca (Brokerage Account) | Dividend proceeds and uninvested funds |
+| **USDC** | On-chain Liquidity Reserve | Smart contract `0x1A426E3A87368a4851f7443Ff656A054Af872f66`, controlled by MPC wallet |
 
 ## The Network Firm
 
@@ -51,25 +61,42 @@ The Network Firm specializes in digital asset attestations and has experience wi
 
 ## Latest Attestation
 
-{% hint style="info" %}
-**Coming Soon**
+### March 12, 2026 — Agreed-Upon Procedures Report
 
-Monthly attestations will be published here starting with the first full month after launch. Check back for updates.
+{% hint style="success" %}
+**[Download Full Attestation Report (PDF) →](../attestations/2026-03-12-attestation-report.pdf)**
 {% endhint %}
 
-### Attestation Format
+| Field | Details |
+|-------|---------|
+| **Snapshot Date and Time** | March 12, 2026, 3:00 PM ET |
+| **Issued** | March 23, 2026 |
+| **Performed by** | The Network Firm LLP, Miami, Florida |
+| **Standard** | AICPA Attestation Standards (Agreed-Upon Procedures) |
 
-Each attestation includes:
+#### Buck Assets Summary
 
-| Field | Description |
-|-------|-------------|
-| **Date** | Attestation date |
-| **Period** | Period covered |
-| **STRC Holdings** | Quantity and USD value |
-| **USDC Reserve** | Balance |
-| **BUCK Supply** | Total outstanding |
-| **Collateralization Ratio** | Percentage |
-| **Attestor Signature** | Cryptographic signature |
+| Buck Asset | Quantity | Price per Unit | Fair Value (USD) |
+|------------|----------|---------------|-----------------|
+| **STRC (Equity Shares)** | 15,285.00 | $100.01 | $1,528,652.85 |
+| **USD Cash** | 117.46 | $1.00 | $117.46 |
+| **USDC** | 489,446.19 | $1.00 | $489,446.19 |
+| **Total Buck Assets** | | | **$2,018,216.50** |
+
+#### Key Findings
+
+* **STRC holdings verified** — 15,285 shares at $100.01/share observed in Alpaca brokerage account
+* **Entity control confirmed** — Account titled under "Strong Stretch Ltd." with BVI Certificate of Name Change to "Buck Assets Ltd." (December 4, 2025) verified
+* **On-chain control confirmed** — ADMIN_ROLE verified via `hasRole` function on Etherscan returning `True`
+* **USDC reserve verified** — 489,446.19 USDC queried directly from the Liquidity Reserve contract on Ethereum
+
+#### Important Notes
+
+This is an agreed-upon procedures engagement, not an audit or examination. The Network Firm does not express an opinion or conclusion on the Buck Assets. Per Buck's Terms and Conditions:
+
+* Buck Tokens are not pegged to any asset (Clause 2.7.7, 2.7.9)
+* Token holders do not possess legal or economic claims on Buck Assets (Clause 2.7.8)
+* Buck Tokens are not redeemable at the instruction of token holders (Clause 2.7.10)
 
 ## On-Chain Verification
 
@@ -86,7 +113,7 @@ function getLatestAttestation() external view returns (
     uint256 strcValue,
     uint256 reserveValue,
     uint256 buckSupply,
-    uint256 collateralizationRatio
+    uint256 backingRatio
 );
 ```
 
@@ -135,13 +162,9 @@ Both are important:
 
 ## Historical Attestations
 
-| Date | Collat. Ratio | Treasury Holdings | BUCK Supply | Report |
-|------|---------------|---------------|-------------|--------|
-| *Coming Soon* | — | — | — | — |
-
-{% hint style="info" %}
-Historical attestations will be added here as they are published.
-{% endhint %}
+| Date | Total Buck Assets | STRC Holdings | USDC Reserve | Report |
+|------|-------------------|---------------|-------------|--------|
+| March 12, 2026 | $2,018,216.50 | 15,285 shares ($1,528,652.85) | $489,446.19 | [PDF](../attestations/2026-03-12-attestation-report.pdf) |
 
 ## FAQ
 
@@ -149,7 +172,7 @@ Historical attestations will be added here as they are published.
 
 Monthly, typically within 10 business days of month end.
 
-### What if collateralization drops below 100%?
+### What if backing drops significantly?
 
 The attestation would reflect this. Protocol would:
 1. Pause new mints

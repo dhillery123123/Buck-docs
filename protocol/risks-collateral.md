@@ -1,12 +1,16 @@
 ---
-description: Understanding STRC and collateralization risks
+description: Understanding STRC and collateral risks
 ---
 
 # Treasury & Collateral Risk
 
+## STRC Price Risk
+
+BUCK's NAV is directly tied to STRC's market price. If STRC declines, BUCK's NAV declines proportionally. The ~10% annual yield provides a cushion — STRC would need to fall more than 10% in a year for holders to experience a net loss — but short-term drawdowns can exceed accrued yield.
+
 ## STRC Dividend Risk
 
-BUCK's yield depends on STRC ROC dividends being paid to Buck's Treasury. If dividends were reduced or suspended, BUCK yield would decrease — but your BUCK value would not decrease.&#x20;
+BUCK's yield depends on STRC dividends being paid to Buck's Treasury. If dividends were reduced or suspended, BUCK yield would decrease.
 
 **Why dividend suspension is unlikely:**
 

@@ -12,7 +12,7 @@ BUCK is not available for US persons. By using the protocol you represent that y
 
 ## Real Yield from Real Assets
 
-Buck is a savings coin that pays \~10% APY through STRC — Strategy's Bitcoin-collateralized preferred stock. STRC pays contractual quarterly dividends, and Buck passes this yield to holders via monthly distributions.
+Buck is a savings coin that pays ~10% APY through STRC — Strategy's Bitcoin-collateralized preferred stock. STRC pays contractual quarterly dividends, and Buck passes this yield to holders via continuous yield streaming directly into the BUCK price.
 
 ## What Makes Buck Different
 
@@ -22,9 +22,9 @@ Buck's yield comes from **STRC**, Strategy's perpetual preferred stock on NASDAQ
 
 For full STRC details, see [Yield Overview](../yield/overview.md#what-is-strc).
 
-### Monthly Distributions
+### Continuous Yield Streaming
 
-Yield is distributed automatically in BUCK each month. [Learn about monthly distributions →](../yield/distribution.md)
+Yield streams directly into the BUCK price — automatically, every second. No snapshots, no claiming, no epochs. [Learn about yield streaming →](../yield/distribution.md)
 
 ## Full DeFi Composability
 
@@ -43,7 +43,7 @@ Right now, Buck holders earn multiple reward streams:
 
 | Reward         | What You Get        | How                                |
 | -------------- | ------------------- | ---------------------------------- |
-| **STRC Yield** | \~10% APY           | Distributed automatically, monthly |
+| **STRC Yield** | ~10% APY            | Streams into BUCK price continuously |
 | **Points**     | Protocol Allocation | Hold $100+ BUCK                    |
 | **Merkl BUCK** | New campaign coming  | Check merkl.xyz for current rates   |
 
@@ -53,12 +53,12 @@ Right now, Buck holders earn multiple reward streams:
 
 |                     | USDC | sUSDe (Ethena) | USDY (Ondo) | **BUCK**           |
 | ------------------- | ---- | -------------- | ----------- | ------------------ |
-| **Yield**           | 0%   | \~5-15%        | \~4.65%     | **\~10%**          |
+| **Yield**           | 0%   | ~5-15%         | ~4.65%      | **~10%**           |
 | **Yield source**    | None | Funding rates  | T-Bills     | **STRC dividends** |
-| **Access**          | Open | Open           | KYC         | **Sanctions screen** |
+| **Access**          | Open | Open           | Accredited  | **Sanctions screen** |
 | **BTC exposure**    | No   | No             | No          | **Yes (via STRC)** |
 
-Buck delivers the highest yield with the strongest backing: contractual preferred dividends from a $60B+ Bitcoin treasury, distributed monthly. There is no traditional KYC process — Buck runs a light sanctions check on your wallet when you first enter the system. Once cleared, your wallet is added to the AccessRegistry allowlist permanently via merkle proof, and you always have access to the protocol from that point on.
+Buck delivers the highest yield with the strongest backing: contractual preferred dividends from a $60B+ Bitcoin treasury, streamed continuously. There is no traditional KYC process — Buck runs a light sanctions check on your wallet when you first enter the system. Once cleared, your wallet is added to the AccessRegistry allowlist permanently via merkle proof, and you always have access to the protocol from that point on.
 
 ## Get Started
 

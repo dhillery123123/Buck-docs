@@ -6,7 +6,7 @@ description: Understanding oracle infrastructure and market hours risks
 
 ## Market Hours Gap
 
-STRC trades on NASDAQ during U.S. market hours only (\~32.5 hours/week). DeFi operates 24/7. This creates pricing gaps, particularly over weekends and holidays.
+STRC trades on NASDAQ during U.S. market hours only (~32.5 hours/week). DeFi operates 24/7. This creates pricing gaps, particularly over weekends and holidays.
 
 | Period           | STRC Price Source                |
 | ---------------- | -------------------------------- |

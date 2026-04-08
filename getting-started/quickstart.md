@@ -39,12 +39,12 @@ You need USDC on Ethereum mainnet. Bridge from other chains or buy on an exchang
 3. Click "Mint"
 4. Confirm the transaction in your wallet
 
-### Step 4: Receive Yield Monthly
+### Step 4: Earn Yield Continuously
 
-Yield is distributed automatically in BUCK each month. See [Monthly Distribution](../yield/distribution.md) for eligibility details.
+Yield streams into your BUCK price automatically — every second, no action required. Your BUCK quantity stays the same while the price per BUCK appreciates. See [Yield Streaming](../yield/distribution.md) for details.
 
 {% hint style="success" %}
-**Three reward streams.** Hold BUCK and earn STRC yield (distributed automatically), Points (automatic), and Merkl BUCK rewards (claim weekly at merkl.xyz). See [Buck Points Program](../rewards/points-program.md) for details.
+**Three reward streams.** Hold BUCK and earn STRC yield (streams continuously into price), Points (automatic), and Merkl BUCK rewards (claim weekly at merkl.xyz). See [Buck Points Program](../rewards/points-program.md) for details.
 {% endhint %}
 
 ***
@@ -56,7 +56,7 @@ Yield is distributed automatically in BUCK each month. See [Monthly Distribution
 | Benefit             | Details                         |
 | ------------------- | ------------------------------- |
 | **3x Points**       | LP positions earn 3x vs holding |
-| **Trading Fees**    | \~1-2% APY from swaps           |
+| **Trading Fees**    | ~1-2% APY from swaps            |
 | **Merkl Rewards**   | Claim at merkl.xyz              |
 | **Protocol Impact** | Deep liquidity helps Buck grow  |
 
@@ -98,11 +98,11 @@ LP positions earn 3x Points multiplier, trading fees, and Merkl BUCK rewards. Se
 
 ### Example
 
-Your friend mints $10,000 BUCK and holds for 30+ days:
+Your friend mints $10,000 BUCK and holds:
 
-* They earn 5,000 Points/day (5x multiplier at 30+ days)
-* You earn 500 Points/day (10% of theirs)
-* Over 8 weeks: They get 280,000 Points, you get 28,000 Points
+* They earn Buck Points daily based on their BUCK holdings
+* You earn 10% of their Buck Points — ongoing, no cap
+* Referral bonuses are applied automatically by Merkl during distribution
 
 ***
 
@@ -126,11 +126,9 @@ Claim your BUCK rewards at [merkl.xyz](https://merkl.xyz):
 * Claim accumulated rewards
 * Distributed weekly
 
-### Monthly Yield
+### Yield
 
-### What's the minimum to participate in the points campaign?
-
-STRC yield is distributed automatically in BUCK each month — no action required. See [Monthly Distribution](../yield/distribution.md) for eligibility details.
+STRC yield streams into your BUCK price continuously — no action required. See [Yield Streaming](../yield/distribution.md) for details.
 
 For contract addresses, see [Smart Contracts](../technical/contracts.md). For multiplier details, see [Buck Points Program](../rewards/points-program.md). For common questions, see [FAQ](../resources/faq.md).
 
@@ -139,7 +137,7 @@ For contract addresses, see [Smart Contracts](../technical/contracts.md). For mu
 ## Next Steps
 
 * [How Yield Works →](../yield/overview.md)
-* [Monthly Distribution Details →](../yield/distribution.md)
+* [Yield Streaming Details →](../yield/distribution.md)
 * [Understand the risks →](../protocol/risks.md)
 * [See how BUCK compares to alternatives →](why-buck.md#how-buck-compares)
 

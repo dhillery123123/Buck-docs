@@ -18,7 +18,7 @@ Buck's risk profile differs from traditional stablecoins and other yield-bearing
 
 | Category                         | Page                              | Key Concerns                                             |
 | -------------------------------- | --------------------------------- | -------------------------------------------------------- |
-| **Treasury & Collateral**        | [Read →](risks-collateral.md)     | Dividend risk, asset price volatility, collateralization |
+| **Treasury & Collateral**        | [Read →](risks-collateral.md)     | Dividend risk, asset price volatility, STRC exposure    |
 | **Oracle & Market Hours**        | [Read →](risks-oracle.md)         | Price gaps, oracle manipulation, liquidation protection  |
 | **Smart Contract & Operational** | [Read →](risks-smart-contract.md) | Code security, upgradeability, custody, access control   |
 | **Disclaimer**                   | [Read →](risks-disclaimer.md)     | Token classification, legal disclosures                  |
@@ -29,7 +29,7 @@ Buck's risk profile differs from traditional stablecoins and other yield-bearing
 
 | Risk                   | Likelihood    | Potential Impact | Primary Mitigation                            |
 | ---------------------- | ------------- | ---------------- | --------------------------------------------- |
-| STRC price decline     | Low-Medium    | Medium           | 100%+ overcollateralization                   |
+| STRC price decline     | Low-Medium    | Medium           | Yield cushion (~10% APY)                      |
 | Dividend suspension    | Very Low      | Medium           | $2.25B cash reserves, 77+ years coverage      |
 | Smart contract exploit | Low           | Critical         | 3 independent audits                          |
 | Oracle manipulation    | Low           | Medium           | NASDAQ-based pricing + TWAP                   |
@@ -37,7 +37,7 @@ Buck's risk profile differs from traditional stablecoins and other yield-bearing
 
 ### What BUCK Is Not
 
-* **Not a stablecoin:** BUCK price changes (upward) as yield accrues
+* **Not a stablecoin:** BUCK price changes as yield accrues and STRC price moves
 * **Not risk-free:** Smart contract, counterparty, and market risks exist
 * **Not guaranteed:** Yield depends on STRC dividends continuing
 * **Not insured by FDIC:** This is DeFi, not a bank account

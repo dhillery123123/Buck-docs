@@ -41,13 +41,7 @@ An off-chain attestor periodically publishes two values to the CollateralAttesta
 - **Portfolio value (V)** — The current value of protocol-held STRC and other collateral
 - **Haircut coefficient (HC)** — A conservative discount applied to the portfolio value
 
-The contract computes the collateral ratio as:
-
-```
-CR = (USDC in Liquidity Reserve + haircutted portfolio value) / BUCK total supply
-```
-
-The protocol currently maintains a CR of **~1.6x**, meaning there's $1.60+ backing every $1 of BUCK. If the attestation becomes stale (exceeds a configurable freshness window), mints and refunds are paused automatically until a fresh attestation is published.
+If the attestation becomes stale (exceeds a configurable freshness window), mints and refunds are paused automatically until a fresh attestation is published.
 
 For monthly attestation reports, see [Independent Reserve Attestations](../protocol/reserve-attestations.md).
 

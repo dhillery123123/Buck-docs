@@ -6,9 +6,9 @@ description: The yield-bearing savings coin backed by STRC
 
 ## Yield-Bearing Savings Coin
 
-BUCK is a **yield-bearing savings coin** that delivers \~10% APY from STRC dividends. Unlike stable coins that maintain a fixed $1.00 price and provide no yield, BUCK holders earn monthly yield distributions from Strategy's contractual preferred stock dividends.
+BUCK is a **yield-bearing savings coin** that delivers ~10% APY from STRC dividends. Unlike stablecoins that maintain a fixed $1.00 price and provide no yield, BUCK's price appreciates over time as yield streams continuously into the token price.
 
-Yield is distributed automatically in BUCK each month. See [Monthly Distribution](../yield/distribution.md) for eligibility details.
+Yield streams directly into BUCK's price — no claiming, no snapshots. See [Yield Streaming](../yield/distribution.md) for details.
 
 ## Token Specifications
 
@@ -22,7 +22,7 @@ Yield is distributed automatically in BUCK each month. See [Monthly Distribution
 | **Chain**          | Ethereum                                     |
 | **Contract**       | `0xdb13997f4D83EF343845d0bAEb27d1173dF8c224` |
 | **Starting Price** | $1.00 (at launch)                            |
-| **Yield**          | \~10% APY from STRC dividends                |
+| **Yield**          | ~10% APY from STRC dividends                 |
 | **Max Supply**     | Unlimited (mint/burn model)                  |
 
 ## Minting BUCK
@@ -65,7 +65,7 @@ Burn 1,000 BUCK → Receive ~1,049 USDC (after 10 bps fee)
 | --------- | ------------- |
 | Standard  | 10 bps (0.1%) |
 
-\*Redemptions not guaranteed. Redemptions done at Buck discretion and subject to market conditions.&#x20;
+\*Redemptions not guaranteed. Redemptions done at Buck discretion and subject to market conditions.
 
 ## DeFi Use Cases
 

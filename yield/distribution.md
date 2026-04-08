@@ -1,95 +1,89 @@
 ---
-description: Monthly yield distribution and the eligibility window
+description: Continuous yield streaming into BUCK price
 ---
 
-# Monthly Distribution
+# Yield Streaming
 
 ## How It Works
 
-BUCK yield follows a two-step process each month: a **snapshot** to measure who is eligible, and a **payout** when new BUCK tokens are distributed.
+BUCK yield is delivered through **continuous yield streaming**. Instead of monthly snapshots and payouts, yield accrues directly into the BUCK price every second — automatically, with no action required.
 
 {% hint style="success" %}
-**Eligibility Snapshot**
+**Continuous Yield**
 
-**When:** 15th of each month, 9:00 AM – 4:00 PM Eastern Time
-
-**What happens:** The protocol snapshots holder balances to determine who is eligible for that month's distribution. This is when your balance is measured — not when you get paid.
-
-**Payout:** New BUCK tokens are distributed on the **4th business day of the following month**.
+Yield streams into your BUCK price 24/7. There are no snapshots, no eligibility windows, and no claiming. Every second you hold BUCK, its price appreciates.
 {% endhint %}
 
-## Snapshot vs. Payout
+## How It's Different
 
-| Step | When | What Happens |
-| ---- | ---- | ------------ |
-| **Eligibility snapshot** | 15th of each month, 9:00 AM – 4:00 PM ET | Protocol measures your BUCK balance |
-| **Payout** | 4th business day of the following month | New BUCK minted and sent to eligible holders |
+| Feature | Traditional (Monthly) | BUCK (Continuous) |
+| ------- | --------------------- | ----------------- |
+| **Yield delivery** | New tokens distributed monthly | Price appreciates every second |
+| **Eligibility** | Must hold during snapshot window | Hold BUCK at any time |
+| **Action required** | None (auto-distribution) | None (auto-accrual) |
+| **Timing risk** | Miss the snapshot, miss the yield | No timing risk |
+| **Gas cost** | None | None |
 
-### Why 9 AM – 4 PM ET?
+## The Yield Multiplier
 
-STRC trades on NASDAQ during U.S. market hours. The snapshot window aligns with these hours so that STRC pricing is live and accurate. This ensures fair, real-time valuation of the protocol's collateral.
+BUCK uses a synthetic yield multiplier that increases the token's NAV over time:
 
-## Eligibility Requirements
+1. The protocol sets a yield rate (~10% APY) and a vesting period
+2. The yield multiplier increases linearly over the vesting period
+3. At the end of each period, accrued yield compounds into the base
+4. A new stream begins — the process repeats continuously
 
-To receive your monthly yield distribution:
+### Example
 
-1. **Hold BUCK** — You must hold BUCK in your wallet during the eligibility window
+```
+Period 1: Base = 1.000 → streams 10% APY → ends at ~1.008 (1 month)
+Period 2: Base = 1.008 → streams 10% APY → continues compounding
+...
+After 12 months: ~1.100 (10% growth)
+```
 
-Just hold BUCK during the window. Yield is distributed automatically — no transaction needed on your end.
+## No Snapshots, No Windows
 
-## Distribution Schedule
+There is no advantage to timing your entry or exit. Unlike protocols with monthly snapshots:
 
-The snapshot is taken on the 15th. Yield is distributed on the **4th business day of the following month**.
+* **No eligibility window** — You don't need to hold during a specific date/time
+* **No missed distributions** — Every second of holding earns yield
+* **No gaming** — Can't buy before snapshot and sell after
+* **Fair to all holders** — Pro-rata yield based on actual hold time
 
-| Month         | Snapshot Date    | Payout Date          |
-| ------------- | ---------------- | -------------------- |
-| February 2026 | Feb 15 (Sun)\*   | Mar 5 (Thu)          |
-| March 2026    | Mar 15 (Sun)\*   | Apr 6 (Mon)          |
-| April 2026    | Apr 15 (Wed)     | May 6 (Wed)          |
-| May 2026      | May 15 (Fri)     | Jun 4 (Thu)          |
+## Where Does the Yield Come From?
 
-\*When the 15th falls on a weekend, the snapshot is taken on the last trading day before the 15th.
+The ~10% APY is funded entirely by **STRC dividends** — contractual preferred equity payments from Strategy. This is external, real-world yield:
 
-## What If I Don't Hold During the Window?
+* Not token emissions
+* Not funding rate arbitrage
+* Not inflationary rewards
 
-{% hint style="warning" %}
-**Hold During the Snapshot Window**
+See [Yield Overview](overview.md) for a deep dive on STRC as a yield source.
 
-If you don't hold BUCK during the snapshot window on the 15th, you won't be included in that month's distribution. The payout happens later (4th business day of the following month), but eligibility is locked in during the snapshot. Set a reminder for the 15th of each month.
-{% endhint %}
+## Rate Updates
 
-## How It Works On-Chain
+The protocol operator sets the yield stream rate based on realized STRC dividend income. Rate changes are:
 
-Yield distribution runs in monthly epochs managed by the RewardsEngine contract ([`0x159c1C0F796a02111334cC280eE001b091a9580C`](https://etherscan.io/address/0x159c1C0F796a02111334cC280eE001b091a9580C)).
+* Applied prospectively (not retroactively)
+* Bounded by on-chain safety parameters
+* Visible on-chain for full transparency
 
-Each epoch has a start date, end date, and a checkpoint window. During the checkpoint window (the 15th), the protocol snapshots all holder balances to calculate eligible **balance-time** units — how much BUCK you held and for how long during the epoch.
-
-After the checkpoint closes, the admin triggers distribution, which mints new BUCK tokens proportional to each holder's share of total eligible balance-time. Holders don't need to claim — the new BUCK appears in their wallet automatically.
-
-The following are excluded from eligibility:
-- DEX LP positions (yield is for holders, not AMM pools)
-- Excluded addresses (treasury, reserve, protocol contracts)
-- Wallets that held below minimum thresholds
-
-For contract details, see [Smart Contracts](../technical/contracts.md).
+The target rate is ~10% APY, matching STRC's stated coupon rate.
 
 ## FAQ
 
-### What currency is yield paid in?
+### Do I need to do anything to earn yield?
 
-Yield is distributed in additional Buck tokens.
+No. Just hold BUCK. Yield accrues into the price automatically.
 
-### Do I need to do anything on the 15th?
+### What if I buy BUCK mid-period?
 
-No. Just make sure you're holding BUCK in your wallet during the snapshot window (9 AM – 4 PM ET). Your balance is measured then, and yield is paid out automatically on the 4th business day of the following month.
+You start earning yield immediately from the moment you hold BUCK. There is no waiting period or alignment to any schedule.
 
-### Does yield go to any wallet holding BUCK?
+### Is there a gas fee to earn yield?
 
-Yes, as long as your wallet holds BUCK during the snapshot window on the 15th.
-
-### Is there a gas fee?
-
-No. Yield is distributed automatically — no transaction required on your end.
+No. Yield is built into the token price — no transactions required.
 
 ***
 

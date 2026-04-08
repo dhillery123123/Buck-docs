@@ -6,12 +6,12 @@ description: How BUCK delivers ~10% APY through STRC dividends
 
 ## The Yield Engine: STRC
 
-BUCK's yield comes from its holdings of **STRC** — Strategy's perpetual preferred stock traded on NASDAQ. STRC pays contractual quarterly dividends to the Buck Treasury, and Buck Protocol passes this yield through to BUCK holders via monthly distributions.
+BUCK's yield comes from its holdings of **STRC** — Strategy's perpetual preferred stock traded on NASDAQ. STRC pays contractual quarterly dividends to the Buck Treasury, and Buck Protocol passes this yield through to BUCK holders via continuous yield streaming directly into the token price.
 
 {% hint style="success" %}
 **Real Yield from Real Assets**
 
-BUCK delivers \~10% APY from STRC's contractual dividends — not token emissions, funding rates, or trading strategies. This yield is backed by Strategy's $60B+ Bitcoin treasury and $2.25B in cash reserves.
+BUCK delivers ~10% APY from STRC's contractual dividends — not token emissions, funding rates, or trading strategies. This yield is backed by Strategy's $60B+ Bitcoin treasury and $2.25B in cash reserves.
 {% endhint %}
 
 ## What is STRC?
@@ -25,7 +25,6 @@ BUCK delivers \~10% APY from STRC's contractual dividends — not token emission
 | **Backing**               | Strategy's Bitcoin treasury ($60B+) |
 | **Cash Reserves**         | $2.25B                              |
 | **Dividend Coverage**     | 77.4 years at current rates         |
-| **Overcollateralization** | 5x by Strategy's Bitcoin holdings   |
 
 ## How Yield Flows to You
 
@@ -38,26 +37,24 @@ Buck Protocol Treasury
          │
          │  Passes yield through to holders
          ▼
-Eligibility Snapshot (15th of each month)
+Yield Stream Set (protocol sets rate + vesting period)
          │
-         │  Protocol measures holder balances during snapshot window
+         │  Yield multiplier increases linearly, every second
          ▼
-Payout (4th business day of following month)
-         │
-         │  New BUCK minted and distributed to eligible holders
-         ▼
-Your Wallet (BUCK)
+Your BUCK Price Appreciates Continuously
 ```
 
-### The Monthly Cycle
+### The Yield Streaming Model
 
 1. **STRC pays dividends** — Strategy pays quarterly dividends on STRC
 2. **Buck Protocol receives funds** — Dividends flow into the protocol treasury
-3. **Eligibility snapshot** — On the 15th of each month (9:00 AM – 4:00 PM ET), the protocol snapshots holder balances to determine who is eligible. This is when your balance is measured, not when you get paid.
-4. **Distribution calculated** — Your share is based on your BUCK balance during the snapshot window
-5. **Yield distributed** — New BUCK tokens are minted and distributed automatically on the 4th business day of the following month
+3. **Yield stream set** — The protocol sets a yield rate (~10% APY) and vesting period
+4. **Price appreciates** — The BUCK price increases continuously as the yield multiplier grows
+5. **Compounding** — At each vesting period end, accrued yield compounds into the base
 
-[Learn about the eligibility window →](distribution.md)
+No snapshots, no claiming, no eligibility windows. Every second you hold BUCK, yield accrues into its price.
+
+[Learn about yield streaming mechanics →](distribution.md)
 
 ## Why STRC Dividends?
 
@@ -86,10 +83,10 @@ STRC dividends are:
 | 2 years  | +21.0% | $1,210                   |
 | 5 years  | +61.1% | $1,611                   |
 
-_Compound growth at 10% annually_
+_Compound growth at 10% annually. Assumes flat STRC price. Actual returns will vary with STRC price movement._
 
 For a full comparison with other yield-bearing tokens, see [How Buck Compares](../getting-started/why-buck.md#how-buck-compares).
 
 ***
 
-_Next:_ [_Monthly Distribution →_](distribution.md)
+_Next:_ [_Yield Streaming →_](distribution.md)
